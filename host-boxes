@@ -1,5 +1,13 @@
 <!DOCTYPE html>
 <html>
+<head>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
+<style>
+body {
+  font-family: "Quicksand", sans-serif;
+}
+</style>
+</head>
 <body style="background-color: black; color: white">
 <center><h1><a style="text-decorations:none; color: gray" href="https://play.pokemonshowdown.com/gamecorner">PS! Game Corner</a> Gallery</h1></center>
 <center><h1><a style="text-decorations:none; color: gray" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/game-corner/blob/main/trainer-cards">Trainer Card</a> | Host Box</h1></center>

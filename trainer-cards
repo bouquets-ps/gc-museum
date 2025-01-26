@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <body style="background-color: black; color: white">
-<center><h1><a href="https://play.pokemonshowdown.com/gamecorner">PS! Game Corner</a> Trainer Card Gallery</h1></center>
+<center><h1><a style="text-decorations:none; color: gray" href="https://play.pokemonshowdown.com/gamecorner">PS! Game Corner</a> Trainer Card Gallery</h1></center>
 <hr>
 <center><h2>About</h2></center>
 This is a place where your Game Corner trainer card gets displayed for everyone to see!

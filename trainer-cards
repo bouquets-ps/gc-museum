@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html>
 <body style="background-color: black; color: white">
-<center><h1><a href="https://play.pokemonshowdown.com/gamecorner">PS! Game Corner</a> Trainer Card Gallery</h1></center>
+<center><h1><p style="font-family: fantasy"><a href="https://play.pokemonshowdown.com/gamecorner">PS! Game Corner</a> Trainer Card Gallery</p></h1></center>
 <hr>
+<p style="font-family: helvetica">
 <center><h2>About</h2></center>
 This is a place where your Game Corner trainer card gets displayed for everyone to see!
-Every now and then, <b><Font color="#2884c6">bouquets</font></b> copies and pastes the trainer cards she sees in chat and puts them here.
+Every now and then, <b><font color="#2884c6">bouquets</font></b> copies the trainer cards she sees in chat and pastes them here.
 <center><h2>Credits</h2></center>
 Lovely people who helped improving this project!
 <li><b><font color="#1ea865">DrThop</font></b>
 <li><b><font color="#9e1ce0">Toxtricity InDbMaj</font></b>
 <li><b><font color="#c50b2a">wailing_wailord</font></b>
-<hr>
 <center><h2>Gallery</h2></center>
 <center>
 
@@ -28,6 +28,7 @@ Lovely people who helped improving this project!
 <span class="infobox" style="display: inline-block ; width: 250px"><center><b><strong style="color: #8e692d">triage heal</strong></b><hr><span style="display: block ; height: 115px ; background: linear-gradient(#191970 , #993399)"><span style="display: inline-block ; height: 30px ; width: 40px"></span><img src="//play.pokemonshowdown.com/sprites/trainers/turo.png" width="80px" height="80px"><span style="display: inline-block ; height: 30px ; width: 40px"></span><br><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -400px -2460px"></span><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -320px -2460px"></span><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -360px -2460px"></span><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -280px -2460px"></span><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -440px -2460px"></span><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -400px -2490px"></span></span><hr><b>Last updated:</b> 2025-01-26</center></span>
 
 </center>
+</p>
 </body>
 </html>
 

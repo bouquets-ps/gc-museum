@@ -6,7 +6,7 @@
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Quicksand" />
 
   <!--PASTE YOUR CODE HERE START-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,7 +18,7 @@
 
  <body>
 
-  <h1>This is the H1 tag</>
+  <h1>This is the H2 tag</>
  </body>
 
-</html
+</html>

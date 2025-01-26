@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
 <body style="background-color: black; color: white">
-<center><h1><a style="text-decorations:none; color: gray" href="https://play.pokemonshowdown.com/gamecorner">PS! Game Corner</a> Host Box Gallery</h1></center>
+<center><h1><a style="text-decorations:none; color: gray" href="https://play.pokemonshowdown.com/gamecorner">PS! Game Corner</a> Gallery</h1></center>
+<h1><a style="text-decorations:none; color: gray" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/game-corner/blob/main/trainer-cards">Trainer Card</a> | Host Box
 <hr>
 <center><h2>About</h2></center>
-This is a place where your Game Corner host box gets displayed for everyone to see!
-Every now and then, <b><font color="#2884c6">bouquets</font></b> copies the host boxes she sees in chat and pastes them here.
+This is a place where your Game Corner host box gets displayed for everyone to see! Every now and then, <b><font color="#2884c6">bouquets</font></b> copies the host boxes she sees in chat and pastes them here.
 <center><h2>Volunteering</h2></center>
-Found a host box that's not been updated here and wish to help out? Fill in <a style="text-decorations:none; color: gray" href="https://forms.gle/j9WSwL7XLsSq7iM89">the host box submission form</a>.
+Found a host box that's not been updated here and wish to help out? Fill in <a style="text-decorations:none; color: gray" href="https://forms.gle/j9WSwL7XLsSq7iM89">the gallery submission form</a>.
 <center><h2>Credits</h2></center>
 Lovely people who helped improving this project!
 <li><b><font color="#1ea865">DrThop</font></b>
@@ -15,7 +15,7 @@ Lovely people who helped improving this project!
 <li><b><font color="#c50b2a">wailing_wailord</font></b>
 <center><h2>Gallery</h2></center>
 <center>
-
+Emptiness.
 </center>
 </body>
 </html>

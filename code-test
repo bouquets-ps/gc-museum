@@ -1,20 +1,13 @@
 <!DOCTYPE html>
  
- <head>
-
 <head>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
-<style>
-body {
-  font-family: "Sofia", sans-serif;
-}
-</style>
-</head>
+<style>body { font-family: "quicksand", sans-serif;}</style>
 </head>
 
  <body>
 
-  <h1>This is the H5 tag</>
+  <h1>This is the H6 tag</>
  </body>
 
 </html>

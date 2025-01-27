@@ -11,22 +11,29 @@ body {
 <body style="background-color: black; color: white">
 <center><h1>PS! Game Corner Gallery</h1></center>
 <center><table><tr>
-<td><b><h1>Placement</h3></b></td>
-<td><b><h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3></b></td>
-<td><b><h2>Placement</h3></b></td>
-<td><b><h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3></b></td>
-<td><b><h4>Placement</h3></b></td>
-<td><b><h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3></b></td>
-<td><b><h3>Placement</h3></b></td>
-<td><b><h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3></b></td>
-<td><b><h3>Placement</h3></b></td>
+<td><b><h3><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-gallery/blob/main/about">A B O U T</a></h3></b></td>
+<td><b><h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3></b></td>
+<td><b><h3><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-gallery/blob/main/trainer-card">T R A I N E R &nbsp;&nbsp;C A R D</a></h3></b></td>
+<td><b><h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3></b></td>
+<td><b><h3><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-gallery/blob/main/host-box">H O S T &nbsp;&nbsp;B O X</a></h3></b></td>
+<td><b><h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3></b></td>
+<td><b><h3>F A Q</h3></b></td>
+<td><b><h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3></b></td>
+<td><b><h3><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-gallery/blob/main/credits">C R E D I T S</a></h3></b></td>
 </tr></table></center>
-<center><h3><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/game-corner/blob/main/about">A B O U T</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;T R A I N E R &nbsp;&nbsp;C A R D&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/game-corner/blob/main/host-box">H O S T &nbsp;&nbsp;B O X</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/game-corner/blob/main/faq">F A Q</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/game-corner/blob/main/credits">C R E D I T S</a></h3></center>
-<br>
-<hr>
-<br>
+<br><hr><br>
 <center>
-<span style="display: block ; background: linear-gradient(#e01f1f , #1417d3) ; color: #ffffff ; border: 4px solid ; border-style: double ; border-radius: 15px"><h3>octillion's Scripted Game Voting #1891<span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -320px -540px"></span></h3>Vote for the next scripted game with the command <code>.vote [name]</code>!<br><button class="button" style="color: #ffffff ; background: linear-gradient(#1417d3 , #e01f1f) ; text-shadow: none ; border-style: double ; border-radius: 6px" name="parseCommand" value="/highlight roomadd Hosting a scriptedgamevote">Enable voting highlights</button><button class="button" style="color: #ffffff ; background: linear-gradient(#1417d3 , #e01f1f) ; text-shadow: none ; border-style: double ; border-radius: 6px" name="parseCommand" value="/highlight roomdelete Hosting a scriptedgamevote">Disable voting highlights</button><br><br><b>Lady Monita ❄'s suggestions:</b><br><button class="button" style="color: #ffffff ; background: linear-gradient(#1417d3 , #e01f1f) ; text-shadow: none ; border-style: double ; border-radius: 6px" name="send" value="/msg ladymonita, /msgroom gamecorner, /botmsg ladymonita, .buttonvote Buzzwoles Fizz Buzz">Buzzwole's Fizz Buzz</button> | <button class="button" style="color: #ffffff ; background: linear-gradient(#1417d3 , #e01f1f) ; text-shadow: none ; border-style: double ; border-radius: 6px" name="send" value="/msg ladymonita, /msgroom gamecorner, /botmsg ladymonita, .buttonvote Unowns Pokemon Chain">Unown's Pokemon Chain</button> | <button class="button" style="color: #ffffff ; background: linear-gradient(#1417d3 , #e01f1f) ; text-shadow: none ; border-style: double ; border-radius: 6px" name="send" value="/msg ladymonita, /msgroom gamecorner, /botmsg ladymonita, .buttonvote Feraligatrs Lost Letters">Feraligatr's Lost Letters</button><br><button class="button" style="color: #ffffff ; background: linear-gradient(#1417d3 , #e01f1f) ; text-shadow: none ; border-style: double ; border-radius: 6px" name="send" value="/msg ladymonita, /msgroom gamecorner, /botmsg ladymonita, .buttonvote Electrodes Minefield">Least played game</button> | <button class="button" style="color: #ffffff ; background: linear-gradient(#1417d3 , #e01f1f) ; text-shadow: none ; border-style: double ; border-radius: 6px" name="send" value="/msg ladymonita, /msgroom gamecorner, /botmsg ladymonita, .buttonvote random">Random game</button> | <button class="button" style="color: #ffffff ; background: linear-gradient(#1417d3 , #e01f1f) ; text-shadow: none ; border-style: double ; border-radius: 6px" name="send" value="/msg ladymonita, /msgroom gamecorner, /botmsg ladymonita, .buttonvote random, freejoin">Random freejoin game</button><br><br><button class="button" style="color: #ffffff ; background: linear-gradient(#1417d3 , #e01f1f) ; text-shadow: none ; border-style: double ; border-radius: 6px" name="send" value="/msg ladymonita, /msgroom gamecorner, /botmsg ladymonita, .votablegames">View current votable games</button><br><br><b>Past games (cannot be voted for)</b>: Axew's Battle Cards, Time Attack Magcargo's Inverse Weak Spot, Trevenant's Trick-or-Treat, Haunter's Haunted House, Greedent's Berry Piles, Shedinja's Wonder Trials, Tauros' Safari Zone, and Kyurem's Pokemon Splits<br>&nbsp;</span>
-</center>
+<b>When I edit my trainer card or host box, does the gallery get updated automatically?</b>
+<br><br>
+No. Updates are usually done manually by the gallerist when she spots a new trainer card or host box displayed in the room.
+<br><br><br><br>
+<b>How can I help updating the gallery?</b>
+<br><br>
+Fill in <a style="text-decorations:none; color: silver" href="https://forms.gle/j9WSwL7XLsSq7iM89">the exhibit submission form</a>. You are free to submit yours and other users' trainer cards and host boxes.
+<br><br><br><br>
+<b>Any plans to document scripted boxes and vote boxes?</b>
+<br><br>
+Not for now.
 </body>
 </html>
+

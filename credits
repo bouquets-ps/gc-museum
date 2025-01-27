@@ -10,7 +10,16 @@ body {
 </head>
 <body style="background-color: black; color: white">
 <center><h1>PS! Game Corner Gallery</h1></center>
-<center><h3><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-gallery/blob/main/about">A B O U T</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-gallery/blob/main/trainer-card">T R A I N E R &nbsp;&nbsp;C A R D</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-gallery/blob/main/host-box">H O S T &nbsp;&nbsp;B O X</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-gallery/blob/main/faq">F A Q</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;C R E D I T S</h3></center>
+<td><b><h3><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-gallery/blob/main/about">A B O U T</a></h3></b></td>
+<td><b><h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3></b></td>
+<td><b><h3><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-gallery/blob/main/trainer-card">T R A I N E R &nbsp;&nbsp;C A R D</a></h3></b></td>
+<td><b><h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3></b></td>
+<td><b><h3><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-gallery/blob/main/host-box">H O S T &nbsp;&nbsp;B O X</a></h3></b></td>
+<td><b><h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3></b></td>
+<td><b><h3><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-gallery/blob/main/faq">F A Q</a></h3></b></td>
+<td><b><h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3></b></td>
+<td><b><h3>C R E D I T S</h3></b></td>
+</tr></table></center>
 <br><hr><br>
 <center>
 <h3>Coder</h3>

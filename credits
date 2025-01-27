@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
+<style>
+body {
+  font-family: "Quicksand", sans-serif;
+}
+</style>
+</head>
+<body style="background-color: black; color: white">
+<center><h1>PS! Game Corner Gallery</h1></center>
+<center><h3><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/game-corner/blob/main/about">A B O U T</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/game-corner/blob/main/trainer-card">T R A I N E R &nbsp;&nbsp;C A R D</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/game-corner/blob/main/host-box">H O S T &nbsp;&nbsp;B O X</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/game-corner/blob/main/faq">F A Q</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;C R E D I T S</h3></center>
+<br><hr><br>
+<center>
+Lovely people who helped improving this project!
+<b><font color="#1ea865">DrThop</font></b>
+<b><font color="#9e1ce0">Toxtricity InDbMaj</font></b>
+<b><font color="#c50b2a">wailing_wailord</font></b>
+</center>
+</body>
+</html>
+
+

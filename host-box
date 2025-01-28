@@ -23,12 +23,7 @@ body {
 </tr></table></center>
 <hr><br>
 <center>
-There's nothing but Dustox here. Aww.
-<br><br>
-
-<span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -200px -660px"></span>
-<span style="display: block ; background: linear-gradient(#ffffff , #686098) ; color: #000000"><img src="//play.pokemonshowdown.com/sprites/trainers/cyclist.png" width="80px" height="80px"><br><img src="//play.pokemonshowdown.com/sprites/gen5ani/cinccino.gif" width="67" height="57">&nbsp;&nbsp;&nbsp;<img src="//play.pokemonshowdown.com/sprites/gen5ani/ditto.gif" width="47" height="32">&nbsp;&nbsp;&nbsp;<img src="//play.pokemonshowdown.com/sprites/gen5ani/cinccino.gif" width="67" height="57"><h3>DrThop's Game</h3>The game's description will be displayed here<br><br><button class="button" style="color: #000000 ; background: linear-gradient(#deede9 , #afcfc6) ; text-shadow: none">Enable game highlights</button>&nbsp;|&nbsp;<button class="button" style="color: #000000 ; background: linear-gradient(#deede9 , #afcfc6) ; text-shadow: none">Disable game highlights</button><br>&nbsp;</span>
-
+<b><strong style="color: #1ea865">DrThop</strong></b><hr><span style="display: block ; background: linear-gradient(#ffffff , #686098) ; color: #000000"><img src="//play.pokemonshowdown.com/sprites/trainers/cyclist.png" width="80px" height="80px"><br><img src="//play.pokemonshowdown.com/sprites/gen5ani/cinccino.gif" width="67" height="57">&nbsp;&nbsp;&nbsp;<img src="//play.pokemonshowdown.com/sprites/gen5ani/ditto.gif" width="47" height="32">&nbsp;&nbsp;&nbsp;<img src="//play.pokemonshowdown.com/sprites/gen5ani/cinccino.gif" width="67" height="57"><h3>DrThop's Game</h3>The game's description will be displayed here<br><br><button class="button" style="color: #000000 ; background: linear-gradient(#deede9 , #afcfc6) ; text-shadow: none">Enable game highlights</button>&nbsp;|&nbsp;<button class="button" style="color: #000000 ; background: linear-gradient(#deede9 , #afcfc6) ; text-shadow: none">Disable game highlights</button><br>&nbsp;</span><hr><b>Last updated:</b> 2025-01-28
 </center>
 </body>
 </html>

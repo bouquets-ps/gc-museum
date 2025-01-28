@@ -24,14 +24,15 @@ body {
 
 
 <center><table>
-<tr><td><b></b></td><td><b>Trainer Card</b></td><td><b>Host Box</b></td></tr>
-<tr><td>Avatar + 1 Pokemon</td><td>50000</td><td>25000</td></tr>
-<tr><td>Avatar + 2 Pokemon</td><td>75000</td><td>50000</td></tr>
-<tr><td>Avatar + 3 Pokemon</td><td>100000</td><td>75000</td></tr>
-<tr><td>Avatar + 4 Pokemon</td><td>125000</td><td></td></tr>
-<tr><td>Avatar + 5 Pokemon</td><td>150000</td><td></td></tr>
-<tr><td>Avatar + 6 Pokemon</td><td>175000</td><td></td></tr>
+<tr><td><b><center>&nbsp;&nbsp;Max Pokemon&nbsp;&nbsp;</center></b></td><td><b><center>&nbsp;&nbsp;Trainer Card&nbsp;&nbsp;</center></b></td><td><b><center>&nbsp;&nbsp;Host Box&nbsp;&nbsp;</center></b></td></tr>
+<tr><td><center>1</center></td><td><center>50000</center></td><td><center>25000</center></td></tr>
+<tr><td><center>2</center></td><td><center>75000</center></td><td><center>50000</center></td></tr>
+<tr><td><center>3</center></td><td><center>100000</center></td><td><center>75000</center></td></tr>
+<tr><td><center>4</center></td><td><center>125000</center></td><td></td></tr>
+<tr><td><center>5</center></td><td><center>150000</center></td><td></td></tr>
+<tr><td><center>6</center></td><td><center>175000</center></td><td></td></tr>
 </table></center>
+
 
 <hr><br>
 <center>

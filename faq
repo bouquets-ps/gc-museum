@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<title>PS! Game Corner Gallery - FAQ</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
 <style>
 body {
@@ -37,8 +38,16 @@ Not in the forseeable future.
 <br><br><br><br>
 <b>Is there a condensed version of the gallery's link?<b>
 <br><br>
-<a style="text-decoration:none; color: silver">https://tinyurl.com/gc-gallery</a>
-<br><a style="text-decoration:none; color: silver">https://rentry.co/gc-gallery</a>
+<a style="text-decoration:none; color: silver href="https://tinyurl.com/gc-gallery">https://tinyurl.com/gc-gallery</a>
+<br><a style="text-decoration:none; color: silver href="https://rentry.co/gc-gallery">https://rentry.co/gc-gallery</a>
+<br><br><br><br>
+<b>Is the gallery officially affiliated with the Game Corner room auths?</b>
+<br><br>
+No. The gallery is purely a passion project founded by one regular user.
+<br><br><br><br>
+<b>Are the Game Corner room owners aware of the gallery's existence, and do they support it?</b>
+<br><br>
+Allegedly yes. 
 </body>
 </html>
 

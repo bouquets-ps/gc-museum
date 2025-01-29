@@ -7,6 +7,7 @@
 body {
   font-family: "Quicksand", sans-serif;
   padding: 30px;
+  text-align: center;
 }
 </style>
 </head>
@@ -52,6 +53,8 @@ Users who offered advice and assistance on the gallery's direction and difficult
 <td><b><font color="#c50b2a">wailing_wailord</font></b></td>
 </tr>
 </table>
+
+test
 
 </center>
 </body>

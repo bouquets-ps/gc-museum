@@ -27,25 +27,25 @@ body {
 
 <h3>Art Supplies Retailer</h3>
 User who coded the trainer card and host box features.
-<table>
-<tr><td style="width: 100px"><center><img src="https://play.pokemonshowdown.com/sprites/ani/togetic.gif" alt="Togetic"></center><td></tr>
+<br><table>
+<tr><td style="width: 200px"><center><img src="https://play.pokemonshowdown.com/sprites/ani/togetic.gif" alt="Togetic"></center><td></tr>
 <tr><td><b><center><font color="#9d0ee0">sirDonovan</font></center></b></td></tr>
 </table>
 
 <br><br><br><h3>Gallerist</h3>
 User who manages the gallery and curates exhibits.
-<table>
-<tr><td style="width: 100px"><center><img src="https://play.pokemonshowdown.com/sprites/ani/flabebe-blue.gif" alt="Flabébé-Blue"></center></td></tr>
+<br><table>
+<tr><td style="width: 200px"><center><img src="https://play.pokemonshowdown.com/sprites/ani/flabebe-blue.gif" alt="Flabébé-Blue"></center></td></tr>
 <tr><td><b><center><font color="#2884c6">bouquets</font></center></b></td></tr>
 </table>
 
 <br><br><br><h3>Creative Consultants</h3>
 Users who offered advice and assistance on the gallery's direction and difficulties encountered.
-<table>
+<br><table>
 <tr>
-<td style="width: 100px"><center><img src="https://play.pokemonshowdown.com/sprites/ani/cinccino.gif" alt="Cinccino"></center></td>
-<td style="width: 100px"><center><img src="https://play.pokemonshowdown.com/sprites/ani/bulbasaur.gif" alt="Bulbasaur"></center></td>
-<td style="width: 100px"><center><img src="https://play.pokemonshowdown.com/sprites/ani/bulbasaur.gif" alt="Bulbasaur"></center></td>
+<td style="width: 200px"><center><img src="https://play.pokemonshowdown.com/sprites/ani/cinccino.gif" alt="Cinccino"></center></td>
+<td style="width: 200px"><center><img src="https://play.pokemonshowdown.com/sprites/ani/bulbasaur.gif" alt="Bulbasaur"></center></td>
+<td style="width: 200px"><center><img src="https://play.pokemonshowdown.com/sprites/ani/bulbasaur.gif" alt="Bulbasaur"></center></td>
 </tr><tr>
 <td><b><center><font color="#1ea865">DrThop</font></center></b></td>
 <td><b><center><font color="#9e1ce0">Toxtricity InDbMaj</font></center></b></td>
@@ -53,7 +53,7 @@ Users who offered advice and assistance on the gallery's direction and difficult
 </tr>
 </table>
 
-test3
+test4
 
 </center>
 </body>

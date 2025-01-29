@@ -10,20 +10,18 @@ body {
 </style>
 </head>
 <body style="background-color: black; color: white">
-<center><h1>PS! Game Corner Gallery</h1></center>
-<span style="letter-spacing:5px;">
-<center><table><tr>
-<td><b><h3><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-gallery/blob/main/about">ABOUT</a></h3></b></td>
-<td style="width: 50px"><b></b></td>
-<td><b><h3>TRAINER&nbsp;CARD</h3></b></td>
-<td style="width: 50px"><b></b></td>
-<td><b><h3><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-gallery/blob/main/host-box">HOST&nbsp;BOX</a></h3></b></td>
-<td style="width: 50px"><b></b></td>
-<td><b><h3><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-gallery/blob/main/faq">FAQ</a></h3></b></td>
-<td style="width: 50px"><b></b></td>
-<td><b><h3><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-gallery/blob/main/credits">CREDITS</a></h3></b></td>
+<center>
+<h1>PS! Game Corner Gallery</h1>
+<h3><span style="letter-spacing:5px;">
+<table><tr>
+<td><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-gallery/blob/main/about">ABOUT</a></h3></b></td>
+<td style="width: 50px"></td><td>TRAINER&nbsp;CARD</td>
+<td style="width: 50px"></td><td><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-gallery/blob/main/host-box">HOST&nbsp;BOX</a></td>
+<td style="width: 50px"></td><td><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-gallery/blob/main/faq">FAQ</a></td>
+<td style="width: 50px"></td><td><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-gallery/blob/main/credits">CREDITS</a></td>
 </tr></table></center>
-</span>
+</span></h3>
+
 <hr><br>
 <center>
 

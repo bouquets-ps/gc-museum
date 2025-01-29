@@ -9,7 +9,7 @@ body {
 }
 </style>
 </head>
-<body style="background-color: black; color: white, padding: 10px">
+<body style="background-color: black; color: white, padding-left: 30px">
 <center>
 <h1><table><tr><td>PS! Game Corner Gallery</td></tr></table></h1>
 <h3><span style="letter-spacing:5px;"><table><tr>
@@ -23,7 +23,7 @@ body {
 
 <hr><br>
 
-test2
+test3
 
 <details><summary>When I edit my trainer card or host box, does the gallery get updated automatically?</summary>
 <p>No. Updates are usually done manually by the gallerist when she spots a new trainer card or host box displayed in the room.</p></details>

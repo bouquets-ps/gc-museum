@@ -6,6 +6,7 @@
 <style>
 body {
   font-family: "Quicksand", sans-serif;
+  font-size: 24px;
   padding: 30px;
 }
 </style>
@@ -44,7 +45,7 @@ Users who offered advice and assistance on the gallery's direction and difficult
 <br><table>
 <tr>
 <td style="width: 200px"><center><img src="https://play.pokemonshowdown.com/sprites/ani/cinccino.gif" alt="Cinccino"></center></td>
-<td style="width: 200px"><center><img src="https://play.pokemonshowdown.com/sprites/ani/bulbasaur.gif" alt="Bulbasaur"></center></td>
+<td style="width: 200px"><center><img src="https://play.pokemonshowdown.com/sprites/ani/vivillon-elegant.gif" alt="Vivillon-Elegant"></center></td>
 <td style="width: 200px"><center><img src="https://play.pokemonshowdown.com/sprites/ani/bulbasaur.gif" alt="Bulbasaur"></center></td>
 </tr><tr>
 <td><b><center><font color="#1ea865">DrThop</font></center></b></td>

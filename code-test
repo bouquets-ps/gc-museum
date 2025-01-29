@@ -7,15 +7,9 @@
 body {
   font-family: "Quicksand", sans-serif;
 }
-div {
-  padding-top: 50px;
-  padding-right: 50px;
-  padding-bottom: 50px;
-  padding-left: 50px;
-}
 </style>
 </head>
-<body style="background-color: black; color: white">
+<body style="background-color: black; color: white, padding: 50px">
 <center>
 <h1><table><tr><td>PS! Game Corner Gallery</td></tr></table></h1>
 <h3><span style="letter-spacing:5px;"><table><tr>

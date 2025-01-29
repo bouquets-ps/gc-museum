@@ -24,7 +24,7 @@ body {
 <hr><br>
 <center>
 
-<b>Gallerist's Note:</b> If your game highlights buttons have the default settings, they are likely not being displayed accurately here. This is because I have not been able to identify the relevant code used for them. 
+<b>Gallerist's Note:</b> If your game highlights buttons use the default settings, they are likely not being displayed accurately here. This is because I have not been able to identify the relevant code used for them. 
 <br><br>
 
 <span style="display: block ; background: linear-gradient(#3d0000 , #000000) ; color: #ffffff ; border: 2px solid #000000 ; border-radius: 15px"><img src="//play.pokemonshowdown.com/sprites/trainers/emma.png" width="80px" height="80px"><br><img src="//play.pokemonshowdown.com/sprites/ani/voodoom.gif" width="69" height="96">&nbsp;&nbsp;&nbsp;<img src="//play.pokemonshowdown.com/sprites/ani-shiny/espurr.gif" width="47" height="58">&nbsp;&nbsp;&nbsp;<img src="//play.pokemonshowdown.com/sprites/ani/voodoom.gif" width="69" height="96"><h3>arelyn's Game</h3>The game's description will be displayed here<br><br><button class="button" style="color: #ffffff ; background: linear-gradient(#050000 , #050000) ; text-shadow: none ; border-radius: 5px" name="parseCommand" value="/highlight roomadd is hosting a hostgame of guessthatauth">Enable game highlights</button>&nbsp;|&nbsp;<button class="button" style="color: #ffffff ; background: linear-gradient(#050000 , #050000) ; text-shadow: none ; border-radius: 5px" name="parseCommand" value="/highlight roomdelete is hosting a hostgame of guessthatauth">Disable game highlights</button><br>&nbsp;</span><br><b>Last updated:</b> 2025-01-28

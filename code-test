@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<title>PS! Game Corner Gallery - Trainer Card</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
 <style>
 body {
@@ -10,6 +11,7 @@ body {
 </head>
 <body style="background-color: black; color: white">
 <center><h1>PS! Game Corner Gallery</h1></center>
+<span style="letter-spacing:10px;">
 <center><table><tr>
 <td><b><h3><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-gallery/blob/main/about">A B O U T</a></h3></b></td>
 <td><b><h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3></b></td>
@@ -21,8 +23,11 @@ body {
 <td><b><h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3></b></td>
 <td><b><h3><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-gallery/blob/main/credits">C R E D I T S</a></h3></b></td>
 </tr></table></center>
+</span>
 <hr><br>
 <center>
+
+Over <b>40</b> users' trainer cards are exhibited here! How many of them do you recognize?<br><br>
 
 <span style="display: block ; background: linear-gradient(#a7ac39 , #707326) ; color: #ffffff ; border-radius: 30px"><b>googoogadget</b>'s pick<br><img src="//play.pokemonshowdown.com/sprites/ani/greninja.gif" width="131" height="76"><h3>Greninja's Typings</h3>Players guess Pokemon that match the given typing!<br><b>Command</b>: <code>.g [Pokemon]</code><br><br><button class="button" style="color: #ffffff ; background: linear-gradient(#262626 , #1a1a1a) ; text-shadow: none ; border: 5px solid #000000 ; border-style: dashed ; border-radius: 50px" name="parseCommand" value="/highlight roomadd Hosting a scriptedgame of greninjastypings">Enable game highlights</button>&nbsp;|&nbsp;<button class="button" style="color: #ffffff ; background: linear-gradient(#262626 , #1a1a1a) ; text-shadow: none ; border: 5px solid #000000 ; border-style: dashed ; border-radius: 50px" name="parseCommand" value="/highlight roomdelete Hosting a scriptedgame of greninjastypings">Disable game highlights</button><br>&nbsp;</span>
 

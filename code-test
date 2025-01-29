@@ -27,28 +27,31 @@ body {
 
 <h3>Art Supplies Retailer</h3>
 User who coded the trainer card and host box features.
-<table><tr>
-<td style="width: 150px"><img src="https://play.pokemonshowdown.com/sprites/ani/togetic.gif" alt="Togetic">
-<br><b><font color="#9d0ee0">sirDonovan</font></b></td>
-</tr></table>
+<table>
+<tr><td><img src="https://play.pokemonshowdown.com/sprites/ani/togetic.gif" alt="Togetic"><td></tr>
+<tr><td><b><font color="#9d0ee0">sirDonovan</font></b></td></tr>
+</table>
 
 <br><br><br><h3>Gallerist</h3>
 User who manages the gallery and curates exhibits.
-<table><tr>
-<td style="width: 150px"><img src="https://play.pokemonshowdown.com/sprites/ani/flabebe-blue.gif" alt="Flabébé-Blue">
-<br><b><font color="#2884c6">bouquets</font></b></td>
-</tr></table>
+<table>
+<tr><td><img src="https://play.pokemonshowdown.com/sprites/ani/flabebe-blue.gif" alt="Flabébé-Blue"></td></tr>
+<tr><td><b><font color="#2884c6">bouquets</font></b></td></tr>
+</table>
 
 <br><br><br><h3>Creative Consultants</h3>
 Users who offered advice and assistance on the gallery's direction and difficulties encountered.
-<table><tr>
-<td style="width: 150px"><img src="https://play.pokemonshowdown.com/sprites/ani/cinccino.gif" alt="Cinccino">
-<br><b><font color="#1ea865">DrThop</font></b></td>
-<td style="width: 150px"><img src="https://play.pokemonshowdown.com/sprites/ani/bulbasaur.gif" alt="Bulbasaur">
-<br><b><font color="#9e1ce0">Toxtricity InDbMaj</font></b></td>
-<td style="width: 150px"><img src="https://play.pokemonshowdown.com/sprites/ani/bulbasaur.gif" alt="Bulbasaur">
-<br><b><font color="#c50b2a">wailing_wailord</font></b></td>
-</tr></table>
+<table>
+<tr>
+<td><img src="https://play.pokemonshowdown.com/sprites/ani/cinccino.gif" alt="Cinccino"></td>
+<td><img src="https://play.pokemonshowdown.com/sprites/ani/bulbasaur.gif" alt="Bulbasaur"></td>
+<td><img src="https://play.pokemonshowdown.com/sprites/ani/bulbasaur.gif" alt="Bulbasaur"></td>
+</tr><tr>
+<td><b><font color="#1ea865">DrThop</font></b></td>
+<td><b><font color="#9e1ce0">Toxtricity InDbMaj</font></b></td>
+<td><b><font color="#c50b2a">wailing_wailord</font></b></td>
+</tr>
+</table>
 
 </center>
 </body>

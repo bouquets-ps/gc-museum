@@ -10,17 +10,18 @@ body {
 </style>
 </head>
 <body style="background-color: black; color: white">
-<center>
-<h1>PS! Game Corner Gallery</h1>
-<h3><span style="letter-spacing:5px;">
+<center><span style="letter-spacing:5px;">
+<h1>PS! GAME CORNER GALLERY</h1>
+<h3><br>
 <table><tr>
 <td><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-gallery/blob/main/about">ABOUT</a></h3></b></td>
 <td style="width: 50px"></td><td>TRAINER&nbsp;CARD</td>
 <td style="width: 50px"></td><td><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-gallery/blob/main/host-box">HOST&nbsp;BOX</a></td>
 <td style="width: 50px"></td><td><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-gallery/blob/main/faq">FAQ</a></td>
 <td style="width: 50px"></td><td><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-gallery/blob/main/credits">CREDITS</a></td>
-</tr></table></center>
-</span></h3>
+</tr></table>
+</h3>
+</span></center>
 
 <hr><br>
 <center>

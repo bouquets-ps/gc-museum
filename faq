@@ -22,33 +22,23 @@ body {
 </center>
 
 <hr><br>
-<center>
 
-<b>When I edit my trainer card or host box, does the gallery get updated automatically?</b>
-<br><br>
-No. Updates are usually done manually by the gallerist when she spots a new trainer card or host box displayed in the room.
-<br><br><br><br>
-<b>How can I help updating the gallery?</b>
-<br><br>
-Fill in <a style="text-decoration:none; color: silver" href="https://forms.gle/j9WSwL7XLsSq7iM89">the exhibit submission form</a>. You are free to submit yours and other users' trainer cards and host boxes.
-<br><br><br><br>
-<b>Any plans to document scripted boxes and vote boxes?</b>
-<br><br>
-Not in the forseeable future.
-<br><br><br><br>
-<b>Is there a condensed version of the gallery's link?</b>
-<br><br>
-<a style="text-decoration:none; color: silver" href="https://tinyurl.com/gc-gallery">https://tinyurl.com/gc-gallery</a>
-<br><a style="text-decoration:none; color: silver" href="https://rentry.co/gc-gallery">https://rentry.co/gc-gallery</a>
-<br><br><br><br>
-<b>Is the gallery officially affiliated with the Game Corner room?</b>
-<br><br>
-No. The gallery is purely a passion project founded by one regular user.
-<br><br><br><br>
-<b>Are the Game Corner room owners aware of the gallery's existence, and do they support it?</b>
-<br><br>
-Yes, according to a room staff who chatted with the gallerist.
+<details><summary>When I edit my trainer card or host box, does the gallery get updated automatically?</summary>
+<p>No. Updates are usually done manually by the gallerist when she spots a new trainer card or host box displayed in the room.</p></details>
+
+<br><details><summary>How can I help updating the gallery?</summary>
+<p>Fill in <a style="text-decoration:none; color: silver" href="https://forms.gle/j9WSwL7XLsSq7iM89">the exhibit submission form</a>. You are free to submit yours and other users' trainer cards and host boxes.</p></details>
+
+<br><details><summary>Any plans to document scripted boxes and vote boxes?</summary>
+<p>Not in the forseeable future.</p></details>
+
+<br><details><summary>Is there a condensed version of the gallery's link?</summary>
+<p><a style="text-decoration:none; color: silver" href="https://tinyurl.com/gc-gallery">https://tinyurl.com/gc-gallery</a>
+<br><a style="text-decoration:none; color: silver" href="https://rentry.co/gc-gallery">https://rentry.co/gc-gallery</a></p></details>
+
+<br><details><summary>Is the gallery officially affiliated with the Game Corner room?</summary>
+<p>No. The gallery is purely a passion project founded by one regular user. However, the Game Corner room owners are aware of the gallery's existence and support it, according to a room staff who the gallerist talked with.</p></details>
+
 </body>
 </html>
-
 

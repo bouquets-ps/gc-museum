@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>PS! Game Corner Gallery - FAQ</title>
+<title>PS! Game Corner Gallery - Credits</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
 <style>
 body {
   font-family: "Quicksand", sans-serif;
   padding: 30px;
-}  
+}
 </style>
 </head>
 <body style="background-color: black; color: white">
@@ -16,34 +16,28 @@ body {
 <h3><span style="letter-spacing:5px;"><table><tr>
 <td><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-gallery/blob/main/about">ABOUT</a></td>
 <td style="width: 50px"></td><td><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-gallery/blob/main/trainer-card">TRAINER&nbsp;CARD</a></td>
-<td style="width: 50px"></td><td><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-gallery/blob/main/host-box">HOST&nbsp;BOX4</a></td>
-<td style="width: 50px"></td><td>FAQ</td>
-<td style="width: 50px"></td><td><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-gallery/blob/main/credits">CREDITS</a></td>
+<td style="width: 50px"></td><td><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-gallery/blob/main/host-box">HOST&nbsp;BOX</a></td>
+<td style="width: 50px"></td><td><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-gallery/blob/main/faq">FAQ</a></td>
+<td style="width: 50px"></td><td>CREDITS</td>
 </tr></table></span></h3>
 </center>
 
 <hr><br>
+<center>
 
-<span class="infobox" style="display: inline-block ; width: 250px"><center><b><strong style="color: #2884c6">bouquets</strong></b><hr><span style="display: block ; height: 115px ; background: linear-gradient(#e4eaef , #0087bd)"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -360px -2790px"></span><img src="//play.pokemonshowdown.com/sprites/trainers/lady-gen6.png" width="80px" height="80px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -360px -2760px"></span><br><span style="display: inline-block ; height: 30px ; width: 40px"></span></span><hr><b>Last updated:</b> 2025-01-26<br><br></center></span>
-<span class="infobox" style="display: inline-block ; width: 250px"><center><b><strong style="color: #2884c6">bouquets</strong></b><hr><span style="display: block ; height: 115px ; background: linear-gradient(#e4eaef , #0087bd)"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -360px -2790px"></span><img src="//play.pokemonshowdown.com/sprites/trainers/lady-gen3.png" width="80px" height="80px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -360px -2760px"></span><br><span style="display: inline-block ; height: 30px ; width: 40px"></span></span><hr><b>Last updated:</b> 2025-01-26<br><br></center></span>
-
-
-<details><summary>When I edit my trainer card or host box, does the gallery get updated automatically?</summary>
-<p>No. Updates are usually done manually by the gallerist when she spots a new trainer card or host box displayed in the room.</p></details>
-
-<br><details><summary>How can I help updating the gallery?</summary>
-<p>Fill in <a style="text-decoration:none; color: silver" href="https://forms.gle/j9WSwL7XLsSq7iM89">the exhibit submission form</a>. You are free to submit yours and other users' trainer cards and host boxes.</p></details>
-
-<br><details><summary>Any plans to document scripted boxes and vote boxes?</summary>
-<p>Not in the forseeable future.</p></details>
-
-<br><details><summary>Is there a condensed version of the gallery's link?</summary>
-<p><a style="text-decoration:none; color: silver" href="https://tinyurl.com/gc-gallery">https://tinyurl.com/gc-gallery</a>
-<br><a style="text-decoration:none; color: silver" href="https://rentry.co/gc-gallery">https://rentry.co/gc-gallery</a></p></details>
-
-<br><details><summary>Is the gallery officially affiliated with the Game Corner room?</summary>
-<p>No. The gallery is purely a passion project founded by one regular user. However, the Game Corner room owners are aware of the gallery's existence and support it, according to a room staff who the gallerist talked with.</p></details>
-
+<h3>Art Supplies Retailer</h3>
+User who coded the trainer card and host box features.<br>
+<br><b><font color="#9d0ee0">sirDonovan</font></b>
+<br><br><br><h3>Gallerist</h3>
+User who manages the gallery and curates exhibits.<br>
+<br><img src="https://play.pokemonshowdown.com/sprites/ani/flabebe-blue.gif" alt="Flabébé-Blue">
+<br><b><font color="#2884c6">bouquets</font></b>
+<br><br><br><h3>Creative Consultants</h3>
+Users who offered advice and assistance on the gallery's direction and difficulties encountered.<br>
+<br><b><font color="#1ea865">DrThop</font></b>
+<br><b><font color="#9e1ce0">Toxtricity InDbMaj</font></b>
+<br><b><font color="#c50b2a">wailing_wailord</font></b>
+</center>
 </body>
 </html>
 

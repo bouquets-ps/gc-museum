@@ -16,11 +16,11 @@ body {
 <td><b><h3><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-gallery/blob/main/about">ABOUT</a></h3></b></td>
 <td style="width: 50px"><b></b></td>
 <td><b><h3>TRAINER&nbsp;CARD</h3></b></td>
-<td><b><h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3></b></td>
+<td style="width: 50px"><b></b></td>
 <td><b><h3><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-gallery/blob/main/host-box">HOST&nbsp;BOX</a></h3></b></td>
-<td><b><h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3></b></td>
+<td style="width: 50px"><b></b></td>
 <td><b><h3><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-gallery/blob/main/faq">FAQ</a></h3></b></td>
-<td><b><h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3></b></td>
+<td style="width: 50px"><b></b></td>
 <td><b><h3><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-gallery/blob/main/credits">CREDITS</a></h3></b></td>
 </tr></table></center>
 </span>

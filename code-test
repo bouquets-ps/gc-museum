@@ -23,31 +23,24 @@ body {
 
 <hr><br>
 
-<details>
- <summary>When I edit my trainer card or host box, does the gallery get updated automatically?</summary>
- <p>No. Updates are usually done manually by the gallerist when she spots a new trainer card or host box displayed in the room.</p>
-</details>
-<details>
- <summary>How can I help updating the gallery?</summary>
- <p>Fill in <a style="text-decoration:none; color: silver" href="https://forms.gle/j9WSwL7XLsSq7iM89">the exhibit submission form</a>. You are free to submit yours and other users' trainer cards and host boxes.</p>
-</details>
-<details>
- <summary>Any plans to document scripted boxes and vote boxes?</summary>
- <p>Not in the forseeable future.</p>
-</details>
-<details>
- <summary>Is there a condensed version of the gallery's link?</summary>
- <p><a style="text-decoration:none; color: silver" href="https://tinyurl.com/gc-gallery">https://tinyurl.com/gc-gallery</a>
- <br><a style="text-decoration:none; color: silver" href="https://rentry.co/gc-gallery">https://rentry.co/gc-gallery</a></p>
-</details>
-<details>
- <summary>Is the gallery officially affiliated with the Game Corner room?</summary>
- <p>No. The gallery is purely a passion project founded by one regular user.</p>
-</details>
-<details>
- <summary>Are the Game Corner room owners aware of the gallery's existence, and do they support it?</summary>
- <p>Yes, according to a room staff who chatted with the gallerist.</p>
-</details>
+<details><summary>When I edit my trainer card or host box, does the gallery get updated automatically?</summary>
+<p>No. Updates are usually done manually by the gallerist when she spots a new trainer card or host box displayed in the room.</p></details>
+
+<br><details><summary>How can I help updating the gallery?</summary>
+<p>Fill in <a style="text-decoration:none; color: silver" href="https://forms.gle/j9WSwL7XLsSq7iM89">the exhibit submission form</a>. You are free to submit yours and other users' trainer cards and host boxes.</p></details>
+
+<br><details><summary>Any plans to document scripted boxes and vote boxes?</summary>
+<p>Not in the forseeable future.</p></details>
+
+<br><details><summary>Is there a condensed version of the gallery's link?</summary>
+<p><a style="text-decoration:none; color: silver" href="https://tinyurl.com/gc-gallery">https://tinyurl.com/gc-gallery</a>
+<br><a style="text-decoration:none; color: silver" href="https://rentry.co/gc-gallery">https://rentry.co/gc-gallery</a></p></details>
+
+<br><details><summary>Is the gallery officially affiliated with the Game Corner room?</summary>
+<p>No. The gallery is purely a passion project founded by one regular user.</p></details>
+
+<br><details><summary>Are the Game Corner room owners aware of the gallery's existence, and do they support it?</summary>
+<p>Yes, according to a room staff who chatted with the gallerist.</p></details>
 
 </body>
 </html>

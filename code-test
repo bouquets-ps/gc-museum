@@ -8,6 +8,9 @@ body {
   font-family: "Quicksand", sans-serif;
   padding: 30px;
 }
+.button {
+  font-family: "Quicksand", sans-serif;
+}
 </style>
 </head>
 <body style="background-color: black; color: white">
@@ -24,6 +27,8 @@ body {
 
 <hr><br>
 <center>
+
+test1
 
 <b>Gallerist's Note:</b> If your game highlights buttons use the default settings, they are likely not being displayed accurately here. This is because I have not been able to identify the relevant code used for them.<br><br>
 

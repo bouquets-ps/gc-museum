@@ -16,6 +16,14 @@ body {
   background: linear-gradient(#262626 , #1a1a1a); 
   text-shadow: none; 
 }
+.light-mode {
+  background-color: white;
+  color: black;
+}
+function myFunction() {
+  var element = document.body;
+  element.classList.toggle("light-mode");
+}
 details summary {
   list-style-type: '<span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -360px -2580px">';
 }

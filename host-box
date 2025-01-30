@@ -34,8 +34,8 @@ button {
 
 <h3>Gallerist's Notes</h3>
 <table>
-<tr><td style="width: 150px, height: 100px">2025-01-30</td><td>Started to document the signups portion of the host box.</td>
-<tr><td style="width: 150px, height: 100px">2025-01-29</td><td>Buttons are likely not being displayed accurately here because I have not been able to identify the relevant code used for their default setting. Feel free to contact me if you would like to help.</td>
+<tr><td style="width: 200px, height: 100px">2025-01-30</td><td>Started to document the signups portion of the host box.</td>
+<tr><td style="width: 200px, height: 100px">2025-01-29</td><td>Buttons are likely not being displayed accurately here because I have not been able to identify the relevant code used for their default setting. Feel free to contact me if you would like to help.</td>
 </table><br><br>
 
 <span style="display: block ; background: linear-gradient(#3d0000 , #000000) ; color: #ffffff ; border: 2px solid #000000 ; border-radius: 15px"><img src="//play.pokemonshowdown.com/sprites/trainers/emma.png" width="80px" height="80px"><br><img src="//play.pokemonshowdown.com/sprites/ani/voodoom.gif" width="69" height="96">&nbsp;&nbsp;&nbsp;<img src="//play.pokemonshowdown.com/sprites/ani-shiny/espurr.gif" width="47" height="58">&nbsp;&nbsp;&nbsp;<img src="//play.pokemonshowdown.com/sprites/ani/voodoom.gif" width="69" height="96"><h3>arelyn's Game</h3>The game's description will be displayed here<br><br><button class="button" style="color: #ffffff ; background: linear-gradient(#050000 , #050000) ; text-shadow: none" name="parseCommand" value="/highlight roomadd is hosting a hostgame of guessthatauth">Enable game highlights</button>&nbsp;|&nbsp;<button class="button" style="color: #ffffff ; background: linear-gradient(#050000 , #050000) ; text-shadow: none" name="parseCommand" value="/highlight roomdelete is hosting a hostgame of guessthatauth">Disable game highlights</button><br>&nbsp;</span><br><b>Last updated:</b> 2025-01-28<br><br>

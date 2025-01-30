@@ -4,8 +4,20 @@
 <title>PS! Game Corner Gallery - Trainer Card</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
 <script>
+function calculateSettingAsThemeString({ localStorageTheme, systemSettingDark }) {
+  if (localStorageTheme !== null) {
+    return localStorageTheme;
+  }
+
+  if (systemSettingDark.matches) {
+    return "dark";
+  }
+
+  return "light";
+}
+
 function updateButton({ buttonEl, isDark }) {
-  const newCta = isDark ? "Change to light theme" : "Change to dark theme";
+  const newCta = isDark ? "Solrock" : "Lunala";
 buttonEl.setAttribute("aria-label", newCta);
   buttonEl.innerText = newCta;
 }
@@ -75,8 +87,8 @@ button {
 <button
     type="button"
     data-theme-toggle
-    aria-label="Change to light theme"
-  >Change to light theme</button>
+    aria-label="Solrock"
+  >Solrock</button>
 
 Over <b>50</b> users' trainer cards are exhibited here! How many of them do you recognize?<br><br>
 

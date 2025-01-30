@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html data-theme="dark">
 <head>
 <title>PS! Game Corner Gallery - Host Box</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
@@ -16,24 +16,30 @@ body {
   background: linear-gradient(#262626 , #1a1a1a); 
   text-shadow: none; 
 }
-.light-mode {
-  background-color: white;
-  color: black;
+:root {
+  --grid-unit: 1rem;
+  --border-radius-base: 0.5rem;
 }
-function myFunction() {
-  var element = document.body;
-  element.classList.toggle("light-mode");
+
+[data-theme="light"] {
+  --color-bg: #ffffff;
+  --color-fg: #000000;
 }
-details summary {
-  list-style-type: '<span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -360px -2580px">';
-}
- 
- details[open] summary {
-  list-style-type: '<span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -320px -2580px">';
+
+[data-theme="dark"] {
+  --color-bg: #000000;
+  --color-fg: #ffffff;
 }
 </style>
 </head>
 <body style="background-color: black; color: white">
+
+<button
+    type="button"
+    data-theme-toggle
+    aria-label="Change to light theme"
+  >Change to light theme (or icon here)</button>
+
 <center>
 <h1><table><tr><td>PS! Game Corner Gallery</td></tr></table></h1>
 <h3><span style="letter-spacing:5px;"><table><tr>

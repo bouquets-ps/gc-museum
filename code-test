@@ -17,7 +17,7 @@ function calculateSettingAsThemeString({ localStorageTheme, systemSettingDark })
 }
 
 function updateButton({ buttonEl, isDark }) {
-  const newCta = isDark ? "Light" : "Dark";
+  const newCta = isDark ? "<span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -360px -1980px"></span>" : "<span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -400px -1980px"></span>";
 buttonEl.setAttribute("aria-label", newCta);
   buttonEl.innerText = newCta;
 }
@@ -89,7 +89,7 @@ button {
 <button
     type="button"
     data-theme-toggle
-    aria-label="Light"
+    aria-label="<span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -360px -1980px"></span>"
   ><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -360px -1980px"></span></button>
 
 <br><br>

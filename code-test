@@ -1,85 +1,25 @@
 <!DOCTYPE html>
-<html data-theme="light">
+<html>
 <head>
 <script>
-function calculateSettingAsThemeString({ localStorageTheme, systemSettingDark }) {
-  if (localStorageTheme !== null) {
-    return localStorageTheme;
-  }
-
-  if (systemSettingDark.matches) {
-    return "dark";
-  }
-
-  return "light";
+function myFunction() {
+  var element = document.body;
+  element.classList.toggle("dark-mode");
 }
-function updateButton({ buttonEl, isDark }) {
-  const newCta = isDark ? "Change to light theme" : "Change to dark theme";
-  // use an aria-label if you are omitting text on the button
-  // and using a sun/moon icon, for example
-  buttonEl.setAttribute("aria-label", newCta);
-  buttonEl.innerText = newCta;
-}
-
-/**
-* Utility function to update the theme setting on the html tag
-*/
-function updateThemeOnHtmlEl({ theme }) {
-  document.querySelector("html").setAttribute("data-theme", theme);
-}
-const button = document.querySelector("[data-theme-toggle]");
-const localStorageTheme = localStorage.getItem("theme");
-const systemSettingDark = window.matchMedia("(prefers-color-scheme: dark)");
-
-/**
-* 2. Work out the current site settings
-*/
-let currentThemeSetting = calculateSettingAsThemeString({ localStorageTheme, systemSettingDark });
-
-/**
-* 3. Update the theme setting and button text accoridng to current settings
-*/
-updateButton({ buttonEl: button, isDark: currentThemeSetting === "dark" });
-updateThemeOnHtmlEl({ theme: currentThemeSetting });
-button.addEventListener("click", (event) => {
-  const newTheme = currentThemeSetting === "dark" ? "light" : "dark";
-
-  localStorage.setItem("theme", newTheme);
-  updateButton({ buttonEl: button, isDark: newTheme === "dark" });
-  updateThemeOnHtmlEl({ theme: newTheme });
-
-  currentThemeSetting = newTheme;
-});
 </script>
 <style>
-[data-theme="light"] {
-   --color-bg: #ffffff;
-   --color-fg: #000000;
-}
-
-[data-theme="dark"] {
-   --color-bg: #000000;
-   --color-fg: #ffffff;
-}
-
 body {
-  background-color: var(--color-bg);
-  color: var(--color-fg);
-  display: grid;
-  min-height: 100vh;
-  place-items: center;
+  padding: 25px;
+  background-color: white;
+  color: black;
+  font-size: 25px;
 }
-button {
-  font-size: 2rem;
-  font-weight: bold;
-  padding: 0.5rem 1rem;
-  transition: all var(--global-transition-time) ease-in-out;
-  border-radius: 2rem;
-  cursor: pointer;
-  color: var(--color-fg);
-  background-color: var(--color-bg);
-  border: 0.25rem solid var(--color-fg);
+
+.dark-mode {
+  background-color: black;
+  color: white;
 }
+  
 </style></head>
   <body>
 <button
@@ -90,4 +30,4 @@ button {
   </body>
 </html>
 
-12346
+12347

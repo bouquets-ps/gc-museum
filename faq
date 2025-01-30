@@ -37,12 +37,12 @@ details > summary::-webkit-details-marker {
 <p>Fill in <a style="text-decoration:none; color: silver" href="https://forms.gle/j9WSwL7XLsSq7iM89">the exhibit submission form</a>. You are free to submit yours and other users' trainer cards and host boxes.</p></details>
 
 <br><details><summary><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -360px -2580px"></span>Any future plans on improving the gallery?</summary>
-<p>In order of importance:
+<p>In order of importance from most to least:
 <ol>
 <li>Fixing the host box buttons</li>
-<li>Implementing light theme<li>
+<li>Implementing light theme</li>
 </ol>
-<br>PS: There is currently no plan to document scripted boxes and vote boxes.</p></details>
+PS: There is currently no plan to document scripted boxes and vote boxes.</p></details>
 
 <br><details><summary><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -360px -2580px"></span>Is there a condensed version of the gallery's link?</summary>
 <p><a style="text-decoration:none; color: silver" href="https://tinyurl.com/gc-gallery">https://tinyurl.com/gc-gallery</a>

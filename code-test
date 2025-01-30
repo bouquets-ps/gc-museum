@@ -89,12 +89,7 @@ button {
 <hr><br>
 <center>
 
-<button
-    type="button"
-    data-theme-toggle
-    aria-label="<span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -360px -1980px"></span>"
-  ><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -360px -1980px"></span></button>
-
+<
 <br><br>
 
 Over <b>50</b> users' trainer cards are exhibited here! How many of them do you recognize?<br><br>

@@ -54,9 +54,6 @@ button.addEventListener("click", (event) => {
 body {
   background-color: var(--color-bg);
   color: var(--color-fg);
-  display: grid;
-  min-height: 100vh;
-  place-items: center;
 }
 button {
   font-size: 2rem;

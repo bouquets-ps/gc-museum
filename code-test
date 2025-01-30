@@ -17,7 +17,7 @@ function calculateSettingAsThemeString({ localStorageTheme, systemSettingDark })
 }
 
 function updateButton({ buttonEl, isDark }) {
-  const newCta = isDark ? "Solrock" : "Lunala";
+  const newCta = isDark ? "Light" : "Dark";
 buttonEl.setAttribute("aria-label", newCta);
   buttonEl.innerText = newCta;
 }
@@ -61,11 +61,13 @@ body {
    --color-fg: #ffffff;
 }
 button {
+  font-family: "Quicksand", sans-serif;
+  border: 1px solid var(--color-fg);
+  border-radius: 5px;
   padding: 0.5rem 1rem;
   transition: all var(--global-transition-time) ease-in-out;
   color: var(--color-fg);
   background-color: var(--color-bg);
-  border: 0.25rem solid var(--color-fg);
 }
 </style>
 </head>
@@ -87,8 +89,10 @@ button {
 <button
     type="button"
     data-theme-toggle
-    aria-label="Solrock"
-  >Solrock</button>
+    aria-label="Light"
+  >Light</button>
+
+<br><br>
 
 Over <b>50</b> users' trainer cards are exhibited here! How many of them do you recognize?<br><br>
 

@@ -14,9 +14,7 @@ function calculateSettingAsThemeString({ localStorageTheme, systemSettingDark })
   return "light";
 }
 function updateButton({ buttonEl, isDark }) {
-  const newCta = isDark ? "Light" : "Dark";
-  // use an aria-label if you are omitting text on the button
-  // and using a sun/moon icon, for example
+  const newCta = isDark ? "Sun" : "Moon";
   buttonEl.setAttribute("aria-label", newCta);
   buttonEl.innerText = newCta;
 }
@@ -76,8 +74,8 @@ button {
 <button
     type="button"
     data-theme-toggle
-    aria-label="Light"
-  >Light</button>
+    aria-label="Sun"
+  >Sun</button>
   </body>
 </html>
 

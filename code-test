@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html data-theme="light">
 <head>
+<style>
 [data-theme="light"] {
    --color-bg: #ffffff;
    --color-fg: #000000;
@@ -29,7 +30,7 @@ button {
   background-color: var(--color-bg);
   border: 0.25rem solid var(--color-fg);
 }
-
+</style></head>
   <body>
 <button
     type="button"
@@ -39,4 +40,4 @@ button {
   </body>
 </html>
 
-1234
+12345

@@ -7,6 +7,8 @@
 body {
   font-family: "Quicksand", sans-serif;
   padding: 30px;
+  background-color: var(--color-bg);
+  color: var(--color-fg);
 }
 .button {
   font-family: "Quicksand", sans-serif;
@@ -32,7 +34,7 @@ body {
 }
 </style>
 </head>
-<body style="background-color: black; color: white">
+<body>
 
 <button
     type="button"
@@ -54,10 +56,8 @@ body {
 <hr><br>
 <center>
 
-test5
+test6
 
-<br><details><summary><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -360px -2580px"></span>Is the gallery officially affiliated with the Game Corner room?</summary>
-<p>No. The gallery is purely a passion project founded by one regular user. Nevertheless, the Game Corner room owners are aware of the gallery's existence and support it, according to a room staff who the gallerist talked with in January 2025.</p></details>
 
 
 <b>Gallerist's Note:</b> The game highlights buttons are likely not being displayed accurately here because I have not been able to identify the relevant code used for their default setting. Feel free to contact me if you would like to help.<br><br>

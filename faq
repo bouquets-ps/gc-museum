@@ -40,10 +40,10 @@ details > summary::-webkit-details-marker {
 <p>In order of importance from most to least:
 <ul>
 <li>Fixing the host box buttons</li>
-<li>Implementing light theme</li>
+<li>Adding light theme to the host box page</li>
 <li>Fixing the host box example links in the exhibit submission form</li>
 </ul>
-PS: There is currently no plan to document scripted boxes and vote boxes.</p></details>
+PS: There is currently no plan to exhibit scripted box and vote box.</p></details>
 
 <br><details><summary><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -360px -2580px"></span>Is there a condensed version of the gallery's link?</summary>
 <p><a style="text-decoration:none; color: silver" href="https://tinyurl.com/gc-gallery">https://tinyurl.com/gc-gallery</a>

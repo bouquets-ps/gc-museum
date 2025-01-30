@@ -16,6 +16,13 @@ body {
   background: linear-gradient(#262626 , #1a1a1a); 
   text-shadow: none; 
 }
+details summary {
+  list-style-type: '<span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -360px -2580px">';
+}
+ 
+ details[open] summary {
+  list-style-type: '<span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -320px -2580px">';
+}
 </style>
 </head>
 <body style="background-color: black; color: white">
@@ -33,7 +40,11 @@ body {
 <hr><br>
 <center>
 
-test4
+test5
+
+<br><details><summary><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -360px -2580px"></span>Is the gallery officially affiliated with the Game Corner room?</summary>
+<p>No. The gallery is purely a passion project founded by one regular user. Nevertheless, the Game Corner room owners are aware of the gallery's existence and support it, according to a room staff who the gallerist talked with in January 2025.</p></details>
+
 
 <b>Gallerist's Note:</b> The game highlights buttons are likely not being displayed accurately here because I have not been able to identify the relevant code used for their default setting. Feel free to contact me if you would like to help.<br><br>
 

@@ -3,6 +3,7 @@
 <head>
 <title>PS! Game Corner Gallery - Trainer Card</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lavishly Yours">
 <script>
 function calculateSettingAsThemeString({ localStorageTheme, systemSettingDark }) {
   if (localStorageTheme !== null) {
@@ -46,6 +47,8 @@ button.addEventListener("click", (event) => {
 });
 </script>
 <style>
+h1 {
+  font-family: "Lavishly Yours", sans-serif;
 body {
   font-family: "Quicksand", sans-serif;
   padding: 30px;

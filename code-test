@@ -77,11 +77,11 @@ button {
 <body>
 <center>
 <table><tr>
-<td></td>
+<td style="width: 100px"></td>
 <td style="width: 100px"></td>
 <td><h1>PS! Game Corner Gallery</h1></td>
 <td style="width: 100px"></td>
-<td>
+<td style="width: 100px, text-align: top">
 <button
     type="button"
     data-theme-toggle

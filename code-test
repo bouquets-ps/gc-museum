@@ -47,12 +47,6 @@ button.addEventListener("click", (event) => {
 
 <style>
 
-body {
-  font-family: "Quicksand", sans-serif;
-  padding: 30px;
-  background-color: var(--color-bg);
-  color: var(--color-fg);
-}
 [data-theme="light"] {
    --color-bg: #ffffff;
    --color-fg: #000000;
@@ -61,15 +55,7 @@ body {
    --color-bg: #000000;
    --color-fg: #ffffff;
 }
-button {
-  font-family: "Quicksand", sans-serif;
-  border: 1px solid var(--color-fg);
-  border-radius: 5px;
-  padding: 0.5rem 1rem;
-  transition: all var(--global-transition-time) ease-in-out;
-  color: var(--color-fg);
-  background-color: var(--color-bg);
-}
+
 </style>
 
 /*********************************************************

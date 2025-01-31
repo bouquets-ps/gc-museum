@@ -1,23 +1,99 @@
 <!DOCTYPE html>
-<html>
+<html data-theme="light">
 <head>
+<title>PS! Game Corner Gallery - Trainer Card</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
+<script>
+function calculateSettingAsThemeString({ localStorageTheme, systemSettingDark }) {
+  if (localStorageTheme !== null) {
+    return localStorageTheme;
+  }
+
+  if (systemSettingDark.matches) {
+    return "dark";
+  }
+
+  return "light";
+}
+
+function updateButton({ buttonEl, isDark }) {
+  const newCta = isDark ? "Light" : "Dark";
+buttonEl.setAttribute("aria-label", newCta);
+  buttonEl.innerText = newCta;
+}
+
+function updateThemeOnHtmlEl({ theme }) {
+  document.querySelector("html").setAttribute("data-theme", theme);
+}
+
+const button = document.querySelector("[data-theme-toggle]");
+const localStorageTheme = localStorage.getItem("theme");
+const systemSettingDark = window.matchMedia("(prefers-color-scheme: dark)");
+
+let currentThemeSetting = calculateSettingAsThemeString({ localStorageTheme, systemSettingDark });
+
+updateButton({ buttonEl: button, isDark: currentThemeSetting === "dark" });
+updateThemeOnHtmlEl({ theme: currentThemeSetting });
+
+button.addEventListener("click", (event) => {
+  const newTheme = currentThemeSetting === "dark" ? "light" : "dark";
+
+  localStorage.setItem("theme", newTheme);
+  updateButton({ buttonEl: button, isDark: newTheme === "dark" });
+  updateThemeOnHtmlEl({ theme: newTheme });
+
+  currentThemeSetting = newTheme;
+});
+</script>
 <style>
-.buttonbar {
-	margin-top: 1em;
-	text-align: center;
+td {
+  vertical-align: bottom;
 }
-.dark .tabbar a.button {
-	box-shadow: inset 0.5px 1px 1px rgba(255, 255, 255, 0.5);
+body {
+  font-family: "Quicksand", sans-serif;
+  padding: 30px;
+  background-color: var(--color-bg);
+  color: var(--color-fg);
 }
-.dark .tabbar a.button:active,
-.dark .tabbar a.button.cur:active {
-	box-shadow: none;
+[data-theme="light"] {
+   --color-bg: #ffffff;
+   --color-fg: #000000;
+}
+[data-theme="dark"] {
+   --color-bg: #000000;
+   --color-fg: #ffffff;
+}
+button {
+  font-family: "Quicksand", sans-serif;
+  border: 1px solid var(--color-fg);
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  transition: all var(--global-transition-time) ease-in-out;
+  color: var(--color-fg);
+  background-color: var(--color-bg);
 }
 </style>
 </head>
 <body>
+<center>
+<h1><table><tr><td>PS! Game Corner Gallery</td></tr></table></h1>
 <button
     type="button"
+    data-theme-toggle
+    aria-label="Light"
   >Light</button>
+<h3><span style="letter-spacing:5px;"><table><tr>
+<td><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-gallery/blob/main/about">ABOUT</a></td>
+<td style="width: 50px"></td><td><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-gallery/blob/main/trainer-card">TRAINER&nbsp;CARD</a></td>
+<td style="width: 50px"></td><td>SIGNUPS&nbsp;AVATAR</td>
+<td style="width: 50px"></td><td><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-gallery/blob/main/faq">FAQ</a></td>
+<td style="width: 50px"></td><td><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-gallery/blob/main/credits">CREDITS</a></td>
+</tr></table></span></h3>
+</center>
+
+<hr><br>
+<center>
+
+</center>
 </body>
 </html>

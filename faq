@@ -22,7 +22,7 @@ details > summary::-webkit-details-marker {
 <h3><span style="letter-spacing:5px;"><table><tr>
 <td><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-gallery/blob/main/about">ABOUT</a></td>
 <td style="width: 50px"></td><td><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-gallery/blob/main/trainer-card">TRAINER&nbsp;CARD</a></td>
-<td style="width: 50px"></td><td><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-gallery/blob/main/host-box">HOST&nbsp;BOX</a></td>
+<td style="width: 50px"></td><td><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-gallery/blob/main/signups-avatar">SIGNUPS&nbsp;AVATAR</a></td>
 <td style="width: 50px"></td><td>FAQ</td>
 <td style="width: 50px"></td><td><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-gallery/blob/main/credits">CREDITS</a></td>
 </tr></table></span></h3>
@@ -30,20 +30,14 @@ details > summary::-webkit-details-marker {
 
 <hr><br>
 
-<details><summary><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -360px -2580px"></span>When I edit my trainer card or host box, does the gallery get updated automatically?</summary>
-<p>No. Updates are usually done manually by the gallerist when she spots a new trainer card or host box displayed in the room. In addition, the gallerist refrains from updating the same trainer card or host box twice within a short period of time in order to not overwork herself.</p></details>
+<details><summary><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -360px -2580px"></span>When I edit my trainer card or signups avatar, does the gallery get updated automatically?</summary>
+<p>No. Updates are usually done manually by the gallerist when she spots a new trainer card or signups avatar displayed in the room. In addition, the gallerist refrains from updating the same trainer card or signups avatar twice within a short period of time in order to not overwork herself.</p></details>
 
 <br><details><summary><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -360px -2580px"></span>How can I help updating the gallery?</summary>
-<p>Fill in <a style="text-decoration:none; color: silver" href="https://forms.gle/j9WSwL7XLsSq7iM89">the exhibit submission form</a>. You are free to submit yours and other users' trainer cards and host boxes.</p></details>
+<p>Fill in <a style="text-decoration:none; color: silver" href="https://forms.gle/j9WSwL7XLsSq7iM89">the exhibit submission form</a>. You are free to submit yours and other users' trainer cards.</p></details>
 
-<br><details><summary><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -360px -2580px"></span>Any future plans on improving the gallery?</summary>
-<p>In order of importance from most to least:
-<ul>
-<li>Fixing the host box buttons</li>
-<li>Adding light theme to the host box page</li>
-<li>Fixing the host box example links in the exhibit submission form</li>
-</ul>
-PS: There is currently no plan to exhibit scripted box and vote box.</p></details>
+<br><details><summary><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -360px -2580px"></span>Any plans to exhibit scripted box, host box, and vote box?</summary>
+<p>Host box will be exhibited if the technical difficulties of implementing buttons is resolved. There are no plans to exhibit scripted box or vote box.</p></details>
 
 <br><details><summary><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -360px -2580px"></span>Is there a condensed version of the gallery's link?</summary>
 <p><a style="text-decoration:none; color: silver" href="https://tinyurl.com/gc-gallery">https://tinyurl.com/gc-gallery</a>

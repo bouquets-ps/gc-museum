@@ -76,12 +76,17 @@ button {
 </head>
 <body>
 <center>
-<h1><table><tr><td>PS! Game Corner Gallery</td></tr></table></h1>
+<table><tr>
+<td style="width: 100px"></td>
+<td style="width: 550px"><h1>PS! Game Corner Gallery</h1></td>
+<td style="width: 100px">
 <button
     type="button"
     data-theme-toggle
     aria-label="Light"
   >Light</button>
+</td>
+</tr></table>
 <h3><span style="letter-spacing:5px;"><table><tr>
 <td><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-gallery/blob/main/about">ABOUT</a></td>
 <td style="width: 50px"></td><td><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-gallery/blob/main/trainer-card">TRAINER&nbsp;CARD</a></td>

@@ -1,7 +1,76 @@
 <!DOCTYPE html>
 <html>
 <head>
+
+<script>
+function calculateSettingAsThemeString({ localStorageTheme, systemSettingDark }) {
+  if (localStorageTheme !== null) {
+    return localStorageTheme;
+  }
+
+  if (systemSettingDark.matches) {
+    return "dark";
+  }
+
+  return "light";
+}
+
+function updateButton({ buttonEl, isDark }) {
+  const newCta = isDark ? "Light" : "Dark";
+buttonEl.setAttribute("aria-label", newCta);
+  buttonEl.innerText = newCta;
+}
+
+function updateThemeOnHtmlEl({ theme }) {
+  document.querySelector("html").setAttribute("data-theme", theme);
+}
+
+const button = document.querySelector("[data-theme-toggle]");
+const localStorageTheme = localStorage.getItem("theme");
+const systemSettingDark = window.matchMedia("(prefers-color-scheme: dark)");
+
+let currentThemeSetting = calculateSettingAsThemeString({ localStorageTheme, systemSettingDark });
+
+updateButton({ buttonEl: button, isDark: currentThemeSetting === "dark" });
+updateThemeOnHtmlEl({ theme: currentThemeSetting });
+
+button.addEventListener("click", (event) => {
+  const newTheme = currentThemeSetting === "dark" ? "light" : "dark";
+
+  localStorage.setItem("theme", newTheme);
+  updateButton({ buttonEl: button, isDark: newTheme === "dark" });
+  updateThemeOnHtmlEl({ theme: newTheme });
+
+  currentThemeSetting = newTheme;
+});
+</script>
+
 <style>
+
+body {
+  font-family: "Quicksand", sans-serif;
+  padding: 30px;
+  background-color: var(--color-bg);
+  color: var(--color-fg);
+}
+[data-theme="light"] {
+   --color-bg: #ffffff;
+   --color-fg: #000000;
+}
+[data-theme="dark"] {
+   --color-bg: #000000;
+   --color-fg: #ffffff;
+}
+button {
+  font-family: "Quicksand", sans-serif;
+  border: 1px solid var(--color-fg);
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  transition: all var(--global-transition-time) ease-in-out;
+  color: var(--color-fg);
+  background-color: var(--color-bg);
+}
+</style>
 
 /*********************************************************
  * Global

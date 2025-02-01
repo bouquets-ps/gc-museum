@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html data-theme="light">
 <head>
-<title>PS! Game Corner Gallery - Trainer Card</title>
+<title>PS! Game Corner Gallery - Signups Avatar</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
 <script>
 function calculateSettingAsThemeString({ localStorageTheme, systemSettingDark }) {

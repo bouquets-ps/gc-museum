@@ -7,44 +7,9 @@
  * Global
  *********************************************************/
 
-html, body {
-	margin: 0;
-	padding: 0;
-	height: 100%;
-	overflow: visible;
-}
-body {
-	color: white;
-	font-size: 11pt;
-	font-family: Verdana, Helvetica, Arial, sans-serif;
-
-	/* see https://pokemonshowdown.com/credits */
-	background: #344b6c url(../fx/client-bg-charizards.jpg) no-repeat left center fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-}
-
-.pad {
-	margin: 0;
-	padding: 5px 15px;
-}
-.pad p {
-	margin: 9px 0;
-}
-.label strong {
-	font-size: 11pt;
-	display: block;
-}
 .buttonbar {
 	margin-top: 1em;
 	text-align: center;
-}
-
-select {
-	font-size: 9pt;
-	font-family: Verdana, Helvetica, Arial, sans-serif;
 }
 
 .dark .tabbar a.button {
@@ -54,48 +19,11 @@ select {
 .dark .tabbar a.button.cur:active {
 	box-shadow: none;
 }
-.dark .maintabbarbottom {
-	background: #555555;
-	border-color: #5A5A5A;
-	border-top-color: #34373b;
-}
 
 /*********************************************************
  * Header
  *********************************************************/
 
-.header {
-	position: relative;
-	height: 50px;
-	background: url(../fx/client-topbar-bg.png) repeat-x left top scroll;
-}
-.header h1 {
-	margin: 0;
-	padding: 0;
-}
-.header .logo {
-	float: left;
-	margin: 2px 0 0 2px;
-}
-
-.userbar {
-	position: absolute;
-	top: 12px;
-	right: 12px;
-	font-weight: bold;
-}
-.userbar .username {
-	color: black;
-	text-shadow: 1px 1px 0 #f8f8f8, 1px -1px 0 #f8f8f8, -1px 1px 0 #f8f8f8, -1px -1px 0 #f8f8f8;
-}
-.username {
-	cursor: pointer;
-}
-@media (max-width: 500px) {
-	.usernametext {
-		display: none
-	}
-}
 .userbar button.icon {
 	height: 25px;
 	width: 27px;
@@ -105,76 +33,6 @@ select {
 }
 .userbar button.icon i {
 	margin: 0 -5px;
-}
-
-.tabbar {
-	position: absolute;
-	bottom: 1px;
-	left: 0;
-	right: 0;
-
-	display: block;
-	list-style: none;
-	margin: 0;
-	padding: 2px 0 0 0;
-	height: 37px;
-	text-align: left;
-
-	color: white;
-	text-shadow: 0 1px 0 black;
-	font-size: 10pt;
-
-	line-height: 100%;
-}
-.maintabbarbottom {
-	content: "";
-	display: block;
-	position: absolute;
-	left: 0;
-	right: 0;
-	bottom: -6px;
-	height: 6px;
-	background: #f8f8f8;
-	border: solid 1px #AAAAAA;
-	border-left: 0;
-	border-right: 0;
-	margin: -1px 0 0 0;
-	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
-	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
-	box-shadow: 0 1px 2px rgba(0,0,0,.2);
-}
-.tabbar.maintabbar {
-	margin-left: 144px;
-	margin-right: 165px;
-	overflow: hidden;
-}
-.tabbar.maintabbar.minitabbar {
-	margin-left: 0;
-}
-.maintabbar .inner {
-	width: 400%; /* make sure overflows go right and not down */
-}
-.maintabbar .overflow {
-	position: absolute;
-	bottom: 0;
-	right: 0;
-	z-index: 12;
-}
-.maintabbar .overflow .button {
-	height: 37px;
-	width: 32px;
-	font-size: 12pt;
-	margin: 0;
-	border-radius: 0;
-}
-
-.popupmenu .option {
-	width: 204px;
-}
-.popupmenu i {
-	display: inline-block;
-	width: 16px;
-	color: #777777;
 }
 
 .button.small,
@@ -206,25 +64,6 @@ select {
 	content: "\f0e6";
 }
 
-i.subtle {
-	opacity: 0.25;
-	filter: alpha(opacity=25);
-}
-
-i.subtle:hover {
-	opacity: 1.0;
-	filter: alpha(opacity=100);
-}
-
-.tabbar li,
-.tabbar ul {
-	display: block;
-	float: left;
-
-	list-style: none;
-	margin: 0;
-	padding: 0;
-}
 .tabbar a.button {
 	display: inline-block;
 	height: 28px;
@@ -284,9 +123,7 @@ i.subtle:hover {
 .tabbar li:last-child a.button {
 	border-top-right-radius: 5px;
 }
-.tabbar a.closable {
-	padding-right: 8px;
-}
+
 .tabbar .closebutton {
 	display: inline-block;
 	margin: 0 0 0 -17px;
@@ -319,9 +156,7 @@ i.subtle:hover {
 .dark .closebutton:hover {
 	color: #EE7777;
 }
-span.header-username:hover {
-	color: #333333;
-}
+
 .minimizebutton:hover,
 .pm-window h3:hover .minimizebutton {
 	color: #333333;
@@ -345,19 +180,7 @@ span.header-username:hover {
 	content: "\f055";
 }
 
-.tablist li, .tablist ul {
-	/** tablist is the menu that's displayed when the window is too wide for all the tabs */
-	list-style: none;
-	margin: 0;
-	padding: 0;
-}
-.tablist ul {
-	padding: 3px 0 4px 0;
-}
-.tablist li {
-	margin: 0 -5px -1px -5px;
-	padding: 0;
-}
+
 .tablist .button {
 	position: relative;
 	box-shadow: inset 0 0px 2px rgba(255,255,255,1);

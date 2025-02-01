@@ -1,19 +1,73 @@
 <!DOCTYPE html>
-<html>
+<html data-theme="light">
 <head>
-<title>PS! Game Corner Gallery - Host Box</title>
+<title>PS! Game Corner Gallery - Trainer Card</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
+<script>
+function calculateSettingAsThemeString({ localStorageTheme, systemSettingDark }) {
+  if (localStorageTheme !== null) {
+    return localStorageTheme;
+  }
+
+  if (systemSettingDark.matches) {
+    return "dark";
+  }
+
+  return "light";
+}
+
+function updateButton({ buttonEl, isDark }) {
+  const newCta = isDark ? "Light" : "Dark";
+buttonEl.setAttribute("aria-label", newCta);
+  buttonEl.innerText = newCta;
+}
+
+function updateThemeOnHtmlEl({ theme }) {
+  document.querySelector("html").setAttribute("data-theme", theme);
+}
+
+const button = document.querySelector("[data-theme-toggle]");
+const localStorageTheme = localStorage.getItem("theme");
+const systemSettingDark = window.matchMedia("(prefers-color-scheme: dark)");
+
+let currentThemeSetting = calculateSettingAsThemeString({ localStorageTheme, systemSettingDark });
+
+updateButton({ buttonEl: button, isDark: currentThemeSetting === "dark" });
+updateThemeOnHtmlEl({ theme: currentThemeSetting });
+
+button.addEventListener("click", (event) => {
+  const newTheme = currentThemeSetting === "dark" ? "light" : "dark";
+
+  localStorage.setItem("theme", newTheme);
+  updateButton({ buttonEl: button, isDark: newTheme === "dark" });
+  updateThemeOnHtmlEl({ theme: newTheme });
+
+  currentThemeSetting = newTheme;
+});
+</script>
 <style>
 body {
   font-family: "Quicksand", sans-serif;
   padding: 30px;
+  background-color: var(--color-bg);
+  color: var(--color-fg);
+}
+[data-theme="light"] {
+   --color-bg: #ffffff;
+   --color-fg: #000000;
+}
+[data-theme="dark"] {
+   --color-bg: #000000;
+   --color-fg: #ffffff;
 }
 button {
   font-family: "Quicksand", sans-serif;
-  color: #ffffff;
-  background: linear-gradient(#262626 , #1a1a1a); 
-  border: 1px;
+  border: 1px solid var(--color-fg);
   border-radius: 5px;
+  padding: 0.5rem 1rem;
+  transition: all var(--global-transition-time) ease-in-out;
+  color: var(--color-fg);
+  background-color: var(--color-bg);
 }
 </style>
 </head>
@@ -32,7 +86,13 @@ button {
 <hr><br>
 <center>
 
-<b>Gallerist's Note:</b> Updates on host boxes are put on hold until I manage to make the buttons look the way they do on Showdown. Feel free to contact me if you would like to help.<br><br>
+<button
+    type="button"
+    data-theme-toggle
+    aria-label="Light"
+  >Light</button>
+
+<br><br>
 
 <span style="display: block ; background: linear-gradient(#3d0000 , #000000) ; color: #ffffff ; border: 2px solid #000000 ; border-radius: 15px"><img src="//play.pokemonshowdown.com/sprites/trainers/emma.png" width="80px" height="80px"><br><img src="//play.pokemonshowdown.com/sprites/ani/voodoom.gif" width="69" height="96">&nbsp;&nbsp;&nbsp;<img src="//play.pokemonshowdown.com/sprites/ani-shiny/espurr.gif" width="47" height="58">&nbsp;&nbsp;&nbsp;<img src="//play.pokemonshowdown.com/sprites/ani/voodoom.gif" width="69" height="96"><h3>arelyn's Game</h3>The game's description will be displayed here<br><br><button class="button" style="color: #ffffff ; background: linear-gradient(#050000 , #050000) ; text-shadow: none" name="parseCommand" value="/highlight roomadd is hosting a hostgame of guessthatauth">Enable game highlights</button>&nbsp;|&nbsp;<button class="button" style="color: #ffffff ; background: linear-gradient(#050000 , #050000) ; text-shadow: none" name="parseCommand" value="/highlight roomdelete is hosting a hostgame of guessthatauth">Disable game highlights</button><br>&nbsp;</span><br><b>Last updated:</b> 2025-01-28<br><br>
 

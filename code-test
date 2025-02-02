@@ -38,12 +38,12 @@ body {
 </tr></table></span></h3>
 
 <table>
-<tr><td style="width: 100px"><b>Dex #</b></td><td style="width: 100px"><b>Pokémon</b></td><td style="width: 150px"><b>User</b></td><td style="width: 500px"><b>Screenshot</b></td><td style="width: 100px"><b>Date</b></td>
-<td>1</td><td>Bulbasaur</td><td></td><td></td><td></td>
-<td></td><td></td><td></td><td></td><td></td>
-<td></td><td></td><td></td><td></td><td></td>
-<td></td><td></td><td></td><td></td><td></td>
-</tr></table>
+<tr><td style="width: 100px"><b>Dex #</b></td><td style="width: 100px"><b>Pokémon</b></td><td style="width: 150px"><b>User</b></td><td style="width: 500px"><b>Screenshot</b></td><td style="width: 100px"><b>Date</b></td></tr>
+<tr><td>1</td><td>Bulbasaur</td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td><td></td></tr>
+</table>
 
 
 </center>

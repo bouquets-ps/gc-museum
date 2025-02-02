@@ -39,10 +39,15 @@ body {
 
 <table>
 <tr><td style="width: 100px"><b>Dex #</b></td><td style="width: 100px"><b>Pokémon</b></td><td style="width: 150px"><b>User</b></td><td style="width: 500px"><b>Screenshot</b></td><td style="width: 100px"><b>Date</b></td></tr>
-<tr><td>1</td><td>Bulbasaur</td><td></td><td></td><td></td></tr>
+
+<tr><td>1025</td><td>Squawkabilly</td><td><b><strong style="color: #bf31bb">AshKetchumsPikachu</strong></b></td><td><img src="https://i.imgur.com/XSZxMu4.png"></td><td>2025-02-22</td></tr>
+
 <tr><td></td><td></td><td></td><td></td><td></td></tr>
+
 <tr><td></td><td></td><td></td><td></td><td></td></tr>
+
 <tr><td></td><td></td><td></td><td></td><td></td></tr>
+
 </table>
 
 

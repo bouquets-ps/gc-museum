@@ -9,7 +9,10 @@ body {
   padding: 30px;
 }
 img {
-  max-width: 0px;
+  max-width: 500px;
+}
+div {
+  border: 1px solid #68a;
 }
 </style>
 </head>

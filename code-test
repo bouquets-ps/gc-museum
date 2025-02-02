@@ -8,16 +8,6 @@ body {
   font-family: "Quicksand", sans-serif;
   padding: 30px;
 }
-button {
-  font-family: "Quicksand", sans-serif;
-  border: 1px solid;
-  border-radius: 5px;
-  padding: 0.5rem 1rem;
-  transition: all var(--global-transition-time) ease-in-out;
-  color: #ffffff;
-  background-color: #000000;
-  width: 100px;
-}
 </style>
 </head>
 <body style="background-color: black; color: white">
@@ -35,19 +25,19 @@ button {
 <hr><br>
 <center>
 
-<table><tr>
-<td><button>I</button></td>
-<td><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-gallery/blob/main/trainer-card"><button>II</button></a></td>
-<td><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-gallery/blob/main/signups-avatar"><button>III</button></a></td>
-<td><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-gallery/blob/main/faq"><button>IV</button></a></td>
-<td><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-gallery/blob/main/credits"><button>V</button></a></td>
+<h3><span style="letter-spacing:5px;"><table><tr>
+<td>I</td>
+<td><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-gallery/blob/main/trainer-card">II</a></td>
+<td><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-gallery/blob/main/signups-avatar">III</a></td>
+<td><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-gallery/blob/main/faq">IV</a></td>
+<td><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-gallery/blob/main/credits">V</a></td>
 <td><button>VI</button></td>
-<td><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-gallery/blob/main/trainer-card"><button>VII</button></a></td>
-<td><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-gallery/blob/main/signups-avatar"><button>VIII</button></a></td>
-<td><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-gallery/blob/main/faq"><button>IX</button></a></td>
-</tr></table>
+<td><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-gallery/blob/main/trainer-card">VII</a></td>
+<td><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-gallery/blob/main/signups-avatar">VIII</a></td>
+<td><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-gallery/blob/main/faq">IX</a></td>
+</tr></table></span></h3>
 
-<
+
 
 </center>
 </body>

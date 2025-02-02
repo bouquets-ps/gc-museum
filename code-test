@@ -16,6 +16,7 @@ button {
   transition: all var(--global-transition-time) ease-in-out;
   color: #ffffff;
   background-color: #000000;
+  width: 100px;
 }
 </style>
 </head>
@@ -40,15 +41,13 @@ button {
 <td><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-gallery/blob/main/signups-avatar"><button>III</button></a></td>
 <td><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-gallery/blob/main/faq"><button>IV</button></a></td>
 <td><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-gallery/blob/main/credits"><button>V</button></a></td>
-</tr>><tr>
 <td><button>VI</button></td>
 <td><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-gallery/blob/main/trainer-card"><button>VII</button></a></td>
 <td><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-gallery/blob/main/signups-avatar"><button>VIII</button></a></td>
 <td><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-gallery/blob/main/faq"><button>IX</button></a></td>
 </tr></table>
 
-<button>I</button>
-
+<
 
 </center>
 </body>

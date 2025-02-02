@@ -34,11 +34,20 @@ button {
 <hr><br>
 <center>
 
-<button
-    type="button"
-    data-theme-toggle
-    aria-label="Light"
-  >Light</button>
+<table><tr>
+<td><button>I</button></td>
+<td><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-gallery/blob/main/trainer-card"><button>II</button></a></td>
+<td><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-gallery/blob/main/signups-avatar"><button>III</button></a></td>
+<td><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-gallery/blob/main/faq"><button>IV</button></a></td>
+<td><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-gallery/blob/main/credits"><button>V</button></a></td>
+</tr>><tr>
+<td><button>VI</button></td>
+<td><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-gallery/blob/main/trainer-card"><button>VII</button></a></td>
+<td><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-gallery/blob/main/signups-avatar"><button>VIII</button></a></td>
+<td><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-gallery/blob/main/faq"><button>IX</button></a></td>
+</tr></table>
+
+<button>I</button>
 
 
 </center>

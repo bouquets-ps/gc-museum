@@ -31,7 +31,10 @@ details > summary::-webkit-details-marker {
 <hr><br>
 
 <details><summary><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -360px -2580px"></span>When I edit my trainer card or signups avatar, does the gallery get updated automatically?</summary>
-<p>No. Updates are usually done manually by the gallerist when she spots a new trainer card or signups avatar displayed in the room. In addition, the gallerist refrains from updating the same trainer card or signups avatar twice within a short period of time in order to not overwork herself.</p></details>
+<p>No. Updates are done manually by the gallerist when she:
+<li>spots a new trainer card or signups avatar displayed in the room.
+<li>reviews user submissions.
+<br>In addition, the same trainer card or signups avatar do not get updated twice within a short period of time.</p></details>
 
 <br><details><summary><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -360px -2580px"></span>How can I help updating the gallery?</summary>
 <p>Fill in <a style="text-decoration:none; color: silver" href="https://forms.gle/j9WSwL7XLsSq7iM89">the exhibit submission form</a>. You are free to submit yours and other users' trainer cards and signups avatars.</p></details>

@@ -56,7 +56,7 @@ body {
   color: var(--color-fg);
 }
 [data-theme="light"] {
-   --color-bg: #ffffff;
+   --color-bg: #e4eaef;
    --color-fg: #000000;
 }
 [data-theme="dark"] {
@@ -101,7 +101,9 @@ button {
 
 <h3>Tiles</h3>
 
-<center><span class="infobox" style="display: inline-block;width:250px"><center><b><username>Snowdrop Bouquet</username></b>&nbsp;&bull;&nbsp;<b>500 bits</b><hr /><span style='display: block;height:115px;background: linear-gradient(#e4eaef,#bed0da)'><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -440px -2790px;"></span><img src="//play.pokemonshowdown.com/sprites/trainers/lillie.png" width=80px height=80px /><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -280px -2760px;"></span><br /><span style="display: inline-block ; height: 30px ; width: 40px"></span></span><hr /><b>3rd</b> in Floette's Forum Game</center></span></center>
+<center><span class="infobox" style="display: inline-block;width:250px"><center><b><strong style="color: #1e96d2">Snowdrop Bouquet</strong></b>&nbsp;&bull;&nbsp;<b>500 bits</b><hr /><span style='display: block;height:115px;background: linear-gradient(#e4eaef,#bed0da)'><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -440px -2790px;"></span><img src="//play.pokemonshowdown.com/sprites/trainers/lillie.png" width=80px height=80px /><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -280px -2760px;"></span><br /><span style="display: inline-block ; height: 30px ; width: 40px"></span></span><hr /><b>3rd</b> in Floette's Forum Game</center></span></center>
+
+<center><span class="infobox" style="display: inline-block;width:250px"><center><b><strong style="color: #7e78cd">alyssums</strong></b>&nbsp;&bull;&nbsp;<b>500 bits</b><hr /><span style='display: block;height:115px;background: linear-gradient(#e4eaef,#bed0da)'><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -440px -2790px;"></span><img src="//play.pokemonshowdown.com/sprites/trainers/lillie.png" width=80px height=80px /><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -280px -2760px;"></span><br /><span style="display: inline-block ; height: 30px ; width: 40px"></span></span><hr /><b>3rd</b> in Floette's Forum Game</center></span></center>
 
 <table>
 <tr><td>Tile</td><td>Category</td><td>Elimination Chance</td></tr>

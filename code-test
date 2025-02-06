@@ -153,6 +153,18 @@ Elimination chance of properties in the same set accumulates.
 
 <h3>Actions</h3>
 
+Landing on Action triggers one of events.
+
+<table align="center" border="2" style="text-align: center">
+<tr><td><b>Event</b></td><td><b>Jellicent</b></td><td><b>Klefki</b></td></tr>
+<tr><td>Slipping on an Inkay</td><td>Go back 1 to 3 spaces</td><td>Go back 1 to 3 spaces</td></tr>
+<tr><td>Abra appears</td><td>Teleport to a random tile</td><td>Teleport to a random tile</td></tr>
+<tr><td>Hacking Lady Monita</td><td>Sent to Pyrite Town Jail</td><td>Sent to Pyrite Town Jail</td></tr>
+<tr><td>Generosity</td><td>Donate 100 to 500 Poke to a random player</td><td>N/A</td></tr>
+<tr><td>Delibird's present</td><td>Earn 0 to 500 Poke</td><td>Earn 1 key</td></tr>
+<tr><td>Card</td><td>Earn a Jellicent card</td><td>Earn a Klefki card</td></tr>
+</table>
+
 <h3>Jail</h3>
 
 If you landed on Action, there is a chance for you to get sent to Pyrite Town Jail.

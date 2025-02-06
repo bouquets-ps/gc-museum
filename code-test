@@ -141,15 +141,18 @@ Elimination chance of properties in the same set accumulates.
 <tr><td style="background: linear-gradient(#999999 , #666666); color: black; font-weight: bold">9</td><td>Pyrite Town Jail</td><td>See Jail</td></tr>
 <tr><td style="background: linear-gradient(#70a6db , #2e73b8); color: black; font-weight: bold">18</td><td>Pokemon Center</td><td>This tile does nothing</td></tr>
 <tr><td style="background: linear-gradient(#70a6db , #2e73b8); color: black; font-weight: bold">27</td><td>Victory Road</td><td>Random elimination chance between 1% to 35%</td></tr>
-<tr><td style="background: linear-gradient(#ec93ec , #e052e0); color: black; font-weight: bold">3</td><td>Action</td><td>See Action</td></tr>
-<tr><td style="background: linear-gradient(#ec93ec , #e052e0); color: black; font-weight: bold">6</td><td>Action</td><td>See Action</td></tr>
-<tr><td style="background: linear-gradient(#ec93ec , #e052e0); color: black; font-weight: bold">12</td><td>Action</td><td>See Action</td></tr>
-<tr><td style="background: linear-gradient(#ec93ec , #e052e0); color: black; font-weight: bold">15</td><td>Action</td><td>See Action</td></tr>
-<tr><td style="background: linear-gradient(#ec93ec , #e052e0); color: black; font-weight: bold">21</td><td>Action</td><td>See Action</td></tr>
-<tr><td style="background: linear-gradient(#ec93ec , #e052e0); color: black; font-weight: bold">24</td><td>Action</td><td>See Action</td></tr>
-<tr><td style="background: linear-gradient(#ec93ec , #e052e0); color: black; font-weight: bold">30</td><td>Action</td><td>See Action</td></tr>
-<tr><td style="background: linear-gradient(#ec93ec , #e052e0); color: black; font-weight: bold">33</td><td>Action</td><td>See Action</td></tr>
+<tr><td style="background: linear-gradient(#ec93ec , #e052e0); color: black; font-weight: bold">3</td><td>Action</td><td>See Actions</td></tr>
+<tr><td style="background: linear-gradient(#ec93ec , #e052e0); color: black; font-weight: bold">6</td><td>Action</td><td>See Actions</td></tr>
+<tr><td style="background: linear-gradient(#ec93ec , #e052e0); color: black; font-weight: bold">12</td><td>Action</td><td>See Actions</td></tr>
+<tr><td style="background: linear-gradient(#ec93ec , #e052e0); color: black; font-weight: bold">15</td><td>Action</td><td>See Actions</td></tr>
+<tr><td style="background: linear-gradient(#ec93ec , #e052e0); color: black; font-weight: bold">21</td><td>Action</td><td>See Actions</td></tr>
+<tr><td style="background: linear-gradient(#ec93ec , #e052e0); color: black; font-weight: bold">24</td><td>Action</td><td>See Actions</td></tr>
+<tr><td style="background: linear-gradient(#ec93ec , #e052e0); color: black; font-weight: bold">30</td><td>Action</td><td>See Actions</td></tr>
+<tr><td style="background: linear-gradient(#ec93ec , #e052e0); color: black; font-weight: bold">33</td><td>Action</td><td>See Actions</td></tr>
 
+<h3>Actions</h3>
+
+<h3>Jail</h3>
 
 
 </table>

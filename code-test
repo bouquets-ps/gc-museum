@@ -132,19 +132,22 @@ button {
 
 <h3>Special Tiles</h3>
 
-<table>
-<tr><td>Tile</td><td>Name</td><td>Category</td><td>Elimination Chance</td></tr>
-<tr><td style="background: linear-gradient(#e6e6e6 , #d9d9d9)">🏠></td><td>Oak's Lab</td><td></td></tr>
-<tr><td style="background: linear-gradient(#ec93ec , #e052e0)">❔></td><td>Action</td><td></td></tr>
-<tr><td style="background: linear-gradient(#995c33 , #603920)">🏔️></td><td>Mountain</td><td></td></tr>
-<tr><td></td><td></td><td></td></tr>
-<tr><td></td><td></td><td></td></tr>
-<tr><td></td><td></td><td></td></tr>
-<tr><td></td><td></td><td></td></tr>
-<tr><td></td><td></td><td></td></tr>
-<tr><td></td><td></td><td></td></tr>
-<tr><td></td><td></td><td></td></tr>
-<tr><td></td><td></td><td></td></tr>
-<tr><td></td><td></td><td></td></tr>
+<table align="center" border="2" style="text-align: center">
+<tr><td><b>Tile</b></td><td><b>Name</b></td><td><b>Note</b></td></tr>
+<tr><td style="background: linear-gradient(#e6e6e6 , #d9d9d9)">0</td><td>Oak's Lab</td><td>+200 Poke</td></tr>
+<tr><td style="background: linear-gradient(#999999 , #666666)">9</td><td>Pyrite Town Jail</td><td></td></tr>
+<tr><td style="background: linear-gradient(#70a6db , #2e73b8)">18</td><td>Pyrite Town Jail</td><td></td></tr>
+<tr><td style="background: linear-gradient(#70a6db , #2e73b8)">27</td><td>Victory Road</td><td>Elimination chance: 1-35%</td></tr>
+<tr><td style="background: linear-gradient(#ec93ec , #e052e0)">3</td><td>Action</td><td>Random event</td></tr>
+<tr><td style="background: linear-gradient(#ec93ec , #e052e0)">6</td><td>Action</td><td>Random event</td></tr>
+<tr><td style="background: linear-gradient(#ec93ec , #e052e0)">12</td><td>Action</td><td>Random event</td></tr>
+<tr><td style="background: linear-gradient(#ec93ec , #e052e0)">15</td><td>Action</td><td>Random event</td></tr>
+<tr><td style="background: linear-gradient(#ec93ec , #e052e0)">21</td><td>Action</td><td>Random event</td></tr>
+<tr><td style="background: linear-gradient(#ec93ec , #e052e0)">24</td><td>Action</td><td>Random event</td></tr>
+<tr><td style="background: linear-gradient(#ec93ec , #e052e0)">30</td><td>Action</td><td>Random event</td></tr>
+<tr><td style="background: linear-gradient(#ec93ec , #e052e0)">33</td><td>Action</td><td>Random event</td></tr>
+
+
+
 </table>
 

@@ -101,9 +101,9 @@ button {
 
 <h3>Properties</h3>
 
-<table>
-<tr><td>Tile</td><td>Name</td><td>Category</td><td>Elimination Chance</td></tr>
-<tr><td style="background: linear-gradient(#db8b70 , #b8502e)">35</td></td><td></td><td></td><td>35%</td></tr>
+<table align="center" border="2">
+<tr><td>Tile</td><td>Name</td><td>Set</td><td>Elimination Chance</td></tr>
+<tr><td style="background: linear-gradient(#db8b70 , #b8502e)">35</td><td>Distortion World</td><td>Red-Orange</td><td>35%</td></tr>
 </table>
 
 <h3>Special Tiles</h3>

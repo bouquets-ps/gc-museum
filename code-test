@@ -103,6 +103,26 @@ button {
 
 <table align="center" border="2" style="text-align: center">
 <tr><td><b>Tile</b></td><td><b>Name</b></td><td><b>Set</b></td><td><b>Elimination Chance</b></td></tr>
+<tr><td style="background: linear-gradient(#db7070 , #b82e2e)">1</td><td>Pallet</td><td>Red</td><td>5%</td></tr>
+<tr><td style="background: linear-gradient(#db7070 , #b82e2e)">2</td><td>Littleroot</td><td>Red</td><td>5%</td></tr>
+<tr><td style="background: linear-gradient(#db7070 , #b82e2e)">4</td><td>Twinleaf</td><td>Red</td><td>5%</td></tr>
+<tr><td style="background: linear-gradient(#db70a6 , #b82e73)">7</td><td>Diglett's Cave</td><td>Red-Violet</td><td>15%</td></tr>
+<tr><td style="background: linear-gradient(#db70a6 , #b82e73)">8</td><td>Diglett's Tunnel</td><td>Red-Violet</td><td>15%</td></tr>
+
+
+<tr><td style="background: linear-gradient(#a670db , #732eb8)">10</td><td>Lake Acuity</td><td>Violet</td><td>10%</td></tr>
+<tr><td style="background: linear-gradient(#a670db , #732eb8)">11</td><td>Lake Verity</td><td>Violet</td><td>10%</td></tr>
+<tr><td style="background: linear-gradient(#a670db , #732eb8)">13</td><td>Lake Valor</td><td>Violet</td><td>10%</td></tr>
+<tr><td style="background: linear-gradient(#7070db , #2e2eb8)">16</td><td>Battle Factory</td><td>Blue-Violet</td><td>25%</td></tr>
+<tr><td style="background: linear-gradient(#7070db , #2e2eb8)">17</td><td>Battle Maison</td><td>Blue-Violet</td><td>25%</td></tr>
+
+<tr><td style="background: linear-gradient(#70db70 , #2eb82e)">19</td><td>Viridian Forest</td><td>Green</td><td>15%</td></tr>
+<tr><td style="background: linear-gradient(#70db70 , #2eb82e)">20</td><td>Eterna Forest</td><td>Green</td><td>15%</td></tr>
+<tr><td style="background: linear-gradient(#70db70 , #2eb82e)">22</td><td>Pinwheel Forest</td><td>Green</td><td>15%</td></tr>
+<tr><td style="background: linear-gradient(#dbdb70 , #b8b72e)">25</td><td>White Treehollow</td><td>Yellow</td><td>20%</td></tr>
+<tr><td style="background: linear-gradient(#dbdb70 , #b8b72e)">26</td><td>Black City</td><td>Yellow</td><td>20%</td></tr>
+
+
 <tr><td style="background: linear-gradient(#dba670 , #b8732e)">28</td><td>Jubilife</td><td>Orange</td><td>30%</td></tr>
 <tr><td style="background: linear-gradient(#dba670 , #b8732e)">29</td><td>Castelia</td><td>Orange</td><td>30%</td></tr>
 <tr><td style="background: linear-gradient(#dba670 , #b8732e)">31</td><td>Lumiose</td><td>Orange</td><td>30%</td></tr>

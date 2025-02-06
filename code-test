@@ -101,8 +101,11 @@ button {
 
 <h3>Properties</h3>
 
+Elimination chance of properties in the same set accumulates.
+<br>For example, if you have all three properties in the Orange set, their elimination chance will all be 90%.
+
 <table align="center" border="2" style="text-align: center">
-<tr><td><b>Tile</b></td><td><b>Name</b></td><td><b>Set</b></td><td><b>Elimination Chance</b></td></tr>
+<tr><td><b>Tile</b></td><td><b>Name</b></td><td><b>Set</b></td><td><b>Base Elimination Chance</b></td></tr>
 <tr><td style="background: linear-gradient(#db7070 , #b82e2e); color: black; font-weight: bold">1</td><td>Pallet</td><td>Red</td><td>5%</td></tr>
 <tr><td style="background: linear-gradient(#db7070 , #b82e2e); color: black; font-weight: bold">2</td><td>Littleroot</td><td>Red</td><td>5%</td></tr>
 <tr><td style="background: linear-gradient(#db7070 , #b82e2e); color: black; font-weight: bold">4</td><td>Twinleaf</td><td>Red</td><td>5%</td></tr>
@@ -136,7 +139,7 @@ button {
 <tr><td><b>Tile</b></td><td><b>Name</b></td><td><b>Note</b></td></tr>
 <tr><td style="background: linear-gradient(#e6e6e6 , #d9d9d9); color: black; font-weight: bold">0</td><td>Oak's Lab</td><td>+1 Key if passed by</td></tr>
 <tr><td style="background: linear-gradient(#999999 , #666666); color: black; font-weight: bold">9</td><td>Pyrite Town Jail</td><td>See Jail</td></tr>
-<tr><td style="background: linear-gradient(#70a6db , #2e73b8); color: black; font-weight: bold">18</td><td>Pokemon Center</td><td>Nothing happens here</td></tr>
+<tr><td style="background: linear-gradient(#70a6db , #2e73b8); color: black; font-weight: bold">18</td><td>Pokemon Center</td><td>This tile does nothing</td></tr>
 <tr><td style="background: linear-gradient(#70a6db , #2e73b8); color: black; font-weight: bold">27</td><td>Victory Road</td><td>Random elimination chance between 1% to 35%</td></tr>
 <tr><td style="background: linear-gradient(#ec93ec , #e052e0); color: black; font-weight: bold">3</td><td>Action</td><td>See Action</td></tr>
 <tr><td style="background: linear-gradient(#ec93ec , #e052e0); color: black; font-weight: bold">6</td><td>Action</td><td>See Action</td></tr>

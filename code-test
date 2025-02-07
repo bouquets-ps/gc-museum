@@ -135,12 +135,12 @@ button {
 
 <h3>Special Tiles</h3>
 
-<table align="center" border="2" style="text-align: center">
+<table align="center" border="2" style="text-align: center" cellpadding="5">
 <tr><td><b>Tile</b></td><td><b>Name</b></td><td><b>Jellicent</b></td><td><b>Klefki</b></td></tr>
 <tr><td style="background: linear-gradient(#e6e6e6 , #d9d9d9); color: black; font-weight: bold">0</td><td>Oak's Lab</td><td>+200 Poke if passed by</td><td>+1 Key if passed by</td></tr>
 <tr><td style="background: linear-gradient(#999999 , #666666); color: black; font-weight: bold">9</td><td>Pyrite Town Jail</td><td colspan="2">See Jail</td></tr>
 <tr><td style="background: linear-gradient(#70a6db , #2e73b8); color: black; font-weight: bold">18</td><td>Pokemon Center</td><td colspan="2">This tile does nothing</td></tr>
-<tr><td style="background: linear-gradient(#70a6db , #2e73b8); color: black; font-weight: bold">27</td><td>Poke Mart / Victory Road</td><td>Random rent between 100 to 700 Poke</td><td>Random elimination chance between 1% to 35%</td></tr>
+<tr><td style="background: linear-gradient(#70a6db , #2e73b8); color: black; font-weight: bold">27</td><td>Poke Mart (Jellicent)<br>Victory Road (Klefki)</td><td>Random rent between 100 to 700 Poke</td><td>Random elimination chance between 1% to 35%</td></tr>
 <tr><td style="background: linear-gradient(#ec93ec , #e052e0); color: black; font-weight: bold">3</td><td rowspan="8">Action</td><td rowspan="8" colspan="2" align="center">See Actions</td></tr>
 <tr><td style="background: linear-gradient(#ec93ec , #e052e0); color: black; font-weight: bold">6</td></tr>
 <tr><td style="background: linear-gradient(#ec93ec , #e052e0); color: black; font-weight: bold">12</td></tr>
@@ -155,7 +155,7 @@ button {
 
 Landing on Action triggers a random event.<br><br>
 
-<table align="center" border="2" style="text-align: center">
+<table align="center" border="2" style="text-align: center" cellpadding="5">
 <tr><td><b>Event</b></td><td><b>Jellicent</b></td><td><b>Klefki</b></td></tr>
 <tr><td>Slipping on an Inkay</td><td colspan="2">Go back 1 to 3 spaces</td></tr>
 <tr><td>Abra appears</td><td  colspan="2">Teleport to a random tile</td></tr>

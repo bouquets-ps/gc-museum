@@ -47,7 +47,7 @@ button.addEventListener("click", (event) => {
 </script>
 <style>
 td {
-  vertical-align: bottom;
+  vertical-align: middle;
 }
 body {
   font-family: "Quicksand", sans-serif;
@@ -101,10 +101,10 @@ button {
 
 <h3>Properties</h3>
 
-Elimination chance of properties in the same set accumulates.
+1Elimination chance of properties in the same set accumulates.
 <br>For example, if you have all three properties in the Orange set, their elimination chance will all be 90%.
 
-<table align="center" border="2" style="text-align: center" valign="middle">
+<table align="center" border="2" style="text-align: center">
 <tr><td><b>Tile</b></td><td><b>Name</b></td><td><b>Set</b></td><td><b>Base Rent<br>(Jellicent)</b></td><td><b>Base Elim. Chance<br>(Klefki)</b></td></tr>
 <tr><td style="background: linear-gradient(#db7070 , #b82e2e); color: black; font-weight: bold">1</td><td>Pallet</td><td rowspan="3">Red</td><td rowspan="3">100 Poke</td><td rowspan="3">5%</td></tr>
 <tr><td style="background: linear-gradient(#db7070 , #b82e2e); color: black; font-weight: bold">2</td><td>Littleroot</td></tr>

@@ -101,8 +101,8 @@ button {
 
 <h3>Properties</h3>
 
-1Elimination chance of properties in the same set accumulates.
-<br>For example, if you have all three properties in the Orange set, their elimination chance will all be 90%.
+Rent and elimination chance of properties in the same set stacks together.
+<br>For example, if I land on Pallet, and the player who owns it has all three properties in the Red set, I will have to pay 300 Poke in Jellicent's or have a 15% chance to be eliminated in Klefki's.<br><br>
 
 <table align="center" border="2" style="text-align: center" cellpadding="5">
 <tr><td><b>Tile</b></td><td><b>Name</b></td><td><b>Set</b></td><td><b>Base Rent<br>(Jellicent)</b></td><td><b>Base Elim. Chance<br>(Klefki)</b></td></tr>

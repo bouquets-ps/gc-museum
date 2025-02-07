@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html data-theme="light">
 <head>
-<title>PS! Game Corner Tabletop Game Maps - Klefki</title>
+<title>PS! Game Corner Jellicent's and Klefki's Boards - Square</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
 <script>
 function calculateSettingAsThemeString({ localStorageTheme, systemSettingDark }) {
@@ -76,11 +76,11 @@ button {
 </head>
 <body>
 <center>
-<h1><table><tr><td>PS! Game Corner Tabletop Game Maps</td></tr></table></h1>
+<h1><table><tr><td>PS! Game Corner Jellicent's and Klefki's Boards</td></tr></table></h1>
 <h3><span style="letter-spacing:5px;"><table><tr>
 <td><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-gallery/blob/main/about">ABOUT</a></td>
-<td style="width: 50px"></td><td><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-gallery/blob/main/trainer-card">JELLICENT</a></td>
-<td style="width: 50px"></td><td>KLEFKI</td>
+<td style="width: 50px"></td><td>SQUARE</td>
+<td style="width: 50px"></td><td><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-gallery/blob/main/trainer-card">LOOP</a></td>
 <td style="width: 50px"></td><td><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-gallery/blob/main/faq">FAQ</a></td>
 <td style="width: 50px"></td><td><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-gallery/blob/main/credits">CREDITS</a></td>
 </tr></table></span></h3>
@@ -97,15 +97,17 @@ button {
 
 <br><br>
 
+<h3></h3>
+
 <div class="chat uhtml-scriptedklefkislockedlocations6board chatmessage-ladymonita"><div class="infobox"><table align="center" border="2" style="color: black ; font-weight: bold ; text-align: center ; table-layout: fixed ; width: 300px"><tbody><tr style="height: 25px"><td style="background: linear-gradient(#999999 , #666666)">9</td><td style="background: linear-gradient(#a670db , #732eb8)">10</td><td style="background: linear-gradient(#a670db , #732eb8)">11</td><td style="background: linear-gradient(#ec93ec , #e052e0)">12</td><td style="background: linear-gradient(#a670db , #732eb8)">13</td><td style="background: linear-gradient(#995c33 , #603920)">14</td><td style="background: linear-gradient(#ec93ec , #e052e0)">15</td><td style="background: linear-gradient(#7070db , #2e2eb8)">16</td><td style="background: linear-gradient(#7070db , #2e2eb8)">17</td><td style="background: linear-gradient(#70a6db , #2e73b8)">18</td></tr><tr style="height: 25px"><td style="background: linear-gradient(#db70a6 , #b82e73)">8</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td style="background: linear-gradient(#70db70 , #2eb82e)">19</td></tr><tr style="height: 25px"><td style="background: linear-gradient(#db70a6 , #b82e73)">7</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td style="background: linear-gradient(#70db70 , #2eb82e)">20</td></tr><tr style="height: 25px"><td style="background: linear-gradient(#ec93ec , #e052e0)">6</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td style="background: linear-gradient(#ec93ec , #e052e0)">21</td></tr><tr style="height: 25px"><td style="background: linear-gradient(#995c33 , #603920)">5</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td style="background: linear-gradient(#70db70 , #2eb82e)">22</td></tr><tr style="height: 25px"><td style="background: linear-gradient(#db7070 , #b82e2e)">4</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td style="background: linear-gradient(#995c33 , #603920)">23</td></tr><tr style="height: 25px"><td style="background: linear-gradient(#ec93ec , #e052e0)">3</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td style="background: linear-gradient(#ec93ec , #e052e0)">24</td></tr><tr style="height: 25px"><td style="background: linear-gradient(#db7070 , #b82e2e)">2</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td style="background: linear-gradient(#dbdb70 , #b8b72e)">25</td></tr><tr style="height: 25px"><td style="background: linear-gradient(#db7070 , #b82e2e)">1</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td style="background: linear-gradient(#dbdb70 , #b8b72e)">26</td></tr><tr style="height: 25px"><td style="background: linear-gradient(#e6e6e6 , #d9d9d9)">0</td><td style="background: linear-gradient(#db8b70 , #b8502e)">35</td><td style="background: linear-gradient(#db8b70 , #b8502e)">34</td><td style="background: linear-gradient(#ec93ec , #e052e0)">33</td><td style="background: linear-gradient(#995c33 , #603920)">32</td><td style="background: linear-gradient(#dba670 , #b8732e)">31</td><td style="background: linear-gradient(#ec93ec , #e052e0)">30</td><td style="background: linear-gradient(#dba670 , #b8732e)">29</td><td style="background: linear-gradient(#dba670 , #b8732e)">28</td><td style="background: linear-gradient(#70a6db , #2e73b8)">27</td></tr></tbody></table></div></div>
 
 <h3>Properties</h3>
 
 Rent and elimination chance of properties in the same set stacks together.
-<br>For example, if I land on Pallet, and the player who owns it has all three properties in the Red set, I will have to pay 300 Poke in Jellicent's or have a 15% chance to be eliminated in Klefki's.<br><br>
+<br><br>For instance, if you land on Pallet, and the player who owns it has all three properties in the Red set, you have to pay 300 Poke to them in Jellicent's, or have a 15% chance to be eliminated in Klefki's.<br><br>
 
 <table align="center" border="2" style="text-align: center" cellpadding="5">
-<tr><td><b>Tile</b></td><td><b>Name</b></td><td><b>Set</b></td><td><b>Base Rent<br>(Jellicent)</b></td><td><b>Base Elim. Chance<br>(Klefki)</b></td></tr>
+<tr><td><b>Tile</b></td><td><b>Name</b></td><td><b>Set</b></td><td><b>Base Rent<br>(Jellicent)</b></td><td><b>Base Elimination Chance<br>(Klefki)</b></td></tr>
 <tr><td style="background: linear-gradient(#db7070 , #b82e2e); color: black; font-weight: bold">1</td><td>Pallet</td><td rowspan="3">Red</td><td rowspan="3">100 Poke</td><td rowspan="3">5%</td></tr>
 <tr><td style="background: linear-gradient(#db7070 , #b82e2e); color: black; font-weight: bold">2</td><td>Littleroot</td></tr>
 <tr><td style="background: linear-gradient(#db7070 , #b82e2e); color: black; font-weight: bold">4</td><td>Twinleaf</td></tr>

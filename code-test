@@ -42,13 +42,14 @@ details > summary::-webkit-details-marker {
 
 <br><details><summary><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -360px -2580px"></span>What are the games where shiny Pokemon cards can be played?</summary>
 <p><table border="2" cellpadding="5">
-<tr><td style="width: 250px"><b>Game</b><td><b>Available Pokemon</b></td></tr>
-<tr><td>Axew's Battle Cards</td><td rowspan="2">All with GIFs</td></tr>
+<tr><td style="width: 250px"><b>Game</b><td><b>Unavailable Pokemon</b></td></tr>
+<tr><td>Axew's Battle Cards</td><td rowspan="2"></td></tr>
 <tr><td>Shuckle's Defense Cards</td></tr>
-<tr><td>Blissey's Egg Cards</td><td>All with GIFs, excluding Chansey, Ditto, Happiny, and all Pokemon in the Undiscovered, Water 2, Water 3 egg groups</td></tr>
-<tr><td><div><div><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -40px -0px"></div>Bulbasaur's Uno</div></td><td>All with GIFs, excluding Doduo, Greninja, Kecleon, Inkay, Machamp, Magnemite, Slaking, Spinda</td></tr>
-<tr><td>Stakataka's Card Tower</td><td>All with GIFs, excluding Manaphy, Pachirisu, Phione</td></tr>
+<tr><td>Blissey's Egg Cards</td><td>Chansey, Ditto, Happiny, Undiscovered Pokemon, Water 2 Pokemon, Water 3 Pokemon</td></tr>
+<tr><td>Bulbasaur's Uno</td><td>Doduo, Greninja, Kecleon, Inkay, Machamp, Magnemite, Slaking, Spinda</td></tr>
+<tr><td>Stakataka's Card Tower</td><td>Manaphy, Pachirisu, Phione</td></tr>
 </table>
+In addition, Pokemon with no GIFs on PS! are unavailable in all games.
 </p></details>
 
 <br><details><summary><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -360px -2580px"></span>Is there a condensed version of the Pokedex's link?</summary>

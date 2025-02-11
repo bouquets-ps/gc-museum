@@ -24,7 +24,12 @@ body {
 <center>
 
 <table align="center" border="2" style="text-align: center" cellpadding="5">
+<tr><td><b>Value</b></td><td>Sup + ?</td></tr>
+<tr><td>Bug</td><td>3 + 10 + 9 + 8</td></tr>
+</table>
+
+<table align="center" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="2"><b>Typing</b></td><td colspan="5"><b>Coverage</b></td><td colspan="2"><b>Weakness</b></td></tr>
-<tr><td><b>1</b></td><td><b>2</b></td><td><b>Value</b></td><td><b>×2</b></td><td><b>×1</b></td><td><b>×0.5</b></td><td><b>×0</b></td><td><b>#</b></td><td><b>Types</b></td></tr>
+<tr><td><b>1</b></td><td><b>2</b></td><td><b>Value</b></td><td><b>Sup</b></td><td><b>Neu</b></td><td><b>Res</b></td><td><b>Imm</b></td><td><b>#</b></td><td><b>Types</b></td></tr>
 <tr><td>Bug</td><td>None</td><td>?</td><td>3</td><td>8</td><td>7</td><td>0</td><td></td><td></td></tr>
 </table>

@@ -23,19 +23,28 @@ body {
 <hr><br>
 <center>
 
-<table align="center" border="2" style="text-align: center" cellpadding="5">
-<tr><td><b>Value A</b></td><td>s + (s + n - 1) + (s + n - 2) + ... + (s + n - s)</td></tr>
-<tr><td><b>s</b></td><td>Super effective</td></tr>
-<tr><td><b>n</b></td><td>Neutral</td></tr>
-<tr><td><b>r</b></td><td>Resists</td></tr>
-<tr><td><b>i</b></td><td>Immunities</td></tr>
-</table>
+<div class="chat uhtml-scriptedhauntershauntedhouse126board chatmessage-ladymonita"><div class="infobox">
+<font color="black"><table align="center" border="2">
+<tbody>
 
-<br><br>
+<tr>
+<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
+<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
+<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b>4</b></td>
+<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
+<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
+<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
+<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
+<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
+<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
+<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
+<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
+<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b>1</b></td>
+<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
+</tr>
 
-<table align="center" border="2" style="text-align: center" cellpadding="5">
-<tr><td colspan="2"><b>Typing</b></td><td colspan="5"><b>Coverage</b></td><td><b>Weakness</b></td></tr>
-<tr><td><b>1</b></td><td><b>2</b></td><td><b>Value A</b></td><td><b>s</b></td><td><b>n</b></td><td><b>r</b></td><td><b>i</b></td><td><b>Value B</b></td></tr>
-<tr><td>Bug</td><td>None</td><td>30</td><td>3</td><td>8</td><td>7</td><td>0</td><td>3</td></tr>
-<tr><td>Dark</td><td>None</td><td>29</td><td>2</td><td>13</td><td>3</td><td>0</td><td>3</td></tr>
+</tbody></table></font></div></div>
+
+
+
 </table>

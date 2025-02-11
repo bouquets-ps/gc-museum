@@ -24,7 +24,7 @@ body {
 <center>
 
 <table align="center" border="2" style="text-align: center" cellpadding="5">
-<tr><td><b>Value</b></td><td>s + (s + n - 1) + (s + n - 2) + ... + (s + n - s)</td></tr>
+<tr><td><b>Value A</b></td><td>s + (s + n - 1) + (s + n - 2) + ... + (s + n - s)</td></tr>
 <tr><td><b>s</b></td><td>Super effective</td></tr>
 <tr><td><b>n</b></td><td>Neutral</td></tr>
 <tr><td><b>r</b></td><td>Resists</td></tr>
@@ -35,6 +35,7 @@ body {
 
 <table align="center" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="2"><b>Typing</b></td><td colspan="5"><b>Coverage</b></td><td><b>Weakness</b></td></tr>
-<tr><td><b>1</b></td><td><b>2</b></td><td><b>Value</b></td><td><b>s</b></td><td><b>n</b></td><td><b>r</b></td><td><b>i</b></td><td><b>Value</b></td></tr>
-<tr><td>Bug</td><td>None</td><td>?</td><td>3</td><td>8</td><td>7</td><td>0</td><td>3</td></tr>
+<tr><td><b>1</b></td><td><b>2</b></td><td><b>Value A</b></td><td><b>s</b></td><td><b>n</b></td><td><b>r</b></td><td><b>i</b></td><td><b>Value B</b></td></tr>
+<tr><td>Bug</td><td>None</td><td>30</td><td>3</td><td>8</td><td>7</td><td>0</td><td>3</td></tr>
+<tr><td>Dark</td><td>None</td><td>29</td><td>2</td><td>13</td><td>3</td><td>0</td><td>3</td></tr>
 </table>

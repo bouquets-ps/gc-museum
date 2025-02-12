@@ -1,242 +1,137 @@
 <!DOCTYPE html>
-<html>
+<html data-theme="light">
 <head>
-<title>PS! Game Corner User Axew and Shuckle's Cards - Axew</title>
+<title>PS! Game Corner User Gallery - Selfies</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
+<script>
+function calculateSettingAsThemeString({ localStorageTheme, systemSettingDark }) {
+  if (localStorageTheme !== null) {
+    return localStorageTheme;
+  }
+
+  if (systemSettingDark.matches) {
+    return "dark";
+  }
+
+  return "light";
+}
+
+function updateButton({ buttonEl, isDark }) {
+  const newCta = isDark ? "Light" : "Dark";
+buttonEl.setAttribute("aria-label", newCta);
+  buttonEl.innerText = newCta;
+}
+
+function updateThemeOnHtmlEl({ theme }) {
+  document.querySelector("html").setAttribute("data-theme", theme);
+}
+
+const button = document.querySelector("[data-theme-toggle]");
+const localStorageTheme = localStorage.getItem("theme");
+const systemSettingDark = window.matchMedia("(prefers-color-scheme: dark)");
+
+let currentThemeSetting = calculateSettingAsThemeString({ localStorageTheme, systemSettingDark });
+
+updateButton({ buttonEl: button, isDark: currentThemeSetting === "dark" });
+updateThemeOnHtmlEl({ theme: currentThemeSetting });
+
+button.addEventListener("click", (event) => {
+  const newTheme = currentThemeSetting === "dark" ? "light" : "dark";
+
+  localStorage.setItem("theme", newTheme);
+  updateButton({ buttonEl: button, isDark: newTheme === "dark" });
+  updateThemeOnHtmlEl({ theme: newTheme });
+
+  currentThemeSetting = newTheme;
+});
+</script>
 <style>
 body {
   font-family: "Quicksand", sans-serif;
   padding: 30px;
+  background-color: var(--color-bg);
+  color: var(--color-fg);
+}
+[data-theme="light"] {
+   --color-bg: #e4eaef;
+   --color-fg: #000000;
+}
+[data-theme="dark"] {
+   --color-bg: #000000;
+   --color-fg: #ffffff;
+}
+button {
+  font-family: "Quicksand", sans-serif;
+  border: 1px solid var(--color-fg);
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  transition: all var(--global-transition-time) ease-in-out;
+  color: var(--color-fg);
+  background-color: var(--color-bg);
 }
 </style>
 </head>
-<body style="background-color: black; color: white">
+<body>
 <center>
-<h1><table><tr><td>PS! Game Corner Axew and Shuckle's Cards</td></tr></table></h1>
+<h1><table><tr><td>PS! Game Corner User Gallery</td></tr></table></h1>
 <h3><span style="letter-spacing:5px;"><table><tr>
-<td>AXEW</td>
-<td style="width: 50px"></td><td><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-gallery/blob/main/trainer-card">INVERSE&nbsp;AXEW</a></td>
-<td style="width: 50px"></td><td><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-gallery/blob/main/signups-avatar">SHUCKLE</a></td>
+<td>SELFIES</td>
 </tr></table></span></h3>
 </center>
 
 <hr><br>
 <center>
 
-<div class="chat uhtml-scriptedhauntershauntedhouse126board chatmessage-ladymonita"><div class="infobox">
-<font color="black"><table align="center" border="2">
-<tbody>
+<button
+    type="button"
+    data-theme-toggle
+    aria-label="Light"
+  >Light</button>
 
-<tr>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b>4</b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b>1</b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-</tr>
+<br><br>
 
-<tr>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b>4</b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b>1</b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-</tr>
+<span class="infobox" style="display: inline-block ; width: 250px"><center><b><strong style="color: #2884c6">bouquets</strong></b><hr><span style="display: block ; height: 115px ; background: linear-gradient(#e4eaef , #d5e8f6)"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -360px -2790px"></span><img src="//play.pokemonshowdown.com/sprites/trainers/lady-gen6.png" width="80px" height="80px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -360px -2760px"></span><br><span style="display: inline-block ; height: 30px ; width: 40px"></span></span><br><br></center></span>
 
-<tr>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b>4</b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b>1</b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-</tr>
+<span class="infobox" style="display: inline-block ; width: 250px"><center><b><strong style="color: #c8101c">corsages</strong></b><hr><span style="display: block ; height: 115px ; background: linear-gradient(#e4eaef , #fbd0d3)"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -360px -1650px"></span><img src="//play.pokemonshowdown.com/sprites/trainers/serena.png" width="80px" height="80px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -40px -2790px"></span><br><span style="display: inline-block ; height: 30px ; width: 40px"></span></span><br><br></center></span>
 
-<tr>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b>4</b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b>1</b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-</tr>
+<span class="infobox" style="display: inline-block ; width: 250px"><center><b><strong style="color: #1a59e1">fashionably</strong></b><hr><span style="display: block ; height: 115px ; background: linear-gradient(#e4eaef , #d1defa)"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -360px -1950px"></span><img src="//play.pokemonshowdown.com/sprites/trainers/serena-masters3.png" width="80px" height="80px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -320px -1770px"></span><br><span style="display: inline-block ; height: 30px ; width: 40px"></span></span><br><br></center></span>
 
-<tr>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b>4</b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b>1</b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-</tr>
+<span class="infobox" style="display: inline-block ; width: 250px"><center><b><strong style="color: #a99515">???</strong></b><hr><span style="display: block ; height: 115px ; background: linear-gradient(#e4eaef , #f9f4d2)"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -0px -2820px"></span><img src="//play.pokemonshowdown.com/sprites/trainers/shauna-masters.png" width="80px" height="80px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -80px -2760px"></span><br><span style="display: inline-block ; height: 30px ; width: 40px"></span></span><br><br></center></span>
 
-<tr>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b>4</b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b>1</b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-</tr>
+<span class="infobox" style="display: inline-block ; width: 250px"><center><b><strong style="color: #9436d3">flowerbeds</strong></b><hr><span style="display: block ; height: 115px ; background: linear-gradient(#e4eaef , #e9d5f6)"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -40px -1290px"></span><img src="//play.pokemonshowdown.com/sprites/trainers/lady.png" width="80px" height="80px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -160px -1740px"></span><br><span style="display: inline-block ; height: 30px ; width: 40px"></span></span><br><br></center></span>
 
-<tr>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b>4</b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b>1</b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-</tr>
+<span class="infobox" style="display: inline-block ; width: 250px"><center><b><strong style="color: #998829">palettes</strong></b><hr><span style="display: block ; height: 115px ; background: linear-gradient(#e4eaef , #f4f0d7)"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -400px -1830px"></span><img src="//play.pokemonshowdown.com/sprites/trainers/mina.png" width="80px" height="80px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -0px -3420px"></span><br><span style="display: inline-block ; height: 30px ; width: 40px"></span></span><br><br></center></span>
 
-<tr>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b>4</b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b>1</b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-</tr>
+<span class="infobox" style="display: inline-block ; width: 250px"><center><b><strong style="color: #66a528">reindeers</strong></b><hr><span style="display: block ; height: 115px ; background: linear-gradient(#e4eaef , #e7f5d6)"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -440px -2700px"></span><img src="//play.pokemonshowdown.com/sprites/trainers/erika-masters.png" width="80px" height="80px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -160px -1230px"></span><br><span style="display: inline-block ; height: 30px ; width: 40px"></span></span><br><br></center></span>
 
-<tr>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b>4</b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b>1</b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-</tr>
+<span class="infobox" style="display: inline-block ; width: 250px"><center><b><strong style="color: #1e96d2">snowdrop bouquet</strong></b><hr><span style="display: block ; height: 115px ; background: linear-gradient(#e4eaef , #d2ecf9)"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -440px -2790px"></span><img src="//play.pokemonshowdown.com/sprites/trainers/lillie.png" width="80px" height="80px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -280px -2760px"></span><br><span style="display: inline-block ; height: 30px ; width: 40px"></span></span><br><br></center></span>
 
-<tr>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b>4</b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b>1</b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-</tr>
+<span class="infobox" style="display: inline-block ; width: 250px"><center><b><strong style="color: #388fb7">???</strong></b><hr><span style="display: block ; height: 115px ; background: linear-gradient(#e4eaef , #d8eaf3)"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -240px -660px"></span><img src="//play.pokemonshowdown.com/sprites/trainers/leaf-masters.png" width="80px" height="80px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -440px -3390px"></span><br><span style="display: inline-block ; height: 30px ; width: 40px"></span></span><br><br></center></span>
 
-<tr>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b>4</b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b>1</b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-</tr>
+<span class="infobox" style="display: inline-block ; width: 250px"><center><b><strong style="color: #da7510">???</strong></b><hr><span style="display: block ; height: 115px ; background: linear-gradient(#e4eaef , #fbe6d0)"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -400px -2790px"></span><img src="//play.pokemonshowdown.com/sprites/trainers/erika.png" width="80px" height="80px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -240px -2760px"></span><br><span style="display: inline-block ; height: 30px ; width: 40px"></span></span><br><br></center></span>
 
-<tr>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b>4</b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b>1</b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-</tr>
+<table>
+<tr><td><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -360px -2790px"></span><b><strong style="color: #2884c6">bouquets</strong></b></td></tr>
 
-<tr>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b>4</b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b>1</b></td>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)" width="20px" height="20px" align="center"><b></b></td>
-</tr>
+<tr><td><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -360px -1650px"></span><b><strong style="color: #c8101c">corsages</strong></b></td></tr>
 
-</tbody></table></font></div></div>
+<tr><td><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -360px -1950px"></span><b><strong style="color: #1a59e1">fashionably</strong></b></td></tr>
 
+<tr><td><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -0px -2820px"></span><b><strong style="color: #a99515">???</strong></b></td></tr>
 
+<tr><td><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -40px -1290px"></span><b><strong style="color: #9436d3">flowerbeds</strong></b></td></tr>
 
+<tr><td><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -400px -1830px"></span><b><strong style="color: #998829">palettes</strong></b></td></tr>
+
+<tr><td><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -440px -2700px"></span><b><strong style="color: #66a528">reindeers</strong></b></td></tr>
+
+<tr><td><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -440px -2790px"></span><b><strong style="color: #1e96d2">snowdrop bouquet</strong></b></td></tr>
+
+<tr><td><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -240px -660px"></span><b><strong style="color: #388fb7">???</strong></b></td></tr>
+
+<tr><td><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -400px -2790px"></span><b><strong style="color: #da7510">???</strong></b></td></tr>
 </table>
+
+</center>
+</body>
+</html>

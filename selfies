@@ -46,6 +46,9 @@ button.addEventListener("click", (event) => {
 });
 </script>
 <style>
+td {
+  vertical-align: bottom;
+}
 body {
   font-family: "Quicksand", sans-serif;
   padding: 30px;
@@ -112,28 +115,28 @@ button {
 
 <table>
 
-<tr><td><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -440px -2790px"></span><b><strong style="color: #7e78cd">???</strong></b></td><td>#bed0da snowbell</td></tr>
+<tr><td style="width: 200px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -440px -2790px"></span><b><strong style="color: #7e78cd">???</strong></b></td><td style="width: 150px">#bed0da</td><td>snowbell</td></tr>
 
 
-<tr><td><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -360px -2790px"></span><b><strong style="color: #2884c6">bouquets</strong></b></td><td>#0087bd forget-me-not</td></tr>
+<tr><td><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -360px -2790px"></span><b><strong style="color: #2884c6">bouquets</strong></b></td><td>#0087bd</td><td>forget-me-not</td></tr>
 
 
-<tr><td><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -360px -1650px"></span><b><strong style="color: #c8101c">corsages</strong></b></td><td>#e94e6d camellia rose</td></tr>
+<tr><td><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -360px -1650px"></span><b><strong style="color: #c8101c">corsages</strong></b></td><td>#e94e6d</td><td>camellia rose</td></tr>
 
 
-<tr><td><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -360px -1950px"></span><b><strong style="color: #1a59e1">fashionably</strong></b></td><td>#5d66aa bellflower</td></tr>
+<tr><td><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -360px -1950px"></span><b><strong style="color: #1a59e1">fashionably</strong></b></td><td>#5d66aa</td><td>bellflower</td></tr>
 
-<tr><td><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -0px -2820px"></span><b><strong style="color: #a99515">???</strong></b></td><td>#f8f3e3 daisy white</td></tr>
+<tr><td><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -0px -2820px"></span><b><strong style="color: #a99515">???</strong></b></td><td>#f8f3e3</td><td>daisy white</td></tr>
 
-<tr><td><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -40px -1290px"></span><b><strong style="color: #9436d3">flowerbeds</strong></b></td><td>#966ebd viola</td></tr>
+<tr><td><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -40px -1290px"></span><b><strong style="color: #9436d3">flowerbeds</strong></b></td><td>#966ebd</td><td>viola</td></tr>
 
-<tr><td><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -400px -1830px"></span><b><strong style="color: #998829">palettes</strong></b></td><td>#f8f3e3 daisy white</td></tr>
+<tr><td><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -400px -1830px"></span><b><strong style="color: #998829">palettes</strong></b></td><td>#f8f3e3</td><td>daisy white</td></tr>
 
-<tr><td><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -440px -2700px"></span><b><strong style="color: #6ba528">reindeers</strong></b></td><td>#dde3d5 water lily</td></tr>
+<tr><td><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -440px -2700px"></span><b><strong style="color: #6ba528">reindeers</strong></b></td><td>#dde3d5</td><td>water lily</td></tr>
 
-<tr><td><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -240px -660px"></span><b><strong style="color: #388fb7">???</strong></b></td><td>#7498be lobelia</td></tr>
+<tr><td><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -240px -660px"></span><b><strong style="color: #388fb7">???</strong></b></td><td>#7498be</td><td>lobelia</td></tr>
 
-<tr><td><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -400px -2790px"></span><b><strong style="color: #da7510">???</strong></b></td><td>#e58d3f velvet marigold</td></tr>
+<tr><td><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -400px -2790px"></span><b><strong style="color: #da7510">???</strong></b></td><td>#e58d3f</td><td>velvet marigold</td></tr>
 </table>
 
 </center>

@@ -115,16 +115,13 @@ button {
 
 <table>
 
-<tr><td style="width: 200px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -440px -2790px"></span><b><strong style="color: #7e78cd">???</strong></b></td><td style="width: 150px">#bed0da</td><td>snowbell</td></tr>
-
-
 <tr><td><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -360px -2790px"></span><b><strong style="color: #2884c6">bouquets</strong></b></td><td>#0087bd</td><td>forget-me-not</td></tr>
-
 
 <tr><td><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -360px -1650px"></span><b><strong style="color: #c8101c">corsages</strong></b></td><td>#e94e6d</td><td>camellia rose</td></tr>
 
-
 <tr><td><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -360px -1950px"></span><b><strong style="color: #1a59e1">fashionably</strong></b></td><td>#5d66aa</td><td>bellflower</td></tr>
+
+<tr><td style="width: 200px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -440px -2790px"></span><b><strong style="color: #a99515">florally</strong></b></td><td style="width: 150px">#bed0da</td><td>snowbell</td></tr>
 
 <tr><td><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -0px -2820px"></span><b><strong style="color: #a99515">???</strong></b></td><td>#f8f3e3</td><td>daisy white</td></tr>
 

@@ -132,9 +132,10 @@ button {
 <tr><td><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -240px -660px"></span><b><strong style="color: #388fb7"></strong></b></td><td>#7498be</td><td>lobelia</td></tr>
 
 <tr><td><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -400px -2790px"></span><b><strong style="color: #da7510"></strong></b></td><td>#e58d3f</td><td>velvet marigold</td></tr>
-</table>
 
 <tr><td><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -0px -2820px"></span><b><strong style="color: #a99515"></strong></b></td><td>#f8f3e3</td><td>daisy white</td></tr>
+
+</table>
 
 </center>
 </body>

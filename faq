@@ -8,12 +8,6 @@ body {
   font-family: "Quicksand", sans-serif;
   padding: 30px;
 }
-details > summary {
-  list-style: none;
-}
-details > summary::-webkit-details-marker {
-  display: none;
-}
 </style>
 </head>
 <body style="background-color: black; color: white">
@@ -31,7 +25,7 @@ details > summary::-webkit-details-marker {
 <hr><br>
 
 <details><summary><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -360px -2580px"></span>When I edit my trainer card or signups avatar, does the gallery get updated automatically?</summary>
-<p>No. Updates are done manually by the gallerist when she:
+<p>No. Updates are done manually by <b><font color="#2884c6">bouquets</font></b> when she:
 <li>spots a new trainer card or signups avatar displayed in the room.
 <li>reviews user submissions.
 <br><br>In addition, the same trainer card or signups avatar does not get updated twice within a short period of time.</p></details>

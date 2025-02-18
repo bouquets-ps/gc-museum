@@ -25,10 +25,10 @@ body {
 <hr><br>
 <center>
 
-<h3>Group A1</h3>
+<h3>Group A2</h3>
 
 <table border="2" style="text-align: center" cellpadding="5">
-<tr><td>Mode</td><td><b>Winning</b></td><td><b>Losing</b></td></tr>
+<tr><td></td><td><b>Winning</b></td><td><b>Losing</b></td></tr>
 <tr><td><b>Free-join</b></td><td rowspan="5">500 bits</td><td>10 bits per point</td></tr>
 <tr><td><b>Multi-Answer</b></td><td>5 bits per point</td></tr>
 <tr><td><b>Time Attack</b></td><td rowspan="2">1 bits per point</td></tr>

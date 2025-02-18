@@ -6,6 +6,7 @@
 <style>
 td {
   vertical-align: middle;
+  horizontal-align: center;
   margin: auto;
 }
 body {
@@ -29,7 +30,7 @@ body {
 <h3>Group A1</h3>
 
 <table border="2" cellpadding="5">
-<tr><td colspan="2"><b>Free-join</b></td><td colspan="2"><b>Team</b></td><td></td></tr>
+<tr><td colspan="2"><b>Free-join</b></td><td colspan="2"><b>Team</b></td></tr>
 <tr><td><b>Win</b></td><td><b>Lose</b></td><td><b>Win</b></td><td><b>Lose</b></td></tr>
 <tr><td>500 bits</td><td>10 bits per point</td><td>250 bits + 50 bits per point</td><td>10 bits per point</td></tr>
 <tr></tr>

@@ -28,12 +28,14 @@ body {
 <h3>Group A1</h3>
 
 <table border="2" style="text-align: center" cellpadding="5">
-<tr><td></td><td><b>Winning</b></td><td><b>Losing</b></td></tr>
-<tr><td><b>Free-join</b></td><td>500 bits</td><td>10 bits per point</td></tr>
-<tr><td><b>Team</b></td><td>250 bits<br>50 extra bits per point<br>Cap at 500 bits</td><td>10 bits per point</td></tr>
-<tr><td><b>Multi-Answer</b></td><td><td>500 bits</td><td>5 bits per point</td></tr>
-<tr><td><b>Time Attack</b></td></tr><td>500 bits</td><td>1 bits per point</td></tr>
-<tr><td><b>Survival</b></td></tr><td>500 bits</td><td>10 bits per round</td></tr>
+<tr><td>Mode</td><td><b>Winning</b></td><td><b>Losing</b></td></tr>
+<tr><td><b>Free-join</b></td><td rowspan="5">500 bits</td><td>10 bits per point</td></tr>
+<tr><td><b>Multi-Answer</b></td><td>5 bits per point</td></tr>
+<tr><td><b>Time Attack</b></td></tr><td rowspan="2">1 bits per point</td></tr>
+<tr><td><b>PM Time Attack</b></td></tr></tr>
+<tr><td><b>Survival</b></td></tr><td>10 bits per round</td></tr>
+<tr><td><b>Collective Team</b></td><td rowspan="2">250 bits<br>50 extra bits per point<br>Cap at 500 bits</td><td rowspan="2">10 bits per point</td></tr>
+<tr><td><b>Spotlight Team</b></td></tr>
 </table>
 
 </center>

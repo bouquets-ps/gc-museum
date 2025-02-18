@@ -25,10 +25,12 @@ body {
 <hr><br>
 <center>
 
+<h3>Group A</h3>
+
 <table border="2" cellpadding="5">
-<tr><td rowspan="2"><b>Game</b><td colspan="2"><b>Free-join</b></td><td colspan="2"><b>Team</b></td><td colspan="2"><b>Multi-Answer</b></td><td colspan="2"><b>Survival</b></td><td colspan="2"><b>Time Attack</b></td></tr>
+<tr><td colspan="2"><b>Free-join</b></td><td colspan="2"><b>Team</b></td><td colspan="2"><b>Multi-Answer</b></td><td colspan="2"><b>Survival</b></td><td colspan="2"><b>Time Attack</b></td></tr>
 <tr><td><b>Win</b></td><td><b>Lose</b></td><td><b>Win</b></td><td><b>Lose</b></td><td><b>Win</b></td><td><b>Lose</b></td><td><b>Win</b></td><td><b>Lose</b></td><td><b>Win</b></td><td><b>Lose</b></td></tr>
-<tr><td>Ekans' Edges</td><td>500 bits</td><td>10 bits per point</td><td>250 bits + 50 bits per point</td><td>10 bits per point</td><td>500 bits</td><td>5 bits per point</td><td>500 bits</td><td>10 bits per round</td><td>500 bits</td><td>1 bit per point</td></tr>
+<tr><td>500 bits</td><td>10 bits per point</td><td>250 bits + 50 bits per point</td><td>10 bits per point</td><td>500 bits</td><td>5 bits per point</td><td>500 bits</td><td>10 bits per round</td><td>500 bits</td><td>1 bit per point</td></tr>
 </table>
 
 </center>

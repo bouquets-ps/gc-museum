@@ -6,6 +6,7 @@
 <style>
 td {
   vertical-align: middle;
+  align: center;
 }
 body {
   font-family: "Quicksand", sans-serif;
@@ -28,16 +29,13 @@ body {
 <h3>Group A</h3>
 
 <table border="2" cellpadding="5">
-<tr><td colspan="2"><b>Free-join</b></td><td colspan="2"><b>Team</b></td><td colspan="2"></tr>
+<tr><td colspan="2"><b>Free-join</b></td><td colspan="2"><b>Team</b></td><td></td></tr>
 <tr><td><b>Win</b></td><td><b>Lose</b></td><td><b>Win</b></td><td><b>Lose</b></td></tr>
 <tr><td>500 bits</td><td>10 bits per point</td><td>250 bits + 50 bits per point</td><td>10 bits per point</td></tr>
-</table>
-
-<table border="2" cellpadding="5">
-<tr><td colspan="2"><b>Free-join</b></td><td colspan="2"><b>Team</b></td><td colspan="2"></tr>
+<tr></tr>
+<tr><td colspan="2"><b>Multi-Answer</b></td><td colspan="2"><b>Time Attack</b></td><td colspan="2"><b>Survival</b></td></tr>
 <tr><td><b>Win</b></td><td><b>Lose</b></td><td><b>Win</b></td><td><b>Lose</b></td><td><b>Win</b></td><td><b>Lose</b></td></tr>
-<b>Multi-Answer</b></td><td colspan="2"><b>Time Attack</b></td><td colspan="2"><b>Survival</b></td>
-<td>500 bits</td><td>5 bits per point</td><td>500 bits</td><td>1 bits per point</td><td>500 bits</td><td>10 bits per round</td>
+<tr><td>500 bits</td><td>5 bits per point</td><td>500 bits</td><td>1 bits per point</td><td>500 bits</td><td>10 bits per round</td></tr>
 </table>
 
 </center>

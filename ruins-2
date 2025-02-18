@@ -25,7 +25,7 @@ body {
 <hr><br>
 <center>
 
-<h3>Group A2</h3>
+<h3>Group A3</h3>
 
 <table border="2" style="text-align: center" cellpadding="5">
 <tr><td></td><td><b>Winning</b></td><td><b>Losing</b></td></tr>
@@ -33,8 +33,8 @@ body {
 <tr><td><b>Multi-Answer</b></td><td>5 bits per point</td></tr>
 <tr><td><b>Time Attack</b></td><td rowspan="2">1 bits per point</td></tr>
 <tr><td><b>PM Time Attack</b></td></tr>
-<tr><td><b>Survival</b></td></tr><td>10 bits per round</td></tr>
-<tr><td><b>Collective Team</b></td><td rowspan="2">250 bits<br>50 extra bits per point<br>Cap at 500 bits</td><td rowspan="2">10 bits per point</td></tr>
+<tr><td><b>Survival</b></td><td>10 bits per round</td></tr>
+<tr><td><b>Collective Team</b></td><td rowspan="2">250 bits<br>50 extra bits per point<br><i>Cap at 500 bits</i></td><td rowspan="2">10 bits per point</td></tr>
 <tr><td><b>Spotlight Team</b></td></tr>
 </table>
 

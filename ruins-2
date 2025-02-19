@@ -59,17 +59,21 @@ You can earn up to 500 bits in each game.
 <tr><td>Magcargo's Weak Spot</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
 <tr><td>Miltank's Moves</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
 <tr><td>Natu's Nature Min-Max</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
+<tr><td>Piplup's Letter Placements</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
 <tr><td>Xatu's Nature Clusters</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
 <tr><td>Bonsly's Category Clutters</td><td>✅</td><td></td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
 <tr><td>Chimecho's Stat School</td><td>✅</td><td></td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
 <tr><td>Deoxys' Differences</td><td>✅</td><td></td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
 <tr><td>Eevee's Evolutionary Lines</td><td>✅</td><td></td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
 <tr><td>Grumpig's Pokemath</td><td>✅</td><td></td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
+<tr><td>Metang's Anagrams</td><td>✅</td><td></td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
 <tr><td>Porygon's Movesearch Match</td><td>✅</td><td></td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
 <tr><td>Slowking's Trivia</td><td>✅</td><td></td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
 <tr><td>Sudowoodo's Species Scramble</td><td>✅</td><td></td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
 <tr><td>Feraligatr's Lost Letters</td><td>✅</td><td></td><td>✅</td><td>✅</td><td></td><td>✅</td><td>✅</td></tr>
 <tr><td>Elgyem's Number Encoder</td><td>✅</td><td></td><td></td><td></td><td>✅</td><td>✅</td><td>✅</td></tr>
+<tr><td>Magneton's Mashups</td><td>✅</td><td></td><td></td><td></td><td>✅</td><td>✅</td><td>✅</td></tr>
+<tr><td>Mudbray's One Aways</td><td>✅</td><td></td><td></td><td></td><td>✅</td><td>✅</td><td>✅</td></tr>
 <tr><td>Paras' Parameters</td><td>✅</td><td></td><td></td><td></td><td>✅</td><td>✅</td><td>✅</td></tr>
 <tr><td>Silvally's Unique Pairs</td><td>✅</td><td></td><td></td><td></td><td>✅</td><td>✅</td><td>✅</td></tr>
 <tr><td>Ambipom's Tossups</td><td>✅</td><td></td><td></td><td></td><td>✅</td><td>✅</td><td></td></tr>
@@ -92,7 +96,7 @@ You can earn up to 500 bits in each game.
 
 <table border="2" style="text-align: center" cellpadding="5">
 <tr><td><b>Game</b></td><td><b>Winning</b></td><td><b>Losing</b></td></tr>
-<tr><td>Absol's Dice Disaster</td><td rowspan="22">500 bits</td><td rowspan="28">0 bits</td></tr>
+<tr><td>Absol's Dice Disaster</td><td rowspan="23">500 bits</td><td rowspan="29">0 bits</td></tr>
 <tr><td>Axew's Battle Cards</td></tr>
 <tr><td>Blissey's Egg Cards</td></tr>
 <tr><td>Bounsweet's Bountiful Buffet</td></tr>
@@ -103,6 +107,7 @@ You can earn up to 500 bits in each game.
 <tr><td>Ditto's Who Am I</td></tr>
 <tr><td>Falinks' Formations</td></tr>
 <tr><td>Feebas' Chain Fishing</td></tr>
+<tr><td>Fraxure's Battle Chain</td></tr>
 <tr><td>Jellicent's Phantom Finances</td></tr>
 <tr><td>Jigglypuff's Dodgeball</td></tr>
 <tr><td>Klefki's Locked Locations</td></tr>
@@ -141,6 +146,22 @@ You can earn up to 500 bits in each game.
 <tr><td>Empoleon's Empires</td><td rowspan="3">500 bits</td><td rowspan="2">50 bits per elimination</td></tr>
 <tr><td>Landorus' War</td></tr>
 <tr><td>Spinda's Excluded Pokemon</td><td>100 bits per point</td></tr>
+</table>
+
+<h3>Group E</h3>
+
+<table border="2" style="text-align: center" cellpadding="5">
+<tr><td colspan="2"><b>Mode</b></td><td><b>Winning</b></td><td><b>Losing</b></td></tr>
+<tr><td><i>FJ</i><td>Free-join</td><td rowspan="2">500 bits</td><td>10 bits per point</td></tr>
+<tr><td><i>Signups</i><td>Signups</td><td>0 bits</td></tr>
+</table>
+
+<br><br>
+
+<table>
+<tr><td><b>Game</b></td></tr>
+<tr><td>Politoed's Portmanteau Chain</td></tr>
+<tr><td>Unown's Pokemon Chain</td></tr>
 </table>
 
 <h3>Dragapult's Danger Zone</h3>

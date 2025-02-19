@@ -91,7 +91,7 @@ You can earn up to 500 bits in each game.
 <table border="2" style="text-align: center" cellpadding="5">
 <tr><td><b>Game</b></td></tr>
 <tr><td>Crustle's Crumbling Blocks</td></tr>
-<tr><td>Game</td></tr>
+<tr><td>Machop's Matchups</td></tr>
 <tr><td>Game</td></tr>
 <tr><td>Game</td></tr>
 <tr><td>Game</td></tr>
@@ -125,6 +125,13 @@ You can earn up to 500 bits in each game.
 <tr><td>5</td><td>60 bits</td></tr>
 <tr><td>6</td><td>50 bits</td></tr>
 <tr><td><i>x</i></td><td><i>300/x</i> bits</td></tr>
+</table>
+
+<h3>Magikarp's Water Wheel</h3>
+
+<table border="2" style="text-align: center" cellpadding="5">
+<tr><td><b>Winning</b></td><td><b>Losing</b></td></tr>
+<tr><td>500 bits</td><td>???</td></tr>
 </table>
 
 </center>

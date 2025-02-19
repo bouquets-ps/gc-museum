@@ -33,8 +33,8 @@ You can earn up to 500 bits in each game.
 
 <table border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="2"><b>Mode</b></td><td><b>Winning</b></td><td><b>Losing</b></td></tr>
-<tr><td><i>FJ</i><td>Free-join</td><td rowspan="5">500 bits</td><td>10 bits per point</td></tr>
-<tr><td><i>MA</i><td>Multi-Answer</td><td>5 bits per point</td></tr>
+<tr><td><i>FJ</i><td>Free-join</td><td>50 bits per point</td><td>10 bits per point</td></tr>
+<tr><td><i>MA</i><td>Multi-Answer</td><td rowspan="4">500 bits</td><td>5 bits per point</td></tr>
 <tr><td><i>TA</i><td>Time Attack</td><td rowspan="2">1 bits per point</td></tr>
 <tr><td><i>PMTA</i><td>PM Time Attack</td></tr>
 <tr><td><i>Survival</i><td>Survival</td><td>10 bits per round</td></tr>
@@ -51,6 +51,7 @@ You can earn up to 500 bits in each game.
 <tr><td>Beheeyem's Mass Effect</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
 <tr><td>Gallade's Ability Test</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
 <tr><td>Greninja's Typings</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
+<tr><td>Gyarados' Shiny Hunting</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
 <tr><td>Jirachi's Coloring Adventure</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
 <tr><td>Kirlia's Tracing Show</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
 <tr><td>Magcargo's Weak Spot</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
@@ -59,22 +60,27 @@ You can earn up to 500 bits in each game.
 <tr><td>Xatu's Nature Clusters</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
 <tr><td>Bonsly's Category Clutters</td><td>✅</td><td></td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
 <tr><td>Chimecho's Stat School</td><td>✅</td><td></td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
+<tr><td>Deoxys' Differences</td><td>✅</td><td></td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
 <tr><td>Eevee's Evolutionary Lines</td><td>✅</td><td></td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
 <tr><td>Grumpig's Pokemath</td><td>✅</td><td></td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
 <tr><td>Porygon's Movesearch Match</td><td>✅</td><td></td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
 <tr><td>Slowking's Trivia</td><td>✅</td><td></td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
 <tr><td>Sudowoodo's Species Scramble</td><td>✅</td><td></td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
+<tr><td>Paras' Parameters</td><td>✅</td><td></td><td></td><td></td><td>✅</td><td>✅</td><td>✅</td></tr>
+<tr><td>Silvally's Unique Pairs</td><td>✅</td><td></td><td></td><td></td><td>✅</td><td>✅</td><td>✅</td></tr>
 <tr><td>Ambipom's Tossups</td><td>✅</td><td></td><td></td><td></td><td>✅</td><td>✅</td><td></td></tr>
 <tr><td>Hitmonchan's Hangman</td><td>✅</td><td></td><td></td><td></td><td>✅</td><td>✅</td><td></td></tr>
 <tr><td>Hypno's Hunches</td><td>✅</td><td></td><td></td><td></td><td>✅</td><td>✅</td><td></td></tr>
 <tr><td>Mareanie's Marquees</td><td>✅</td><td></td><td></td><td></td><td>✅</td><td>✅</td><td></td></tr>
 <tr><td>Zygarde's Orders</td><td>✅</td><td></td><td></td><td></td><td>✅</td><td>✅</td><td></td></tr>
+<tr><td>Poliwrath's Portmanteaus</td><td>✅</td><td></td><td></td><td></td><td></td><td>✅</td><td>✅</td></tr>
 <tr><td>Wailord's Egg Compatibilities</td><td>✅</td><td></td><td></td><td></td><td></td><td>✅</td><td>✅</td></tr>
 <tr><td>Lanturn's Illuminated Letters</td><td>✅</td><td></td><td></td><td></td><td></td><td>✅</td><td></td></tr>
 <tr><td>Pikachu's Mystery Pokemon</td><td>✅</td><td></td><td></td><td></td><td></td><td>✅</td><td></td></tr>
 <tr><td>Smeargle's Mystery Moves</td><td>✅</td><td></td><td></td><td></td><td></td><td>✅</td><td></td></tr>
 <tr><td>Malamar's Bowls</td><td>✅</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
 <tr><td>Pancham's Pairs</td><td>✅</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>Serperior's Lengthy Chains</td><td>✅</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
 <tr><td>Poipole's Regional Portals</td><td></td><td>✅</td><td></td><td></td><td></td><td></td><td></td></tr>
 </table>
 
@@ -82,7 +88,7 @@ You can earn up to 500 bits in each game.
 
 <table border="2" style="text-align: center" cellpadding="5">
 <tr><td><b>Game</b></td><td><b>Winning</b></td><td><b>Losing</b></td></tr>
-<tr><td>Absol's Dice Disaster</td><td rowspan="21">500 bits</td><td rowspan="27">0 bits</td></tr>
+<tr><td>Absol's Dice Disaster</td><td rowspan="22">500 bits</td><td rowspan="28">0 bits</td></tr>
 <tr><td>Axew's Battle Cards</td></tr>
 <tr><td>Blissey's Egg Cards</td></tr>
 <tr><td>Bounsweet's Bountiful Buffet</td></tr>
@@ -90,6 +96,7 @@ You can earn up to 500 bits in each game.
 <tr><td>Buzzwole's Fizz Buzz</td></tr>
 <tr><td>Chatot's Musical Chairs</td></tr>
 <tr><td>Delcatty's Hide and Seek</td></tr>
+<tr><td>Ditto's Who Am I</td></tr>
 <tr><td>Falinks' Formations</td></tr>
 <tr><td>Feebas' Chain Fishing</td></tr>
 <tr><td>Jellicent's Phantom Finances</td></tr>
@@ -121,6 +128,15 @@ You can earn up to 500 bits in each game.
 <tr><td>Haunter's Haunted House</td><td>1 bit per 6 candies<br><i>200 bits minimum</i></td><td>1 bit per 9 candies</td></tr>
 <tr><td>Persian's Garden</td><td colspan="2">1 bit per 6 coins</td></tr>
 <tr><td>Trevenant's Trick-or-Treat</td><td colspan="2">1 bit per 2 points</td></tr>
+</table>
+
+<h3>Group D</h3>
+
+<table border="2" style="text-align: center" cellpadding="5">
+<tr><td><b>Game</b></td><td><b>Winning</b></td><td><b>Losing</b></td></tr>
+<tr><td>Empoleon's Empires</td><td>500 bits</td><td rowspan="2">50 bits per elimination</td></tr>
+<tr><td>Landorus' War</td></tr>
+<tr><td>Spinda's Excluded Pokemon</td><td>500 bits</td><td>100 bits per point</td></tr>
 </table>
 
 <h3>Dragapult's Danger Zone</h3>
@@ -164,6 +180,12 @@ You can earn up to 500 bits in each game.
 <h3>Tapus' Terrains</h3>
 <h3>Thievul's Sweet Thief</h3>
 <h3>Darkrai's Lair</h3>
+<h3>Dedenne's Ability Blitz</h3>
+<h3>Golem's Galvanic Mine</h3>
+<h3>Ninjask's Corners</h3>
+<h3>Tauros' Safari Zone</h3>
+<h3>Trubbish's Trash</h3>
+<h3>Mismagius' Foul Play</h3>
 
 ???
 

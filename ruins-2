@@ -43,7 +43,7 @@ body {
 <br><br>
 
 <table border="2" style="text-align: center" cellpadding="5">
-<tr><td><b>Games</b></td><td><b>FJ</b></td><td><b>MA</b></td><td><b>TA</b></td><td><b>PMTA</b></td><td><b>Survival</b></td><td><b>Collective</b></td><td><b>Spotlight</b></td></tr>
+<tr><td><b>Game</b></td><td><b>FJ</b></td><td><b>MA</b></td><td><b>TA</b></td><td><b>PMTA</b></td><td><b>Survival</b></td><td><b>Collective</b></td><td><b>Spotlight</b></td></tr>
 <tr><td>Abra's Ability Switch</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
 <tr><td>Beheeyem's Mass Effect</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
 <tr><td>Gallade's Ability Test</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
@@ -63,9 +63,38 @@ body {
 
 <br><br>
 
-<table>
+<table border="2" style="text-align: center" cellpadding="5">
 <tr><td><b>Games</b></td></tr>
 <tr><td>Shedinja's Wonder Trials</td></tr>
+<tr><td>Absol's Dice Disaster</td></tr>
+<tr><td>Bounsweet's Bountiful Buffet</td></tr>
+<tr><td>Delcatty's Hide and Seek</td></tr>
+<tr><td>Game</td></tr>
+<tr><td>Game</td></tr>
+<tr><td>Game</td></tr>
+<tr><td>Game</td></tr>
+<tr><td>Game</td></tr>
+<tr><td>Game</td></tr>
+</table>
+
+<h3>Group C</h3>
+
+<table border="2" style="text-align: center" cellpadding="5">
+<tr><td><b>Winning</b></td><td><b>Losing</b></td></tr>
+<tr><td>250 bits</td><td>0 bits</td></tr>
+</table>
+
+<br><br>
+
+<table border="2" style="text-align: center" cellpadding="5">
+<tr><td><b>Games</b></td></tr>
+<tr><td>Crustle's Crumbling Blocks</td></tr>
+<tr><td>Game</td></tr>
+<tr><td>Game</td></tr>
+<tr><td>Game</td></tr>
+<tr><td>Game</td></tr>
+<tr><td>Game</td></tr>
+<tr><td>Game</td></tr>
 </table>
 
 </center>

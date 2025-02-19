@@ -34,7 +34,7 @@ body {
 <tr><td><b>Time Attack</b></td><td rowspan="2">1 bits per point</td></tr>
 <tr><td><b>PM Time Attack</b></td></tr>
 <tr><td><b>Survival</b></td><td>10 bits per round</td></tr>
-<tr><td><b>Collective Team</b></td><td rowspan="2">250 bits<br>50 extra bits per point<br><i>Cap at 500 bits</i></td><td rowspan="2">10 bits per point</td></tr>
+<tr><td><b>Collective Team</b></td><td rowspan="2">250 bits<br><i>50 extra bits per point</i><br><i>500 bits maximum</i></td><td rowspan="2">10 bits per point</td></tr>
 <tr><td><b>Spotlight Team</b></td></tr>
 </table>
 
@@ -42,9 +42,14 @@ body {
 
 <table border="2" style="text-align: center" cellpadding="5">
 <tr><td></td><td><b>Free-joih</b></td><td><b>Multi-Answer</b></td><td><b>Time Attack</b></td><td><b>PM Time Attack</b></td><td><b>Survival</b></td><td><b>Collective Team</b></td><td><b>Spotlight Team</b></td></tr>
-<tr><td><b>Abra's Ability Switch</b></td><td>✅</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td><b>Game</b></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td><b>Game</b></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td><b>Abra's Ability Switch</b></td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
+<tr><td><b>Beheeyem's Mass Effect</b></td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
+<tr><td><b>Gallade's Ability Test</b></td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
+<tr><td><b>Greninja's Typings</b></td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
+<tr><td><b>Kirlia's Tracing Show</b></td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
+<tr><td><b>Magcargo's Weak Spot</b></td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
+<tr><td><b>Miltank's Moves</b></td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
+<tr><td><b>Porygon's Movesearch Match</b></td><td>✅</td><td></td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
 </table>
 
 </center>

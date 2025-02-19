@@ -365,9 +365,65 @@ You can earn up to 500 bits in each game.
 
 <h3>Map</h3>
 
+<table border="2" style="text-align: center" cellpadding="5">
+<tr><td colspan="3"><b>Game</b></td></tr>
+<tr><td colspan="3">Darkrai's Lair</td></tr>
+<tr><td colspan="3"></td></tr>
+<tr><td><b>Mode</b></td><td><b>Winning</b></td><td><b>Losing</b></td></tr>
+<tr><td colspan="3">???</td></tr>
+</table>
 
+<br>
 
+<table border="2" style="text-align: center" cellpadding="5">
+<tr><td colspan="2"><b>Game</b></td></tr>
+<tr><td colspan="2">Electrode's Minefield</td></tr>
+<tr><td colspan="2"></td></tr>
+<tr><td><b>Winning</b></td><td><b>Losing</b></td></tr>
+<tr><td>1 bit per 4 fragments</td><td>0 bits</td></tr>
+</table>
 
+<br>
+
+<table border="2" style="text-align: center" cellpadding="5">
+<tr><td colspan="2"><b>Game</b></td></tr>
+<tr><td colspan="2">Haunter's Haunted House</td></tr>
+<tr><td colspan="2"></td></tr>
+<tr><td><b>Winning</b></td><td><b>Losing</b></td></tr>
+<tr><td>1 bit per 6 candies<br><i>200 bits minimum</i></td><td>1 bit per 9 candies</td></tr>
+</table>
+
+<br>
+
+<table border="2" style="text-align: center" cellpadding="5">
+<tr><td colspan="2"><b>Game</b></td></tr>
+<tr><td colspan="2">Klinklang's Castle</td></tr>
+<tr><td colspan="2"></td></tr>
+<tr><td><b>Winning</b></td><td><b>Losing</b></td></tr>
+<tr><td>1 bit per 4 gears<br><i>250 bits minimum</i></td><td>0 bits</td></tr>
+</table>
+
+<br>
+
+<table border="2" style="text-align: center" cellpadding="5">
+<tr><td colspan="2"><b>Game</b></td></tr>
+<tr><td colspan="2">Lampent's Labyrinth</td></tr>
+<tr><td colspan="2"></td></tr>
+<tr><td><b>Winning</b></td><td><b>Losing</b></td></tr>
+<tr><td>1 bit per 4 wicks<br><i>250 bits minimum</i></td><td>0 bits</td></tr>
+</table>
+
+<br>
+
+<table border="2" style="text-align: center" cellpadding="5">
+<tr><td colspan="2"><b>Game</b></td></tr>
+<tr><td colspan="2">Persian's Garden</td></tr>
+<tr><td colspan="2"></td></tr>
+<tr><td><b>Winning</b></td><td><b>Losing</b></td></tr>
+<tr><td colspan="2">1 bit per 6 coins</td></tr>
+</table>
+
+<h3>Speed</h3>
 
 <h1>To Be Deleted</h1>
 

@@ -29,6 +29,24 @@ body {
 
 You can earn up to 500 bits in each game.
 
+<h3>Knowledge 1</h3>
+
+<h5>Knowledge 1</h5>
+<h5>Knowledge 1</h5>
+<h5>Knowledge 1</h5>
+
+<table border="2" style="text-align: center" cellpadding="5">
+<tr><td><b>Mode</b></td><td><b>Winning</b></td><td><b>Losing</b></td></tr>
+<tr><td><td>Free-join</td><td rowspan="5">500 bits</td><td>10 bits per point</td></tr>
+<tr><td><td>Multi-Answer</td><td>5 bits per point</td></tr>
+<tr><td><td>Time Attack</td><td rowspan="2">1 bits per point</td></tr>
+<tr><td><td>PM Time Attack</td></tr>
+<tr><td><td>Survival</td><td>10 bits per round</td></tr>
+<tr><td><td>Collective Team</td><td rowspan="2">250 bits<br><i>50 extra bits per point</i></td><td rowspan="2">10 bits per point</td></tr>
+<tr><td><td>Spotlight Team</td></tr>
+</table>
+
+
 <h3>Group A</h3>
 
 <table border="2" style="text-align: center" cellpadding="5">

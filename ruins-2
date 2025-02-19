@@ -69,47 +69,78 @@ You can earn up to 500 bits in each game.
 <br>
 
 <table border="2" style="text-align: center" cellpadding="5">
-<tr><td colspan="3"><b>Game</b></td></tr>
-<tr><td colspan="3">Shedinja's Wonder Trials</td></tr>
-<tr><td colspan="3"></td></tr>
-<tr><td><b>Mode</b></td><td><b>Winning</b></td><td><b>Losing</b></td></tr>
-<tr><td>Free-join</td><td>500 bits</td><td>0 bits</td></tr>
+<tr><td colspan="2"><b>Game</b></td></tr>
+<tr><td colspan="2">Shedinja's Wonder Trials</td></tr>
+<tr><td colspan="2"></td></tr>
+<tr><td><b>Winning</b></td><td><b>Losing</b></td></tr>
+<tr><td>500 bits</td><td>0 bits</td></tr>
 </table>
 
 <h3>Luck</h3>
 
 <table border="2" style="text-align: center" cellpadding="5">
-<tr><td colspan="3"><b>Game</b></td></tr>
-<tr><td colspan="3">Absol's Dice Disaster</td></tr>
-<tr><td colspan="3">Bounsweet's Bountiful Buffet</td></tr>
-<tr><td colspan="3">Delcatty's Hide and Seek</td></tr>
-<tr><td colspan="3">Falinks' Formations</td></tr>
-<tr><td colspan="3">Sableye's Trick House</td></tr>
-<tr><td colspan="3">Skitty's Seek and Hide</td></tr>
-<tr><td colspan="3"></td></tr>
-<tr><td><b>Mode</b></td><td><b>Winning</b></td><td><b>Losing</b></td></tr>
-<tr><td>Signups-based</td><td>500 bits</td><td>0 bits</td></tr>
+<tr><td colspan="2"><b>Game</b></td></tr>
+<tr><td colspan="2">Absol's Dice Disaster</td></tr>
+<tr><td colspan="2">Bounsweet's Bountiful Buffet</td></tr>
+<tr><td colspan="2">Delcatty's Hide and Seek</td></tr>
+<tr><td colspan="2">Falinks' Formations</td></tr>
+<tr><td colspan="2">Ponyta's Pinata Party</td></tr>
+<tr><td colspan="2">Sableye's Trick House</td></tr>
+<tr><td colspan="2">Skitty's Seek and Hide</td></tr>
+<tr><td colspan="2"></td></tr>
+<tr><td><b>Winning</b></td><td><b>Losing</b></td></tr>
+<tr><td>500 bits</td><td>0 bits</td></tr>
+</table>
+
+<br>
+
+<table border="2" style="text-align: center" cellpadding="5">
+<tr><td colspan="2"><b>Game</b></td></tr>
+<tr><td colspan="2">Crustle's Crumbling Blocks</td></tr>
+<tr><td colspan="2">Machop's Matchups</td></tr>
+<tr><td colspan="2"></td></tr>
+<tr><td><b>Winning</b></td><td><b>Losing</b></td></tr>
+<tr><td>250 bits</td><td>0 bits</td></tr>
 </table>
 
 <br>
 
 <table border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="3"><b>Game</b></td></tr>
-<tr><td colspan="3">Ponyta's Pinata Party</td></tr>
+<tr><td colspan="3">Dragapult's Danger Zone</td></tr>
 <tr><td colspan="3"></td></tr>
 <tr><td><b>Mode</b></td><td><b>Winning</b></td><td><b>Losing</b></td></tr>
-<tr><td>Free-join</td><td>500 bits</td><td>0 bits</td></tr>
+<tr><td>Team</td><td>150 bits<br><i>150 extra bits for surviving</i><br><i>50 extra bits per defeat</i></td><td rowspan="2">50 bits per defeat</td></tr>
+<td>Solo</td><td>500 bits</td></tr>
 </table>
 
 <br>
 
 <table border="2" style="text-align: center" cellpadding="5">
-<tr><td colspan="3"><b>Game</b></td></tr>
-<tr><td colspan="3">Crustle's Crumbling Blocks</td></tr>
-<tr><td colspan="3">Machop's Matchups</td></tr>
-<tr><td colspan="3"></td></tr>
-<tr><td><b>Mode</b></td><td><b>Winning</b></td><td><b>Losing</b></td></tr>
-<tr><td>Signups-based</td><td>250 bits</td><td>0 bits</td></tr>
+<tr><td colspan="2"><b>Game</b></td></tr>
+<tr><td colspan="2">Greedent's Berry Piles</td></tr>
+<tr><td colspan="2"></td></tr>
+<tr><td><b>Winning</b></td><td><b>Losing</b></td></tr>
+<tr><td>100 bits per point<br><i>extra bits for perfect forages</i></td><td>0 bits</td></tr>
+<tr><td colspan="2"></td></tr>
+<tr><td><b>Players with perfect forage</b></td><td><b>Extra bits per player</b></td></tr>
+<tr><td>1</td><td>300 bits</td></tr>
+<tr><td>2</td><td>150 bits</td></tr>
+<tr><td>3</td><td>100 bits</td></tr>
+<tr><td>4</td><td>75 bits</td></tr>
+<tr><td>5</td><td>60 bits</td></tr>
+<tr><td>6</td><td>50 bits</td></tr>
+<tr><td><i>x</i></td><td><i>(300/x)</i> bits</td></tr>
+</table>
+
+<br>
+
+<table border="2" style="text-align: center" cellpadding="5">
+<tr><td colspan="2"><b>Game</b></td></tr>
+<tr><td colspan="2">Magikarp's Water Wheel</td></tr>
+<tr><td colspan="2"></td></tr>
+<tr><td><b>Winning</b></td><td><b>Losing</b></td></tr>
+<tr><td>500 bits</td><td>???</td></tr>
 </table>
 
 <h3>Group A</h3>

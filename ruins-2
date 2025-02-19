@@ -198,6 +198,73 @@ You can earn up to 500 bits in each game.
 <tr><td>100 bits per point</td><td>0 bits</td></tr>
 </table>
 
+<h3>Knowledge 2</h3>
+
+<table border="2" style="text-align: center" cellpadding="5">
+<tr><td colspan="3"><b>Game</b></td></tr>
+<tr><td colspan="3">Azelf's Alliteration</td></tr>
+<tr><td colspan="3">Jirachi's Coloring Adventure</td></tr>
+<tr><td colspan="3">Natu's Nature Min-Max</td></tr>
+<tr><td colspan="3">Xatu's Nature Clusters</td></tr>
+<tr><td colspan="3"></td></tr>
+<tr><td><b>Mode</b></td><td><b>Winning</b></td><td><b>Losing</b></td></tr>
+<tr><td>Free-join</td><td rowspan="5">500 bits</td><td>10 bits per point</td></tr>
+<tr><td>Multi-Answer</td><td>5 bits per point</td></tr>
+<tr><td>Time Attack</td><td rowspan="2">1 bits per point</td></tr>
+<tr><td>PM Time Attack</td></tr>
+<tr><td>Survival</td><td>10 bits per round</td></tr>
+<tr><td>Collective Team</td><td rowspan="2">250 bits<br><i>50 extra bits per point</i></td><td rowspan="2">10 bits per point</td></tr>
+<tr><td>Spotlight Team</td></tr>
+</table>
+
+<br>
+
+<table border="2" style="text-align: center" cellpadding="5">
+<tr><td colspan="3"><b>Game</b></td></tr>
+<tr><td colspan="3">Bonsly's Category Clutters</td></tr>
+<tr><td colspan="3">Eevee's Evolutionary Lines</td></tr>
+<tr><td colspan="3">Slowking's Trivia</td></tr>
+<tr><td colspan="3">Sudowoodo's Species Scramble</td></tr>
+<tr><td colspan="3"></td></tr>
+<tr><td><b>Mode</b></td><td><b>Winning</b></td><td><b>Losing</b></td></tr>
+<tr><td>Free-join</td><td rowspan="4">500 bits</td><td>10 bits per point</td></tr>
+<tr><td>Time Attack</td><td rowspan="2">1 bits per point</td></tr>
+<tr><td>PM Time Attack</td></tr>
+<tr><td>Survival</td><td>10 bits per round</td></tr>
+<tr><td>Collective Team</td><td rowspan="2">250 bits<br><i>50 extra bits per point</i></td><td rowspan="2">10 bits per point</td></tr>
+<tr><td>Spotlight Team</td></tr>
+</table>
+
+<br>
+
+<table border="2" style="text-align: center" cellpadding="5">
+<tr><td colspan="2"><b>Game</b></td></tr>
+<tr><td colspan="2">Poipole's Regional Portals</td></tr>
+<tr><td colspan="2"></td></tr>
+<tr><td><b>Winning</b></td><td><b>Losing</b></td></tr>
+<tr><td>500 bits</td><td>5 bits per point</td></tr>
+</table>
+
+<br>
+
+<table border="2" style="text-align: center" cellpadding="5">
+<tr><td colspan="2"><b>Game</b></td></tr>
+<tr><td colspan="2">Trevenant's Trick-or-Treat</td></tr>
+<tr><td colspan="2"></td></tr>
+<tr><td><b>Winning</b></td><td><b>Losing</b></td></tr>
+<tr><td colspan="2">1 bit per 2 points</td></tr>
+</table>
+
+<br>
+
+<table border="2" style="text-align: center" cellpadding="5">
+<tr><td colspan="2"><b>Game</b></td></tr>
+<tr><td colspan="2">Tropius' Berry Picking</td></tr>
+<tr><td colspan="2"></td></tr>
+<tr><td><b>Mode</b></td><td><b>Winning</b></td><td><b>Losing</b></td></tr>
+<tr><td colspan="3">???</td></tr>
+</table>
+
 <h1>To Be Deleted</h1>
 
 <table border="2" style="text-align: center" cellpadding="5">

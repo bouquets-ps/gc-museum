@@ -60,6 +60,15 @@ You can earn up to 500 bits in each game.
 <tr><td>Mareanie's Marquees</td><td>✅</td><td></td><td></td><td></td><td>✅</td><td>✅</td><td></td></tr>
 <tr><td>Zygarde's Orders</td><td>✅</td><td></td><td></td><td></td><td>✅</td><td>✅</td><td></td></tr>
 <tr><td>Lanturn's Illuminated Letters</td><td>✅</td><td></td><td></td><td></td><td></td><td>✅</td><td></td></tr>
+<tr><td>Azelf's Alliteration</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
+<tr><td>Jirachi's Coloring Adventure</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
+<tr><td>Natu's Nature Min-Max</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
+<tr><td>Xatu's Nature Clusters</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
+<tr><td>Bonsly's Category Clutters</td><td>✅</td><td></td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
+<tr><td>Eevee's Evolutionary Lines</td><td>✅</td><td></td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
+<tr><td>Slowking's Trivia</td><td>✅</td><td></td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
+<tr><td>Sudowoodo's Species Scramble</td><td>✅</td><td></td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
+<tr><td>Poipole's Regional Portals</td><td></td><td>✅</td><td></td><td></td><td></td><td></td><td></td></tr>
 </table>
 
 <h3>Group 500-0</h3>
@@ -81,8 +90,15 @@ You can earn up to 500 bits in each game.
 <tr><td>Ponyta's Pinata Party</td></tr>
 <tr><td>Sableye's Trick House</td></tr>
 <tr><td>Skitty's Seek and Hide</td></tr>
+<tr><td>Axew's Battle Cards</td></tr>
+<tr><td>Blissey's Egg Cards</td></tr>
+<tr><td>Bulbasaur's Uno</td></tr>
+<tr><td>Jellicent's Phantom Finances</td></tr>
+<tr><td>Klefki's Locked Locations</td></tr>
+<tr><td>Shuckle's Defense Cards</td></tr>
+<tr><td>Stakataka's Card Tower</td></tr>
 <tr><td>Game</td></tr>
-<tr><td>Game</td></tr>
+
 </table>
 
 <h3>Group 250-0</h3>
@@ -103,6 +119,31 @@ You can earn up to 500 bits in each game.
 <tr><td>Game</td></tr>
 <tr><td>Game</td></tr>
 <tr><td>Game</td></tr>
+</table>
+
+<h3>Group 100</h3>
+
+<table border="2" style="text-align: center" cellpadding="5">
+<tr><td><b>Winning</b></td><td><b>Losing</b></td></tr>
+<tr><td>100 bits per point</td><td>0 bits</td></tr>
+</table>
+
+<br><br>
+
+<table border="2" style="text-align: center" cellpadding="5">
+<tr><td><b>Game</b></td></tr>
+<tr><td>Cacturne's Pokemon Cards</td></tr>
+<tr><td>Cradily's Closeup Cards</td></tr>
+<tr><td>Mew's Move Cards</td></tr>
+<tr><td>Game</td></tr>
+<tr><td>Game</td></tr>
+</table>
+
+<h3>Group Points</h3>
+
+<table border="2" style="text-align: center" cellpadding="5">
+<tr><td><b>Game</b></td><td><b>Winning</b></td><td><b>Losing</b></td></tr>
+<tr><td>Trevenant's Trick-or-Treat</td><td colspan="2">1 bit per 2 points</td></tr>
 </table>
 
 <h3>Dragapult's Danger Zone</h3>
@@ -139,6 +180,10 @@ You can earn up to 500 bits in each game.
 <tr><td><b>Winning</b></td><td><b>Losing</b></td></tr>
 <tr><td>500 bits</td><td>???</td></tr>
 </table>
+
+<h3>Tropius' Berry Picking</h3>
+
+???
 
 </center>
 </body>

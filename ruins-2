@@ -425,6 +425,130 @@ You can earn up to 500 bits in each game.
 
 <h3>Speed</h3>
 
+<table border="2" style="text-align: center" cellpadding="5">
+<tr><td colspan="3"><b>Game</b></td></tr>
+<tr><td colspan="3">Gyarados' Shiny Hunting</td></tr>
+<tr><td colspan="3"></td></tr>
+<tr><td><b>Mode</b></td><td><b>Winning</b></td><td><b>Losing</b></td></tr>
+<tr><td>Free-join</td><td rowspan="5">500 bits</td><td>10 bits per point</td></tr>
+<tr><td>Multi-Answer</td><td>5 bits per point</td></tr>
+<tr><td>Time Attack</td><td rowspan="2">1 bits per point</td></tr>
+<tr><td>PM Time Attack</td></tr>
+<tr><td>Survival</td><td>10 bits per round</td></tr>
+<tr><td>Collective Team</td><td rowspan="2">250 bits<br><i>50 extra bits per point</i></td><td rowspan="2">10 bits per point</td></tr>
+<tr><td>Spotlight Team</td></tr>
+</table>
+
+<br>
+
+<table border="2" style="text-align: center" cellpadding="5">
+<tr><td colspan="3"><b>Game</b></td></tr>
+<tr><td colspan="3">Deoxys' Differences</td></tr>
+<tr><td colspan="3"></td></tr>
+<tr><td><b>Mode</b></td><td><b>Winning</b></td><td><b>Losing</b></td></tr>
+<tr><td>Free-join</td><td rowspan="4">500 bits</td><td>10 bits per point</td></tr>
+<tr><td>Time Attack</td><td rowspan="2">1 bits per point</td></tr>
+<tr><td>PM Time Attack</td></tr>
+<tr><td>Survival</td><td>10 bits per round</td></tr>
+<tr><td>Collective Team</td><td rowspan="2">250 bits<br><i>50 extra bits per point</i></td><td rowspan="2">10 bits per point</td></tr>
+<tr><td>Spotlight Team</td></tr>
+</table>
+
+<br>
+
+<table border="2" style="text-align: center" cellpadding="5">
+<tr><td colspan="3"><b>Game</b></td></tr>
+<tr><td colspan="3">Dedenne's Ability Blitz</td></tr>
+<tr><td colspan="3">Golem's Galvanic Mine</td></tr>
+<tr><td colspan="3">Ninjask's Corners</td></tr>
+<tr><td colspan="3">Tauros' Safari Zone</td></tr>
+<tr><td colspan="3">Trubbish's Trash</td></tr>
+<tr><td colspan="3"></td></tr>
+<tr><td><b>Mode</b></td><td><b>Winning</b></td><td><b>Losing</b></td></tr>
+<tr><td colspan="3">???</td></tr>
+</table>
+
+<h3>Puzzle</h3>
+
+<table border="2" style="text-align: center" cellpadding="5">
+<tr><td colspan="2"><b>Game</b></td></tr>
+<tr><td colspan="2">Empoleon's Empires</td></tr>
+<tr><td colspan="2">Landorus' War</td></tr>
+<tr><td colspan="2"></td></tr>
+<tr><td><b>Winning</b></td><td><b>Losing</b></td></tr>
+<tr><td>500 bits</td><td>50 bits per elimination</td></tr>
+</table>
+
+<br>
+
+<table border="2" style="text-align: center" cellpadding="5">
+<tr><td colspan="3"><b>Game</b></td></tr>
+<tr><td colspan="3">Paras' Parameters</td></tr>
+<tr><td colspan="3">Silvally's Unique Pairs</td></tr>
+<tr><td colspan="3"></td></tr>
+<tr><td><b>Mode</b></td><td><b>Winning</b></td><td><b>Losing</b></td></tr>
+<tr><td>Free-join</td><td>50 bits per point</td><td>10 bits per point</td></tr>
+<tr><td>Survival</td><td>500 bits</td><td>10 bits per round</td></tr>
+<tr><td>Collective Team</td><td rowspan="2">250 bits<br><i>50 extra bits per point</i></td><td rowspan="2">10 bits per point</td></tr>
+<tr><td>Spotlight Team</td></tr>
+</table>
+
+<br>
+
+<table border="2" style="text-align: center" cellpadding="5">
+<tr><td colspan="2"><b>Game</b></td></tr>
+<tr><td colspan="2">Ditto's Who Am I</td></tr>
+<tr><td colspan="2"></td></tr>
+<tr><td><b>Winning</b></td><td><b>Losing</b></td></tr>
+<tr><td>500 bits</td><td>0 bits</td></tr>
+</table>
+
+<br>
+
+<table border="2" style="text-align: center" cellpadding="5">
+<tr><td colspan="3"><b>Game</b></td></tr>
+<tr><td colspan="3">Poliwrath's Portmanteaus</td></tr>
+<tr><td colspan="3"></td></tr>
+<tr><td><b>Mode</b></td><td><b>Winning</b></td><td><b>Losing</b></td></tr>
+<tr><td>Free-join</td><td>50 bits per point</td><td>10 bits per point</td></tr>
+<tr><td>Collective Team</td><td rowspan="2">250 bits<br><i>50 extra bits per point</i></td><td rowspan="2">10 bits per point</td></tr>
+<tr><td>Spotlight Team</td></tr>
+</table>
+
+<br>
+
+<table border="2" style="text-align: center" cellpadding="5">
+<tr><td colspan="2"><b>Game</b></td></tr>
+<tr><td colspan="2">Serperior's Lengthy Chains</td></tr>
+<tr><td colspan="2"></td></tr>
+<tr><td><b>Winning</b></td><td><b>Losing</b></td></tr>
+<tr><td>500 bits</td><td>10 bits per point</td></tr>
+</table>
+
+<br>
+
+<table border="2" style="text-align: center" cellpadding="5">
+<tr><td colspan="2"><b>Game</b></td></tr>
+<tr><td colspan="2">Spinda's Excluded Pokemon</td></tr>
+<tr><td colspan="2"></td></tr>
+<tr><td><b>Winning</b></td><td><b>Losing</b></td></tr>
+<tr><td>500 bits</td><td>100 bits per point</td></tr>
+</table>
+
+<br>
+
+<table border="2" style="text-align: center" cellpadding="5">
+<tr><td colspan="3"><b>Game</b></td></tr>
+<tr><td colspan="3">Mismagius' Foul Play</td></tr>
+<tr><td colspan="3"></td></tr>
+<tr><td><b>Mode</b></td><td><b>Winning</b></td><td><b>Losing</b></td></tr>
+<tr><td colspan="3">???</td></tr>
+</table>
+
+<h3>Identification 1</h3>
+
+<h3>Chain</h3>
+
 <h1>To Be Deleted</h1>
 
 <table border="2" style="text-align: center" cellpadding="5">

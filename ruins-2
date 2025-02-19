@@ -143,7 +143,34 @@ You can earn up to 500 bits in each game.
 <tr><td>500 bits</td><td>???</td></tr>
 </table>
 
-<h3>Group A</h3>
+<h3>Identification 2</h3>
+
+<table border="2" style="text-align: center" cellpadding="5">
+<tr><td colspan="3"><b>Game</b></td></tr>
+<tr><td colspan="3">Ambipom's Tossups</td></tr>
+<tr><td colspan="3">Hitmonchan's Hangman</td></tr>
+<tr><td colspan="3">Hypno's Hunches</td></tr>
+<tr><td colspan="3">Mareanie's Marquees</td></tr>
+<tr><td colspan="3">Zygarde's Orders</td></tr>
+<tr><td colspan="3"></td></tr>
+<tr><td><b>Mode</b></td><td><b>Winning</b></td><td><b>Losing</b></td></tr>
+<tr><td>Free-join</td><td rowspan="2">500 bits</td><td>10 bits per point</td></tr>
+<tr><td>Survival</td><td>10 bits per round</td></tr>
+<tr><td>Collective Team</td><td>250 bits<br><i>50 extra bits per point</i></td><td>10 bits per point</td></tr>
+</table>
+
+<br>
+
+<table border="2" style="text-align: center" cellpadding="5">
+<tr><td colspan="3"><b>Game</b></td></tr>
+<tr><td colspan="3">Lanturn's Illuminated Letters</td></tr>
+<tr><td colspan="3"></td></tr>
+<tr><td><b>Mode</b></td><td><b>Winning</b></td><td><b>Losing</b></td></tr>
+<tr><td>Free-join</td><td>500 bits</td><td rowspan="2">10 bits per point</td></tr>
+<tr><td>Collective Team</td><td>250 bits<br><i>50 extra bits per point</i></td></tr>
+</table>
+
+<h1>To Be Deleted</h1>
 
 <table border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="2"><b>Mode</b></td><td><b>Winning</b></td><td><b>Losing</b></td></tr>

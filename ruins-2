@@ -78,18 +78,11 @@ You can earn up to 500 bits in each game.
 <tr><td>Poipole's Regional Portals</td><td></td><td>✅</td><td></td><td></td><td></td><td></td><td></td></tr>
 </table>
 
-<h3>Group 500-0</h3>
+<h3>Group B</h3>
 
 <table border="2" style="text-align: center" cellpadding="5">
-<tr><td><b>Winning</b></td><td><b>Losing</b></td></tr>
-<tr><td>500 bits</td><td>0 bits</td></tr>
-</table>
-
-<br><br>
-
-<table border="2" style="text-align: center" cellpadding="5">
-<tr><td><b>Game</b></td></tr>
-<tr><td>Shedinja's Wonder Trials</td></tr>
+<tr><td><b>Game</b></td><td><b>Winning</b></td><td><b>Losing</b></td></tr>
+<tr><td>Shedinja's Wonder Trials</td><td rowspan="16">500 bits</td><td rowspan="21">0 bits</td></tr>
 <tr><td>Absol's Dice Disaster</td></tr>
 <tr><td>Bounsweet's Bountiful Buffet</td></tr>
 <tr><td>Delcatty's Hide and Seek</td></tr>
@@ -105,54 +98,15 @@ You can earn up to 500 bits in each game.
 <tr><td>Shuckle's Defense Cards</td></tr>
 <tr><td>Stakataka's Card Tower</td></tr>
 <tr><td>Buzzwole's Fizz Buzz</td></tr>
-<tr><td>Game</td></tr>
-<tr><td>Game</td></tr>
-<tr><td>Game</td></tr>
-
-</table>
-
-<h3>Group 250-0</h3>
-
-<table border="2" style="text-align: center" cellpadding="5">
-<tr><td><b>Winning</b></td><td><b>Losing</b></td></tr>
-<tr><td>250 bits</td><td>0 bits</td></tr>
-</table>
-
-<br><br>
-
-<table border="2" style="text-align: center" cellpadding="5">
-<tr><td><b>Game</b></td></tr>
-<tr><td>Crustle's Crumbling Blocks</td></tr>
+<tr><td>Crustle's Crumbling Blocks</td><td rowspan="2">250 bits</td></tr>
 <tr><td>Machop's Matchups</td></tr>
-<tr><td>Game</td></tr>
-<tr><td>Game</td></tr>
-<tr><td>Game</td></tr>
-<tr><td>Game</td></tr>
-<tr><td>Game</td></tr>
-</table>
-
-<h3>Group 100</h3>
-
-<table border="2" style="text-align: center" cellpadding="5">
-<tr><td><b>Winning</b></td><td><b>Losing</b></td></tr>
-<tr><td>100 bits per point</td><td>0 bits</td></tr>
-</table>
-
-<br><br>
-
-<table border="2" style="text-align: center" cellpadding="5">
-<tr><td><b>Game</b></td></tr>
-<tr><td>Cacturne's Pokemon Cards</td></tr>
+<tr><td>Cacturne's Pokemon Cards</td><td rowspan="3">100 bits per point</td></tr>
 <tr><td>Cradily's Closeup Cards</td></tr>
 <tr><td>Mew's Move Cards</td></tr>
-<tr><td>Game</td></tr>
-<tr><td>Game</td></tr>
 </table>
 
-<h3>Group Points</h3>
+<h3>Group C</h3>
 
-<table border="2" style="text-align: center" cellpadding="5">
-<tr><td><b>Game</b></td><td><b>Winning</b></td><td><b>Losing</b></td></tr>
 <tr><td>Trevenant's Trick-or-Treat</td><td colspan="2">1 bit per 2 points</td></tr>
 </table>
 

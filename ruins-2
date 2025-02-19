@@ -96,7 +96,7 @@ You can earn up to 500 bits in each game.
 
 <table border="2" style="text-align: center" cellpadding="5">
 <tr><td><b>Game</b></td><td><b>Winning</b></td><td><b>Losing</b></td></tr>
-<tr><td>Absol's Dice Disaster</td><td rowspan="23">500 bits</td><td rowspan="29">0 bits</td></tr>
+<tr><td>Absol's Dice Disaster</td><td rowspan="22">500 bits</td><td rowspan="29">0 bits</td></tr>
 <tr><td>Axew's Battle Cards</td></tr>
 <tr><td>Blissey's Egg Cards</td></tr>
 <tr><td>Bounsweet's Bountiful Buffet</td></tr>
@@ -111,7 +111,6 @@ You can earn up to 500 bits in each game.
 <tr><td>Jellicent's Phantom Finances</td></tr>
 <tr><td>Jigglypuff's Dodgeball</td></tr>
 <tr><td>Klefki's Locked Locations</td></tr>
-<tr><td>Octillery's Ambush</td></tr>
 <tr><td>Ponyta's Pinata Party</td></tr>
 <tr><td>Sableye's Trick House</td></tr>
 <tr><td>Shedinja's Wonder Trials</td></tr>
@@ -119,9 +118,10 @@ You can earn up to 500 bits in each game.
 <tr><td>Skitty's Seek and Hide</td></tr>
 <tr><td>Stakataka's Card Tower</td></tr>
 <tr><td>Wishiwashi's Stat Fishing</td></tr>
-<tr><td>Chansey's Egg Toss</td><td rowspan="3">250 bits</td></tr>
+<tr><td>Chansey's Egg Toss</td><td rowspan="4">250 bits</td></tr>
 <tr><td>Crustle's Crumbling Blocks</td></tr>
 <tr><td>Machop's Matchups</td></tr>
+<tr><td>Octillery's Ambush</td></tr>
 <tr><td>Cacturne's Pokemon Cards</td><td rowspan="3">100 bits per point</td></tr>
 <tr><td>Cradily's Closeup Cards</td></tr>
 <tr><td>Mew's Move Cards</td></tr>
@@ -158,7 +158,7 @@ You can earn up to 500 bits in each game.
 
 <br><br>
 
-<table>
+<table border="2" style="text-align: center" cellpadding="5">
 <tr><td><b>Game</b></td></tr>
 <tr><td>Politoed's Portmanteau Chain</td></tr>
 <tr><td>Unown's Pokemon Chain</td></tr>

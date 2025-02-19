@@ -54,7 +54,7 @@ body {
 <tr><td>Porygon's Movesearch Match</td><td>✅</td><td></td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
 </table>
 
-<h3>Group B</h3>
+<h3>Group 500-0</h3>
 
 <table border="2" style="text-align: center" cellpadding="5">
 <tr><td><b>Winning</b></td><td><b>Losing</b></td></tr>
@@ -77,7 +77,7 @@ body {
 <tr><td>Game</td></tr>
 </table>
 
-<h3>Group C</h3>
+<h3>Group 250-0</h3>
 
 <table border="2" style="text-align: center" cellpadding="5">
 <tr><td><b>Winning</b></td><td><b>Losing</b></td></tr>
@@ -87,7 +87,7 @@ body {
 <br><br>
 
 <table border="2" style="text-align: center" cellpadding="5">
-<tr><td><b>Games</b></td></tr>
+<tr><td><b>Game</b></td></tr>
 <tr><td>Crustle's Crumbling Blocks</td></tr>
 <tr><td>Game</td></tr>
 <tr><td>Game</td></tr>
@@ -95,6 +95,13 @@ body {
 <tr><td>Game</td></tr>
 <tr><td>Game</td></tr>
 <tr><td>Game</td></tr>
+</table>
+
+<h3>Dragapult's Danger Zone</h3>
+
+<table border="2" style="text-align: center" cellpadding="5">
+<tr><td><b>Winning</b></td><td><b>Losing</b></td></tr>
+<tr><td>150 bits<br><i>150 extra bits for surviving</i><br><i>50 extra bits per defeat</i><br><i>500 bits maximum</i></td><td>0 bits<br><i>50 extra bits per defeat</i><br><i>500 bits maximum</i></td></tr>
 </table>
 
 </center>

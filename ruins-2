@@ -69,7 +69,7 @@ body {
 <tr><td>Absol's Dice Disaster</td></tr>
 <tr><td>Bounsweet's Bountiful Buffet</td></tr>
 <tr><td>Delcatty's Hide and Seek</td></tr>
-<tr><td>Game</td></tr>
+<tr><td>Falinks' Formations</td></tr>
 <tr><td>Game</td></tr>
 <tr><td>Game</td></tr>
 <tr><td>Game</td></tr>
@@ -101,8 +101,26 @@ body {
 
 <table border="2" style="text-align: center" cellpadding="5">
 <tr><td><b>Mode</b></td><td><b>Winning</b></td><td><b>Losing</b></td></tr>
-<tr><td>Team</td><td>150 bits<br><i>150 extra bits for surviving</i><br><i>50 extra bits per defeat</i><br><i>500 bits maximum</i></td><td>0 bits<br><i>50 extra bits per defeat</i><br><i>500 bits maximum</i></td></tr>
-<td>Solo</td><td>500 bits</td><td>0 bits<br><i>50 extra bits per defeat</i><br><i>500 bits maximum</i></td></tr>
+<tr><td>Team</td><td>150 bits<br><i>150 extra bits for surviving</i><br><i>50 extra bits per defeat</i><br><i>500 bits maximum</i></td><td rowspan="2">0 bits<br><i>50 extra bits per defeat</i><br><i>500 bits maximum</i></td></tr>
+<td>Solo</td><td>500 bits</td></tr>
+</table>
+
+<h3>Greedent's Berry Piles</h3>
+
+<table border="2" style="text-align: center" cellpadding="5">
+<tr><td><b>Winning</b></td><td><b>Losing</b></td></tr>
+<tr><td>100 bits per point<br><i>extra bits for perfect forages</i><br><i>500 bits maximum</i></td><td></td></tr>
+</table>
+
+<table border="2" style="text-align: center" cellpadding="5">
+<tr><td><b>Players with perfect forage</b></td><td><b>Extra bits per player</b></td></tr>
+<tr><td>1</td><td>300 bits</td></tr>
+<tr><td>2</td><td>150 bits</td></tr>
+<tr><td>3</td><td>100 bits</td></tr>
+<tr><td>4</td><td>75 bits</td></tr>
+<tr><td>5</td><td>60 bits</td></tr>
+<tr><td>6</td><td>50 bits</td></tr>
+<tr><td><i>x</i></td><td><i>300/x</i> bits</td></tr>
 </table>
 
 </center>

@@ -82,22 +82,22 @@ You can earn up to 500 bits in each game.
 
 <table border="2" style="text-align: center" cellpadding="5">
 <tr><td><b>Game</b></td><td><b>Winning</b></td><td><b>Losing</b></td></tr>
-<tr><td>Shedinja's Wonder Trials</td><td rowspan="16">500 bits</td><td rowspan="21">0 bits</td></tr>
-<tr><td>Absol's Dice Disaster</td></tr>
-<tr><td>Bounsweet's Bountiful Buffet</td></tr>
-<tr><td>Delcatty's Hide and Seek</td></tr>
-<tr><td>Falinks' Formations</td></tr>
-<tr><td>Ponyta's Pinata Party</td></tr>
-<tr><td>Sableye's Trick House</td></tr>
-<tr><td>Skitty's Seek and Hide</td></tr>
+<tr><td>Absol's Dice Disaster</td><td rowspan="16">500 bits</td><td rowspan="21">0 bits</td></tr>
 <tr><td>Axew's Battle Cards</td></tr>
 <tr><td>Blissey's Egg Cards</td></tr>
+<tr><td>Bounsweet's Bountiful Buffet</td></tr>
 <tr><td>Bulbasaur's Uno</td></tr>
+<tr><td>Buzzwole's Fizz Buzz</td></tr>
+<tr><td>Delcatty's Hide and Seek</td></tr>
+<tr><td>Falinks' Formations</td></tr>
 <tr><td>Jellicent's Phantom Finances</td></tr>
 <tr><td>Klefki's Locked Locations</td></tr>
+<tr><td>Ponyta's Pinata Party</td></tr>
+<tr><td>Sableye's Trick House</td></tr>
+<tr><td>Shedinja's Wonder Trials</td></tr>
 <tr><td>Shuckle's Defense Cards</td></tr>
+<tr><td>Skitty's Seek and Hide</td></tr>
 <tr><td>Stakataka's Card Tower</td></tr>
-<tr><td>Buzzwole's Fizz Buzz</td></tr>
 <tr><td>Crustle's Crumbling Blocks</td><td rowspan="2">250 bits</td></tr>
 <tr><td>Machop's Matchups</td></tr>
 <tr><td>Cacturne's Pokemon Cards</td><td rowspan="3">100 bits per point</td></tr>

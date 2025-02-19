@@ -115,6 +115,11 @@ You can earn up to 500 bits in each game.
 
 <table border="2" style="text-align: center" cellpadding="5">
 <tr><td><b>Game</b></td><td><b>Winning</b></td><td><b>Losing</b></td></tr>
+<tr><td>Electrode's Minefield</td><td>1 bit per 4 fragments</td><td rowspan="3">0 bits</td></tr>
+<tr><td>Klinklang's Castle</td><td>1 bit per 4 gears</td></tr>
+<tr><td>Lampent's Labyrinth</td><td>1 bit per 4 wicks</td></tr>
+<tr><td>Haunter's Haunted House</td><td>1 bit per 6 candies<br><i>200 bits minimum</i></td><td>1 bit per 9 candies</td></tr>
+<tr><td>Persian's Garden</td><td colspan="2">1 bit per 6 coins</td></tr>
 <tr><td>Trevenant's Trick-or-Treat</td><td colspan="2">1 bit per 2 points</td></tr>
 </table>
 
@@ -158,6 +163,7 @@ You can earn up to 500 bits in each game.
 <h3>Chandelure's Candles</h3>
 <h3>Tapus' Terrains</h3>
 <h3>Thievul's Sweet Thief</h3>
+<h3>Darkrai's Lair</h3>
 
 ???
 

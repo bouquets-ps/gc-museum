@@ -11,6 +11,11 @@ body {
   font-family: "Quicksand", sans-serif;
   padding: 30px;
 }
+div {
+  border: 1px solid #68a;
+  border-radius: 5px;
+  padding: 1px;
+}
 </style>
 </head>
 <body style="background-color: black; color: white">
@@ -21,6 +26,9 @@ body {
 <hr><br>
 <center>
 
+<table border="2" style="text-align: center" cellpadding="5">
+<tr><td><b>Pokemon</b></td><td><b>Matches</b></td></tr>
+<tr><td>
 <div class="infobox" style="width: 260px">
 <div class="infobox" style="width: 250px"><b>Bulbasaur</b></div><img src="//play.pokemonshowdown.com/sprites/gen1/bulbasaur.png">
 <div class="infobox" style="width: 250px">
@@ -31,7 +39,16 @@ body {
 <div style="display: inline-block ; background: linear-gradient(#70db70,#2eb82e) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Green</b></div>
 </div>
 </div></div>
+</td>
+<td>
+</td>
+</tr></table>
 
+<button type="button" class="collapsible">#001 Bulbasaur - 40 matches</button>
+<div class="content">
+  <p>Arbok, Beedrill, Bellsprout, Caterpie, Ekans, Exeggcute, Exeggutor, Gastly, Gengar, Gloom, Golbat, Grimer, Haunter, Ivysaur, Kakuna, Koffing, Metapod, Muk, Nidoking, Nidoqueen, Nidoran-F, Nidoran-M, Nidorina, Nidorino, Oddish, Paras, Parasect, Scyther, Tangela, Tentacool, Tentacruel, Venomoth, Venonat, Venusaur, Victreebel, Vileplume, Weedle, Weepinbell, Weezing, Zubat
+</p>
+</div>
 
 
 

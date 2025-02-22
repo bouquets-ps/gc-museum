@@ -15,12 +15,22 @@ body {
 </head>
 <body style="background-color: black; color: white">
 <center>
-<h1><table><tr><td>PS! Game Corner Scripted Game Bits</td></tr></table></h1>
+<h1><table><tr><td>PS! Game Corner Bulbasaur's Kanto Cards</td></tr></table></h1>
 </center>
+
 <hr><br>
 <center>
 
-<span style="background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v18) no-repeat scroll -440px -240px; vertical-align: -7px ; margin: -2px" class="picon"></span>
+<div class="infobox" style="width: 260px">
+<div class="infobox" style="width: 250px"><b>Bulbasaur</b></div><img src="//play.pokemonshowdown.com/sprites/gen1/bulbasaur.png">
+<div class="infobox" style="width: 250px">
+<div style="display: inline-block ; background: linear-gradient(#70db70,#2eb82e) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Grass</b></div>
+&nbsp;/&nbsp;
+<div style="display: inline-block ; background: linear-gradient(#a670db,#732eb8) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Poison</b></div>
+<br>
+<div style="display: inline-block ; background: linear-gradient(#70db70,#2eb82e) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Green</b></div>
+</div>
+</div></div>
 
 
 

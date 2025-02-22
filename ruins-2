@@ -26,8 +26,7 @@ div {
 <hr><br>
 <center>
 
-<table border="2" style="text-align: center" cellpadding="5">
-<tr><td><b>Pokemon</b></td><td><b>Matches</b></td></tr>
+<table style="text-align: center" cellpadding="5">
 <tr><td>
 <div class="infobox" style="width: 260px">
 <div class="infobox" style="width: 250px"><b>Bulbasaur</b></div><img src="//play.pokemonshowdown.com/sprites/gen1/bulbasaur.png">
@@ -42,7 +41,7 @@ div {
 </td>
 <td>
 <details>
-<summary>40</summary>
+<summary>40 matches</summary>
 <p>Arbok, Beedrill, Bellsprout, Caterpie, Ekans, Exeggcute, Exeggutor, Gastly, Gengar, Gloom, Golbat, Grimer, Haunter, Ivysaur, Kakuna, Koffing, Metapod, Muk, Nidoking, Nidoqueen, Nidoran-F, Nidoran-M, Nidorina, Nidorino, Oddish, Paras, Parasect, Scyther, Tangela, Tentacool, Tentacruel, Venomoth, Venonat, Venusaur, Victreebel, Vileplume, Weedle, Weepinbell, Weezing, Zubat</p>
 </details>
 </td>

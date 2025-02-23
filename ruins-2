@@ -23,8 +23,8 @@ div {
 <hr><br>
 <center>
 
-<table>
-<tr><td height="200px">
+<table style="text-align: center" cellpadding="5">
+<tr><td height="270px">
 <div class="infobox" style="width: 260px">
 <div class="infobox" style="width: 250px"><b>Bulbasaur</b></div><img src="//play.pokemonshowdown.com/sprites/gen1/bulbasaur.png">
 <div class="infobox" style="width: 250px">
@@ -35,7 +35,7 @@ div {
 <div style="display: inline-block ; background: linear-gradient(#70db70,#2eb82e) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Green</b></div>
 </div>
 </div></div>
-</td><td>40 matches</td><td>Arbok, Beedrill, Bellsprout, Caterpie, Ekans, Exeggcute, Exeggutor, Gastly, Gengar, Gloom, Golbat, Grimer, Haunter, Ivysaur, Kakuna, Koffing, Metapod, Muk, Nidoking, Nidoqueen, Nidoran-F, Nidoran-M, Nidorina, Nidorino, Oddish, Paras, Parasect, Scyther, Tangela, Tentacool, Tentacruel, Venomoth, Venonat, Venusaur, Victreebel, Vileplume, Weedle, Weepinbell, Weezing, Zubat</td></tr></table>
+</td><td>40 matches</td><td>Arbok, Beedrill, Bellsprout, Caterpie, Ekans, Exeggcute, Exeggutor, Gastly, Gengar, Gloom, Golbat, Grimer, Haunter, Ivysaur, Kakuna, Koffing, Metapod, Muk, Nidoking, Nidoqueen, Nidoran-F, Nidoran-M, Nidorina, Nidorino, Oddish, Paras, Parasect, Scyther, Tangela, Tentacool, Tentacruel, Venomoth, Venonat, Venusaur, Victreebel, Vileplume, Weedle, Weepinbell, Weezing, Zubat, Arbok, Beedrill, Bellsprout, Caterpie, Ekans, Exeggcute, Exeggutor, Gastly, Gengar, Gloom, Golbat, Grimer, Haunter, Ivysaur, Kakuna, Koffing, Metapod, Muk, Nidoking, Nidoqueen, Nidoran-F, Nidoran-M, Nidorina, Nidorino, Oddish, Paras, Parasect, Scyther, Tangela, Tentacool, Tentacruel, Venomoth, Venonat, Venusaur, Victreebel, Vileplume, Weedle, Weepinbell, Weezing, Zubat, </td></tr></table>
 
 
 <div class="infobox" style="width: 260px">

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>PS! Game Corner Bulbasaur's Kanto Cards</title>
+<title>PS! Game Corner Bulbasaur's Cards - Kanto</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
 <style>
 body {
@@ -18,7 +18,12 @@ div {
 </head>
 <body style="background-color: black; color: white">
 <center>
-<h1><table><tr><td>PS! Game Corner Bulbasaur's Kanto Cards</td></tr></table></h1>
+<h1><table><tr><td>PS! Game Corner Bulbasaur's Cards</td></tr></table></h1>
+<h3><span style="letter-spacing:5px;"><table><tr>
+<td>KANTO</td>
+<td style="width: 50px"></td><td><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-uno/blob/main/johto">JOHTO</a></td>
+</tr></table></span></h3>
+</center>
 </center>
 
 <hr><br>
@@ -79,6 +84,102 @@ Arbok, Beedrill, Bellsprout, Bulbasaur, Caterpie, Ekans, Exeggcute, Exeggutor, G
 <br><br>
 
 <div class="infobox" style="width: 520px">
+<h4>#0007</h4>
+<div class="infobox" style="width: 260px">
+<div class="infobox" style="width: 250px"><b>Squirtle</b></div><img src="//play.pokemonshowdown.com/sprites/gen1/squirtle.png">
+<div class="infobox" style="width: 250px">
+<div style="display: inline-block ; background: linear-gradient(#70a6db,#2e73b8) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Water</b></div>
+<br>
+<div style="display: inline-block ; background: linear-gradient(#70a6db,#2e73b8) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Blue</b></div>
+</div></div>
+<h4>40 matches</h4>
+<div class="infobox" style="max-height: 100px; width: 510px"><i>
+Articuno, Blastoise, Cloyster, Dewgong, Dragonair, Dratini, Gloom, Goldeen, Golduck, Gyarados, Horsea, Kabuto, Kabutops, Kingler, Krabby, Lapras, Magikarp, Nidoqueen, Nidoran-F, Nidorina, Oddish, Omanyte, Omastar, Poliwag, Poliwhirl, Poliwrath, Psyduck, Seadra, Seaking, Seel, Shellder, Slowbro, Slowpoke, Starmie, Staryu, Tangela, Tentacool, Tentacruel, Vaporeon, Wartortle
+</i></div></div></div>
+
+<br><br>
+
+<div class="infobox" style="width: 520px">
+<h4>#0008</h4>
+<div class="infobox" style="width: 260px">
+<div class="infobox" style="width: 250px"><b>Wartortle</b></div><img src="//play.pokemonshowdown.com/sprites/gen1/wartortle.png">
+<div class="infobox" style="width: 250px">
+<div style="display: inline-block ; background: linear-gradient(#70a6db,#2e73b8) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Water</b></div>
+<br>
+<div style="display: inline-block ; background: linear-gradient(#70a6db,#2e73b8) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Blue</b></div>
+</div></div>
+<h4>40 matches</h4>
+<div class="infobox" style="max-height: 100px; width: 510px"><i>
+Articuno, Blastoise, Cloyster, Dewgong, Dragonair, Dratini, Gloom, Goldeen, Golduck, Gyarados, Horsea, Kabuto, Kabutops, Kingler, Krabby, Lapras, Magikarp, Nidoqueen, Nidoran-F, Nidorina, Oddish, Omanyte, Omastar, Poliwag, Poliwhirl, Poliwrath, Psyduck, Seadra, Seaking, Seel, Shellder, Slowbro, Slowpoke, Squirtle, Starmie, Staryu, Tangela, Tentacool, Tentacruel, Vaporeon
+</i></div></div></div>
+
+<br><br>
+
+<div class="infobox" style="width: 520px">
+<h4>#0009</h4>
+<div class="infobox" style="width: 260px">
+<div class="infobox" style="width: 250px"><b>Blastoise</b></div><img src="//play.pokemonshowdown.com/sprites/gen1/blastoise.png">
+<div class="infobox" style="width: 250px">
+<div style="display: inline-block ; background: linear-gradient(#70a6db,#2e73b8) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Water</b></div>
+<br>
+<div style="display: inline-block ; background: linear-gradient(#70a6db,#2e73b8) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Blue</b></div>
+</div></div>
+<h4>40 matches</h4>
+<div class="infobox" style="max-height: 100px; width: 510px"><i>
+Articuno, Cloyster, Dewgong, Dragonair, Dratini, Gloom, Goldeen, Golduck, Gyarados, Horsea, Kabuto, Kabutops, Kingler, Krabby, Lapras, Magikarp, Nidoqueen, Nidoran-F, Nidorina, Oddish, Omanyte, Omastar, Poliwag, Poliwhirl, Poliwrath, Psyduck, Seadra, Seaking, Seel, Shellder, Slowbro, Slowpoke, Squirtle, Starmie, Staryu, Tangela, Tentacool, Tentacruel, Vaporeon, Wartortle
+</i></div></div></div>
+
+<br><br>
+
+<div class="infobox" style="width: 520px">
+<h4>#0055</h4>
+<div class="infobox" style="width: 260px">
+<div class="infobox" style="width: 250px"><b>Golduck</b></div><img src="//play.pokemonshowdown.com/sprites/gen1/golduck.png">
+<div class="infobox" style="width: 250px">
+<div style="display: inline-block ; background: linear-gradient(#70a6db,#2e73b8) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Water</b></div>
+<br>
+<div style="display: inline-block ; background: linear-gradient(#70a6db,#2e73b8) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Blue</b></div>
+</div></div>
+<h4>40 matches</h4>
+<div class="infobox" style="max-height: 100px; width: 510px"><i>
+Articuno, Blastoise, Cloyster, Dewgong, Dragonair, Dratini, Gloom, Goldeen, Gyarados, Horsea, Kabuto, Kabutops, Kingler, Krabby, Lapras, Magikarp, Nidoqueen, Nidoran-F, Nidorina, Oddish, Omanyte, Omastar, Poliwag, Poliwhirl, Poliwrath, Psyduck, Seadra, Seaking, Seel, Shellder, Slowbro, Slowpoke, Squirtle, Starmie, Staryu, Tangela, Tentacool, Tentacruel, Vaporeon, Wartortle
+</i></div></div></div>
+
+<br><br>
+
+<div class="infobox" style="width: 520px">
+<h4>#0060</h4>
+<div class="infobox" style="width: 260px">
+<div class="infobox" style="width: 250px"><b>Poliwag</b></div><img src="//play.pokemonshowdown.com/sprites/gen1/poliwag.png">
+<div class="infobox" style="width: 250px">
+<div style="display: inline-block ; background: linear-gradient(#70a6db,#2e73b8) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Water</b></div>
+<br>
+<div style="display: inline-block ; background: linear-gradient(#70a6db,#2e73b8) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Blue</b></div>
+</div></div>
+<h4>40 matches</h4>
+<div class="infobox" style="max-height: 100px; width: 510px"><i>
+Articuno, Blastoise, Cloyster, Dewgong, Dragonair, Dratini, Gloom, Goldeen, Golduck, Gyarados, Horsea, Kabuto, Kabutops, Kingler, Krabby, Lapras, Magikarp, Nidoqueen, Nidoran-F, Nidorina, Oddish, Omanyte, Omastar, Poliwhirl, Poliwrath, Psyduck, Seadra, Seaking, Seel, Shellder, Slowbro, Slowpoke, Squirtle, Starmie, Staryu, Tangela, Tentacool, Tentacruel, Vaporeon, Wartortle
+</i></div></div></div>
+
+<br><br>
+
+<div class="infobox" style="width: 520px">
+<h4>#0061</h4>
+<div class="infobox" style="width: 260px">
+<div class="infobox" style="width: 250px"><b>Poliwhirl</b></div><img src="//play.pokemonshowdown.com/sprites/gen1/poliwhirl.png">
+<div class="infobox" style="width: 250px">
+<div style="display: inline-block ; background: linear-gradient(#70a6db,#2e73b8) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Water</b></div>
+<br>
+<div style="display: inline-block ; background: linear-gradient(#70a6db,#2e73b8) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Blue</b></div>
+</div></div>
+<h4>40 matches</h4>
+<div class="infobox" style="max-height: 100px; width: 510px"><i>
+Articuno, Blastoise, Cloyster, Dewgong, Dragonair, Dratini, Gloom, Goldeen, Golduck, Gyarados, Horsea, Kabuto, Kabutops, Kingler, Krabby, Lapras, Magikarp, Nidoqueen, Nidoran-F, Nidorina, Oddish, Omanyte, Omastar, Poliwag, Poliwrath, Psyduck, Seadra, Seaking, Seel, Shellder, Slowbro, Slowpoke, Squirtle, Starmie, Staryu, Tangela, Tentacool, Tentacruel, Vaporeon, Wartortle
+</i></div></div></div>
+
+<br><br>
+
+<div class="infobox" style="width: 520px">
 <h4>#0069</h4>
 <div class="infobox" style="width: 260px">
 <div class="infobox" style="width: 250px"><b>Bellsprout</b></div><img src="//play.pokemonshowdown.com/sprites/gen1/bellsprout.png">
@@ -129,3 +230,53 @@ Arbok, Beedrill, Bellsprout, Bulbasaur, Caterpie, Ekans, Exeggcute, Exeggutor, G
 <div class="infobox" style="max-height: 100px; width: 510px"><i>
 Arbok, Beedrill, Bellsprout, Bulbasaur, Caterpie, Ekans, Exeggcute, Exeggutor, Gastly, Gengar, Gloom, Golbat, Grimer, Haunter, Ivysaur, Kakuna, Koffing, Metapod, Muk, Nidoking, Nidoqueen, Nidoran-F, Nidoran-M, Nidorina, Nidorino, Oddish, Paras, Parasect, Scyther, Tangela, Tentacool, Tentacruel, Venomoth, Venonat, Venusaur, Vileplume, Weedle, Weepinbell, Weezing, Zubat
 </i></div></div></div>
+
+<br><br>
+
+<div class="infobox" style="width: 520px">
+<h4>#0116</h4>
+<div class="infobox" style="width: 260px">
+<div class="infobox" style="width: 250px"><b>Horsea</b></div><img src="//play.pokemonshowdown.com/sprites/gen1/horsea.png">
+<div class="infobox" style="width: 250px">
+<div style="display: inline-block ; background: linear-gradient(#70a6db,#2e73b8) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Water</b></div>
+<br>
+<div style="display: inline-block ; background: linear-gradient(#70a6db,#2e73b8) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Blue</b></div>
+</div></div>
+<h4>40 matches</h4>
+<div class="infobox" style="max-height: 100px; width: 510px"><i>
+Articuno, Blastoise, Cloyster, Dewgong, Dragonair, Dratini, Gloom, Goldeen, Golduck, Gyarados, Kabuto, Kabutops, Kingler, Krabby, Lapras, Magikarp, Nidoqueen, Nidoran-F, Nidorina, Oddish, Omanyte, Omastar, Poliwag, Poliwhirl, Poliwrath, Psyduck, Seadra, Seaking, Seel, Shellder, Slowbro, Slowpoke, Squirtle, Starmie, Staryu, Tangela, Tentacool, Tentacruel, Vaporeon, Wartortle
+</i></div></div></div>
+
+<br><br>
+
+<div class="infobox" style="width: 520px">
+<h4>#0117</h4>
+<div class="infobox" style="width: 260px">
+<div class="infobox" style="width: 250px"><b>Seadra</b></div><img src="//play.pokemonshowdown.com/sprites/gen1/seadra.png">
+<div class="infobox" style="width: 250px">
+<div style="display: inline-block ; background: linear-gradient(#70a6db,#2e73b8) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Water</b></div>
+<br>
+<div style="display: inline-block ; background: linear-gradient(#70a6db,#2e73b8) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Blue</b></div>
+</div></div>
+<h4>40 matches</h4>
+<div class="infobox" style="max-height: 100px; width: 510px"><i>
+Articuno, Blastoise, Cloyster, Dewgong, Dragonair, Dratini, Gloom, Goldeen, Golduck, Gyarados, Horsea, Kabuto, Kabutops, Kingler, Krabby, Lapras, Magikarp, Nidoqueen, Nidoran-F, Nidorina, Oddish, Omanyte, Omastar, Poliwag, Poliwhirl, Poliwrath, Psyduck, Seaking, Seel, Shellder, Slowbro, Slowpoke, Squirtle, Starmie, Staryu, Tangela, Tentacool, Tentacruel, Vaporeon, Wartortle
+</i></div></div></div>
+
+<br><br>
+
+<div class="infobox" style="width: 520px">
+<h4>#0134</h4>
+<div class="infobox" style="width: 260px">
+<div class="infobox" style="width: 250px"><b>Vaporeon</b></div><img src="//play.pokemonshowdown.com/sprites/gen1/vaporeon.png">
+<div class="infobox" style="width: 250px">
+<div style="display: inline-block ; background: linear-gradient(#70a6db,#2e73b8) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Water</b></div>
+<br>
+<div style="display: inline-block ; background: linear-gradient(#70a6db,#2e73b8) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Blue</b></div>
+</div></div>
+<h4>40 matches</h4>
+<div class="infobox" style="max-height: 100px; width: 510px"><i>
+Articuno, Blastoise, Cloyster, Dewgong, Dragonair, Dratini, Gloom, Goldeen, Golduck, Gyarados, Horsea, Kabuto, Kabutops, Kingler, Krabby, Lapras, Magikarp, Nidoqueen, Nidoran-F, Nidorina, Oddish, Omanyte, Omastar, Poliwag, Poliwhirl, Poliwrath, Psyduck, Seadra, Seaking, Seel, Shellder, Slowbro, Slowpoke, Squirtle, Starmie, Staryu, Tangela, Tentacool, Tentacruel, Wartortle
+</i></div></div></div>
+
+<br><br>

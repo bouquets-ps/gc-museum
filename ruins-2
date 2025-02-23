@@ -4,7 +4,7 @@
 <title>PS! Game Corner Bulbasaur's Kanto Cards</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
 <style>
-td { 
+tr { 
   max-height: 200px;
   overflow-y: scroll;
 }

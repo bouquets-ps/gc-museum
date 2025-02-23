@@ -23,6 +23,7 @@ div {
 <hr><br>
 <center>
 
+<h3>#0001</h3>
 <div class="infobox" style="width: 260px">
 <div class="infobox" style="width: 250px"><b>Bulbasaur</b></div><img src="//play.pokemonshowdown.com/sprites/gen1/bulbasaur.png">
 <div class="infobox" style="width: 250px">
@@ -35,12 +36,91 @@ div {
 </div></div>
 
 <br><br><details>
-<summary>40 matches</summary>
+<summary><b>40 matches</b></summary>
 <p>Arbok, Beedrill, Bellsprout, Caterpie, Ekans, Exeggcute, Exeggutor, Gastly, Gengar, Gloom, Golbat, Grimer, Haunter, Ivysaur, Kakuna, Koffing, Metapod, Muk, Nidoking, Nidoqueen, Nidoran-F, Nidoran-M, Nidorina, Nidorino, Oddish, Paras, Parasect, Scyther, Tangela, Tentacool, Tentacruel, Venomoth, Venonat, Venusaur, Victreebel, Vileplume, Weedle, Weepinbell, Weezing, Zubat</p>
 </details>
 
+<h3>#0002</h3>
+<div class="infobox" style="width: 260px">
+<div class="infobox" style="width: 250px"><b>Ivysaur</b></div><img src="//play.pokemonshowdown.com/sprites/gen1/ivysaur.png">
+<div class="infobox" style="width: 250px">
+<div style="display: inline-block ; background: linear-gradient(#70db70,#2eb82e) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Grass</b></div>
+&nbsp;/&nbsp;
+<div style="display: inline-block ; background: linear-gradient(#a670db,#732eb8) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Poison</b></div>
+<br>
+<div style="display: inline-block ; background: linear-gradient(#70db70,#2eb82e) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Green</b></div>
+</div>
+</div></div>
 
+<br><br><details>
+<summary><b>40 matches</b></summary>
+<p>Arbok, Beedrill, Bellsprout, Bulbasaur, Caterpie, Ekans, Exeggcute, Exeggutor, Gastly, Gengar, Gloom, Golbat, Grimer, Haunter, Kakuna, Koffing, Metapod, Muk, Nidoking, Nidoqueen, Nidoran-F, Nidoran-M, Nidorina, Nidorino, Oddish, Paras, Parasect, Scyther, Tangela, Tentacool, Tentacruel, Venomoth, Venonat, Venusaur, Victreebel, Vileplume, Weedle, Weepinbell, Weezing, Zubat</p>
+</details>
 
+<h3>#0003</h3>
+<div class="infobox" style="width: 260px">
+<div class="infobox" style="width: 250px"><b>Venusaur</b></div><img src="//play.pokemonshowdown.com/sprites/gen1/venusaur.png">
+<div class="infobox" style="width: 250px">
+<div style="display: inline-block ; background: linear-gradient(#70db70,#2eb82e) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Grass</b></div>
+&nbsp;/&nbsp;
+<div style="display: inline-block ; background: linear-gradient(#a670db,#732eb8) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Poison</b></div>
+<br>
+<div style="display: inline-block ; background: linear-gradient(#70db70,#2eb82e) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Green</b></div>
+</div>
+</div></div>
 
+<br><br><details>
+<summary><b>40 matches</b></summary>
+<p>Arbok, Beedrill, Bellsprout, Bulbasaur, Caterpie, Ekans, Exeggcute, Exeggutor, Gastly, Gengar, Gloom, Golbat, Grimer, Haunter, Ivysaur, Kakuna, Koffing, Metapod, Muk, Nidoking, Nidoqueen, Nidoran-F, Nidoran-M, Nidorina, Nidorino, Oddish, Paras, Parasect, Scyther, Tangela, Tentacool, Tentacruel, Venomoth, Venonat, Victreebel, Vileplume, Weedle, Weepinbell, Weezing, Zubat</p>
+</details>
 
+<h3>#0069</h3>
+<div class="infobox" style="width: 260px">
+<div class="infobox" style="width: 250px"><b>Bellsprout</b></div><img src="//play.pokemonshowdown.com/sprites/gen1/bellsprout.png">
+<div class="infobox" style="width: 250px">
+<div style="display: inline-block ; background: linear-gradient(#70db70,#2eb82e) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Grass</b></div>
+&nbsp;/&nbsp;
+<div style="display: inline-block ; background: linear-gradient(#a670db,#732eb8) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Poison</b></div>
+<br>
+<div style="display: inline-block ; background: linear-gradient(#70db70,#2eb82e) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Green</b></div>
+</div>
+</div></div>
 
+<br><br><details>
+<summary><b>40 matches</b></summary>
+<p>Arbok, Beedrill, Bulbasaur, Caterpie, Ekans, Exeggcute, Exeggutor, Gastly, Gengar, Gloom, Golbat, Grimer, Haunter, Ivysaur, Kakuna, Koffing, Metapod, Muk, Nidoking, Nidoqueen, Nidoran-F, Nidoran-M, Nidorina, Nidorino, Oddish, Paras, Parasect, Scyther, Tangela, Tentacool, Tentacruel, Venomoth, Venonat, Venusaur, Victreebel, Vileplume, Weedle, Weepinbell, Weezing, Zubat</p>
+</details>
+
+<h3>#0070</h3>
+<div class="infobox" style="width: 260px">
+<div class="infobox" style="width: 250px"><b>Weepinbell</b></div><img src="//play.pokemonshowdown.com/sprites/gen1/weepinbell.png">
+<div class="infobox" style="width: 250px">
+<div style="display: inline-block ; background: linear-gradient(#70db70,#2eb82e) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Grass</b></div>
+&nbsp;/&nbsp;
+<div style="display: inline-block ; background: linear-gradient(#a670db,#732eb8) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Poison</b></div>
+<br>
+<div style="display: inline-block ; background: linear-gradient(#70db70,#2eb82e) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Green</b></div>
+</div>
+</div></div>
+
+<br><br><details>
+<summary><b>40 matches</b></summary>
+<p>Arbok, Beedrill, Bellsprout, Bulbasaur, Caterpie, Ekans, Exeggcute, Exeggutor, Gastly, Gengar, Gloom, Golbat, Grimer, Haunter, Ivysaur, Kakuna, Koffing, Metapod, Muk, Nidoking, Nidoqueen, Nidoran-F, Nidoran-M, Nidorina, Nidorino, Oddish, Paras, Parasect, Scyther, Tangela, Tentacool, Tentacruel, Venomoth, Venonat, Venusaur, Victreebel, Vileplume, Weedle, Weezing, Zubat</p>
+</details>
+
+<h3>#0071</h3>
+<div class="infobox" style="width: 260px">
+<div class="infobox" style="width: 250px"><b>Victreebel</b></div><img src="//play.pokemonshowdown.com/sprites/gen1/victreebel.png">
+<div class="infobox" style="width: 250px">
+<div style="display: inline-block ; background: linear-gradient(#70db70,#2eb82e) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Grass</b></div>
+&nbsp;/&nbsp;
+<div style="display: inline-block ; background: linear-gradient(#a670db,#732eb8) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Poison</b></div>
+<br>
+<div style="display: inline-block ; background: linear-gradient(#70db70,#2eb82e) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Green</b></div>
+</div>
+</div></div>
+
+<br><br><details>
+<summary><b>40 matches</b></summary>
+<p>Arbok, Beedrill, Bellsprout, Bulbasaur, Caterpie, Ekans, Exeggcute, Exeggutor, Gastly, Gengar, Gloom, Golbat, Grimer, Haunter, Ivysaur, Kakuna, Koffing, Metapod, Muk, Nidoking, Nidoqueen, Nidoran-F, Nidoran-M, Nidorina, Nidorino, Oddish, Paras, Parasect, Scyther, Tangela, Tentacool, Tentacruel, Venomoth, Venonat, Venusaur, Vileplume, Weedle, Weepinbell, Weezing, Zubat</p>
+</details>

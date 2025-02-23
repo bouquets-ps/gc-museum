@@ -4,6 +4,9 @@
 <title>PS! Game Corner Bulbasaur's Kanto Cards</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
 <style>
+td {
+  vertical-align: top;
+}
 body {
   font-family: "Quicksand", sans-serif;
   padding: 30px;

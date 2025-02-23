@@ -5,7 +5,8 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
 <style>
 td { 
-  max-height: 260px;
+  max-height: 200px;
+  overflow-y: scroll;
 }
 body {
   font-family: "Quicksand", sans-serif;

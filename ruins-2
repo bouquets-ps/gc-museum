@@ -24,7 +24,7 @@ div {
 <hr><br>
 <center>
 
-<table style="text-align: center">
+<table style="text-align: center" cellpadding="5">
 <tr><td>
 <div class="infobox" style="width: 260px">
 <div class="infobox" style="width: 250px"><b>Bulbasaur</b></div><img src="//play.pokemonshowdown.com/sprites/gen1/bulbasaur.png">

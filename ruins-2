@@ -4,9 +4,6 @@
 <title>PS! Game Corner Bulbasaur's Kanto Cards</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
 <style>
-td {
-  vertical-align: middle;
-}
 body {
   font-family: "Quicksand", sans-serif;
   padding: 30px;
@@ -27,7 +24,7 @@ div {
 <center>
 
 <table style="text-align: center" cellpadding="5">
-<tr><td>
+<tr><td width="270px">
 <div class="infobox" style="width: 260px">
 <div class="infobox" style="width: 250px"><b>Bulbasaur</b></div><img src="//play.pokemonshowdown.com/sprites/gen1/bulbasaur.png">
 <div class="infobox" style="width: 250px">
@@ -39,7 +36,7 @@ div {
 </div>
 </div></div>
 </td>
-<td>
+<td width="530px">
 <details>
 <summary>40 matches</summary>
 <p>Arbok, Beedrill, Bellsprout, Caterpie, Ekans, Exeggcute, Exeggutor, Gastly, Gengar, Gloom, Golbat, Grimer, Haunter, Ivysaur, Kakuna, Koffing, Metapod, Muk, Nidoking, Nidoqueen, Nidoran-F, Nidoran-M, Nidorina, Nidorino, Oddish, Paras, Parasect, Scyther, Tangela, Tentacool, Tentacruel, Venomoth, Venonat, Venusaur, Victreebel, Vileplume, Weedle, Weepinbell, Weezing, Zubat</p>

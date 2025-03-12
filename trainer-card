@@ -44,6 +44,16 @@ button.addEventListener("click", (event) => {
 
   currentThemeSetting = newTheme;
 });
+
+
+document.getElementById("searchBar").addEventListener("input", function() {
+    let filter = this.value.toLowerCase();
+    let cards = document.querySelectorAll("#container .infobox");
+    cards.forEach(card => {
+        card.style.display = card.textContent.toLowerCase().includes(filter) ? "inline-block" : "none";
+    });
+});
+
 </script>
 <style>
 body {
@@ -51,14 +61,17 @@ body {
   padding: 30px;
   background-color: var(--color-bg);
   color: var(--color-fg);
+  transition: background-color var(--transition-speed) ease, color var(--transition-speed) ease;
 }
 [data-theme="light"] {
    --color-bg: #ffffff;
    --color-fg: #000000;
+  --transition-speed: 0.5s;
 }
 [data-theme="dark"] {
    --color-bg: #000000;
    --color-fg: #ffffff;
+  --transition-speed: 0.5s;
 }
 button {
   font-family: "Quicksand", sans-serif;
@@ -68,7 +81,74 @@ button {
   transition: all var(--global-transition-time) ease-in-out;
   color: var(--color-fg);
   background-color: var(--color-bg);
+  transition: background-color var(--transition-speed) ease, color var(--transition-speed) ease;
 }
+.top-section {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 24px;
+  position: relative;      
+}
+.center-button {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.search-bar {
+  font-family: "Quicksand", sans-serif;
+  border: 2px solid #3b82f6;
+  float: right;
+  margin-right:50px;
+  position:relative;
+  padding: 8px 20px;
+  border-radius: 16px;
+  width: 15%;
+  max-width: 180px;
+  min-width: 150px;
+  transition: all 0.3s ease-in-out;
+  outline: none;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.search-bar:focus {
+  border-color: #2563eb;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+        
+/*@media (max-width: 700px) {*/
+/*.top-section {*/
+/*            width: 100%;*/
+/*            display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    align-content: space-between;*/
+/*    flex-direction: column;*/
+/*            margin-bottom: 24px;*/
+/*            position: relative;*/
+/*        }*/
+/*        .search-bar {*/
+/*            border: 2px solid #3b82f6;*/
+/*            position:relative;*/
+/*  align-self: center;*/
+/*            padding: 8px 20px;*/
+/*            border-radius: 16px;*/
+/*            width: 15%;*/
+/*            max-width: 180px;*/
+/*            min-width: 150px;*/
+/*            transition: all 0.3s ease-in-out;*/
+/*            outline: none;*/
+/*            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);*/
+/*        }    */
+/*          .center-button {*/
+/*          position: relative;*/
+/*  align-self: center;*/
+/*}*/
+/*}*/
+
+
+
 </style>
 </head>
 <body>
@@ -85,13 +165,18 @@ button {
 <hr><br>
 <center>
 
-<button
-    type="button"
-    data-theme-toggle
-    aria-label="Light"
-  >Light</button>
-
+<div class="top-section">
+  <button
+      type="button"
+      data-theme-toggle
+      aria-label="Light"
+      class = "center-button"
+    >Light</button>
+    <input type="text" id="searchBar" class="search-bar" placeholder="Type to search...">
+</div>
 <br><br>
+
+<div id = "container">
 
 <span class="infobox" style="display: inline-block ; width: 250px"><center><b><strong style="color:#24946d">1hfkqhwhrelk%◕‿‿◕%</strong></b><hr><span style="display: block ; height: 115px ; background: linear-gradient(#8939ac , #5b2673)"><span style="display: inline-block ; height: 30px ; width: 40px"></span><img src="//play.pokemonshowdown.com/sprites/trainers/lusamine-nihilego.png" width="80px" height="80px"><span style="display: inline-block ; height: 30px ; width: 40px"></span><br><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -160px -2460px"></span><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -40px -1590px"></span><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -400px -2460px"></span></span><hr><b>Last updated:</b> 2025-03-11<br><br></center></span>
 
@@ -285,6 +370,8 @@ button {
 
 <span class="infobox" style="display: inline-block ; width: 250px"><center><b><strong style="color: #69881b">Shadow Necromancer</strong></b><hr><span style="display: block ; height: 115px ; background: linear-gradient(#212121 , #ffffff)"><span style="display: inline-block ; height: 30px ; width: 40px"></span><img src="//play.pokemonshowdown.com/sprites/trainers/piers-league.png" width="80px" height="80px"><span style="display: inline-block ; height: 30px ; width: 40px"></span><br><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -360px -2040px"></span><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -40px -1770px"></span><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -400px -1050px"></span><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -40px -1380px"></span><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -440px -2430px"></span><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -240px -1170px"></span></span><hr><b>Last updated:</b> 2025-02-19<br><br></center></span>
 
+<span class="infobox" style="display: inline-block ; width: 250px"><center><b><strong style="color:#c94936">SheepGoMoo!</strong></b><hr><span style="display: block ; height: 115px ; background: linear-gradient(#ec93c9 , #e052a9)"><span style="display: inline-block ; height: 30px ; width: 40px"></span><img src="//play.pokemonshowdown.com/sprites/trainers/valerie.png" width="80px" height="80px"><span style="display: inline-block ; height: 30px ; width: 40px"></span><br><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -0px -450px"></span><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -120px -2070px"></span><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -40px -1740px"></span><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -40px -1740px"></span><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -120px -2070px"></span><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -0px -450px"></span></span><hr><b>Last updated:</b> 2025-03-12<br><br></center></span>
+
 <span class="infobox" style="display: inline-block ; width: 250px"><center><b><strong style="color: #297ba8">Silver❀Knight❀314</strong></b><hr><span style="display: block ; height: 115px ; background: linear-gradient(#00ff00 , #8c00ff)"><span style="display: inline-block ; height: 30px ; width: 40px"></span><img src="//play.pokemonshowdown.com/sprites/trainers/n.png" width="80px" height="80px"><span style="display: inline-block ; height: 30px ; width: 40px"></span><br><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -440px -3390px"></span><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -400px -2490px"></span><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -0px -3360px"></span></span><hr><b>Last updated:</b> 2025-02-10<br><br></center></span>
 
 <span class="infobox" style="display: inline-block ; width: 250px"><center><b><strong style="color: #1da76b">Silveste</strong></b><hr><span style="display: block ; height: 115px ; background: linear-gradient(#89ffee , #c09eea)"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -360px -1230px"></span><img src="//play.pokemonshowdown.com/sprites/trainers/rowan.png" width="80px" height="80px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -320px -3360px"></span><br><span style="display: inline-block ; height: 30px ; width: 40px"></span></span><hr><b>Last updated:</b> 2025-02-04<br><br></center></span>
@@ -332,6 +419,8 @@ button {
 <span class="infobox" style="display: inline-block ; width: 250px"><center><b><strong style="color: #1069df">Zipzapadam</strong></b><hr><span style="display: block ; height: 115px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -0px -0px"></span><img src="//play.pokemonshowdown.com/sprites/trainers-custom/miku-fire.png" width="80px" height="80px"><br><span style="display: inline-block ; height: 30px ; width: 40px"></span></span><hr><b>Last updated:</b> 2025-01-27<br><br></center></span>
 
 <span class="infobox" style="display: inline-block ; width: 250px"><center><b><strong style="color: #b75f4e">Zpengwin</strong></b><hr><span style="display: block ; height: 115px ; background: linear-gradient(#83eec5 , #399494)"><span style="display: inline-block ; height: 30px ; width: 40px"></span><img src="//play.pokemonshowdown.com/sprites/trainers/serena-masters3.png" width="80px" height="80px"><span style="display: inline-block ; height: 30px ; width: 40px"></span><br><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -40px -0px"></span><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -440px -2400px"></span><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -280px -2070px"></span><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -0px -1860px"></span></span><hr><b>Last updated:</b> 2025-01-29<br><br></center></span>
+
+</div>
 
 </center>
 </body>

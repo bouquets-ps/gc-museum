@@ -3,6 +3,7 @@
 <head>
 <title>PS! Game Corner User Gallery - Signups Avatar</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
+
 <script>
 function calculateSettingAsThemeString({ localStorageTheme, systemSettingDark }) {
   if (localStorageTheme !== null) {
@@ -44,24 +45,34 @@ button.addEventListener("click", (event) => {
 
   currentThemeSetting = newTheme;
 });
+
+
+document.getElementById("searchBar").addEventListener("input", function() {
+    let filter = this.value.toLowerCase();
+    let cards = document.querySelectorAll("#container .infobox");
+    cards.forEach(card => {
+        card.style.display = card.textContent.toLowerCase().includes(filter) ? "inline-block" : "none";
+    });
+});
+
 </script>
 <style>
-td {
-  vertical-align: bottom;
-}
 body {
   font-family: "Quicksand", sans-serif;
   padding: 30px;
   background-color: var(--color-bg);
   color: var(--color-fg);
+  transition: background-color var(--transition-speed) ease, color var(--transition-speed) ease;
 }
 [data-theme="light"] {
    --color-bg: #ffffff;
    --color-fg: #000000;
+  --transition-speed: 0.5s;
 }
 [data-theme="dark"] {
    --color-bg: #000000;
    --color-fg: #ffffff;
+  --transition-speed: 0.5s;
 }
 button {
   font-family: "Quicksand", sans-serif;
@@ -71,8 +82,73 @@ button {
   transition: all var(--global-transition-time) ease-in-out;
   color: var(--color-fg);
   background-color: var(--color-bg);
+  transition: background-color var(--transition-speed) ease, color var(--transition-speed) ease;
 }
-</style>
+.top-section {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 24px;
+  position: relative;      
+}
+.center-button {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.search-bar {
+  font-family: "Quicksand", sans-serif;
+  border: 2px solid #3b82f6;
+  float: right;
+  margin-right:50px;
+  position:relative;
+  padding: 8px 20px;
+  border-radius: 16px;
+  width: 15%;
+  max-width: 180px;
+  min-width: 150px;
+  transition: all 0.3s ease-in-out;
+  outline: none;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.search-bar:focus {
+  border-color: #2563eb;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/*@media (max-width: 700px) {*/
+/*.top-section {*/
+/*            width: 100%;*/
+/*            display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    align-content: space-between;*/
+/*    flex-direction: column;*/
+/*            margin-bottom: 24px;*/
+/*            position: relative;*/
+/*        }*/
+/*        .search-bar {*/
+/*            border: 2px solid #3b82f6;*/
+/*            position:relative;*/
+/*  align-self: center;*/
+/*            padding: 8px 20px;*/
+/*            border-radius: 16px;*/
+/*            width: 15%;*/
+/*            max-width: 180px;*/
+/*            min-width: 150px;*/
+/*            transition: all 0.3s ease-in-out;*/
+/*            outline: none;*/
+/*            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);*/
+/*        }    */
+/*          .center-button {*/
+/*          position: relative;*/
+/*  align-self: center;*/
+/*}*/
+/*}*/
+
+</style>     
+
 </head>
 <body>
 <center>
@@ -88,207 +164,208 @@ button {
 <hr><br>
 <center>
 
-<button
-    type="button"
-    data-theme-toggle
-    aria-label="Light"
-  >Light</button>
-
+<div class="top-section">
+  <button
+      type="button"
+      data-theme-toggle
+      aria-label="Light"
+      class = "center-button"
+    >Light</button>
+    <input type="text" id="searchBar" class="search-bar" placeholder="Type to search...">
+</div>
 <br><br>
 
-<table>
+<div id = "container">
 
-<tr><td style="width: 250px"><b>User</b></td><td style="width: 150px"><b>Last Updated</b></td></tr>
+<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -320px -510px"></span><b><strong style="color: #3f80bc">aegii</strong></b><hr><b>Last updated:</b> 2025-02-21<br><br></span>
 
-<tr><td style="width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -320px -510px"></span><b><strong style="color: #3f80bc">aegii</strong></b></td><td style="width: 150px">2025-02-21</td></tr>
+<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -240px -1440px"></span><b><strong style="color: #c3223b">alarms</strong></b><hr><b>Last updated:</b> 2025-02-15<br><br></span>
 
-<tr><td style="width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -240px -1440px"></span><b><strong style="color: #c3223b">alarms</strong></b></td><td style="width: 150px">2025-02-15</td></tr>
+<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -280px -1050px"></span><b><strong style="color: #1964dd">Andrew Nick</strong></b><hr><b>Last updated:</b> 2025-02-06<br><br></span>
 
-<tr><td style="width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -280px -1050px"></span><b><strong style="color: #1964dd">Andrew Nick</strong></b></td><td style="width: 150px">2025-02-06</td></tr>
+<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -80px -870px"></span><b><strong style="color: #ce4f21">Annaoceancat</strong></b><hr><b>Last updated:</b> 2025-02-01<br><br></span>
 
-<tr><td style="width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -80px -870px"></span><b><strong style="color: #ce4f21">Annaoceancat</strong></b></td><td style="width: 150px">2025-02-01</td></tr>
+<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -320px -150px"></span><b><strong style="color: #de560d">aQrator</strong></b><hr><b>Last updated:</b> 2025-02-17<br><br></span>
 
-<tr><td style="width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -320px -150px"></span><b><strong style="color: #de560d">aQrator</strong></b></td><td style="width: 150px">2025-02-17</td></tr>
+<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -80px -2820px"></span><b><strong style="color: #b63d86">Arelyn</strong></b><hr><b>Last updated:</b> 2025-02-22<br><br></span>
 
-<tr><td style="width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -80px -2820px"></span><b><strong style="color: #b63d86">Arelyn</strong></b></td><td style="width: 150px">2025-02-22</td></tr>
+<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -0px -360px"></span><b><strong style="color: #3474d5">articoo ☾</strong></b><hr><b>Last updated:</b> 2025-02-02<br><br></span>
 
-<tr><td style="width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -0px -360px"></span><b><strong style="color: #3474d5">articoo ☾</strong></b></td><td style="width: 150px">2025-02-02</td></tr>
+<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -320px -2970px"></span><b><strong style="color: #bf31bb">AshKetchumsPikachu</strong></b><hr><b>Last updated:</b> 2025-03-01<br><br></span>
 
-<tr><td style="width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -320px -2970px"></span><b><strong style="color: #bf31bb">AshKetchumsPikachu</strong></b></td><td style="width: 150px">2025-03-01</td></tr>
+<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -40px -270px"></span><b><strong style="color: #d06916">Atlas</strong></b><hr><b>Last updated:</b> 2025-02-28<br><br></span>
 
-<tr><td style="width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -40px -270px"></span><b><strong style="color: #d06916">Atlas</strong></b></td><td style="width: 150px">2025-02-28</td></tr>
+<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -440px -1020px"></span><b><strong style="color: #b93d13">BlueFins ˙͜˙</strong></b><hr><b>Last updated:</b> 2025-02-02<br><br></span>
 
-<tr><td style="width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -440px -1020px"></span><b><strong style="color: #b93d13">BlueFins ˙͜˙</strong></b></td><td style="width: 150px">2025-02-02</td></tr>
+<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -360px -2790px"></span><b><strong style="color: #2884c6">bouquets</strong></b><hr><b>Last updated:</b> 2025-01-31<br><br></span>
 
-<tr><td style="width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -360px -2790px"></span><b><strong style="color: #2884c6">bouquets</strong></b></td><td style="width: 150px">2025-01-31</td></tr>
+<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -120px -60px"></span><b><strong style="color: #b78624">Bruno5200</strong></b><hr><b>Last updated:</b> 2025-02-03<br><br></span>
 
-<tr><td style="width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -120px -60px"></span><b><strong style="color: #b78624">Bruno5200</strong></b></td><td style="width: 150px">2025-02-03</td></tr>
+<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -120px -1620px"></span><b><strong style="color: #d35c17">bubidajeffery</strong></b><hr><b>Last updated:</b> 2025-02-06<br><br></span>
 
-<tr><td style="width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -120px -1620px"></span><b><strong style="color: #d35c17">bubidajeffery</strong></b></td><td style="width: 150px">2025-02-06</td></tr>
+<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -120px -450px"></span><b><strong style="color: #1f6ddb">calmvibes</strong></b><hr><b>Last updated:</b> 2025-02-08<br><br></span>
 
-<tr><td style="width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -120px -450px"></span><b><strong style="color: #1f6ddb">calmvibes</strong></b></td><td style="width: 150px">2025-02-08</td></tr>
+<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -120px -750px"></span><b><strong style="color: #b32772">charuru</strong></b><hr><b>Last updated:</b> 2025-02-02<br><br></span>
 
-<tr><td style="width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -120px -750px"></span><b><strong style="color: #b32772">charuru</strong></b></td><td style="width: 150px">2025-02-02</td></tr>
+<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -320px -2430px"></span><b><strong style="color: #ae1ea7">CinderClod</strong></b><hr><b>Last updated:</b> 2025-02-04<br><br></span>
 
-<tr><td style="width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -320px -2430px"></span><b><strong style="color: #ae1ea7">CinderClod</strong></b></td><td style="width: 150px">2025-02-04</td></tr>
+<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -360px -480px"></span><b><strong style="color: #3675b5">Computerwizard8800</strong></b><hr><b>Last updated:</b> 2025-02-01<br><br></span>
 
-<tr><td style="width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -360px -480px"></span><b><strong style="color: #3675b5">Computerwizard8800</strong></b></td><td style="width: 150px">2025-02-01</td></tr>
+<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -240px -1140px"></span><b><strong style="color: #dd7311">Damnright</strong></b><hr><b>Last updated:</b> 2025-02-08<br><br></span>
 
-<tr><td style="width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -240px -1140px"></span><b><strong style="color: #dd7311">Damnright</strong></b></td><td style="width: 150px">2025-02-08</td></tr>
+<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -360px -690px"></span><b><strong style="color: #3ca771">dcmldcml</strong></b><hr><b>Last updated:</b> 2025-01-31<br><br></span>
 
-<tr><td style="width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -360px -690px"></span><b><strong style="color: #3ca771">dcmldcml</strong></b></td><td style="width: 150px">2025-01-31</td></tr>
+<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -120px -1650px"></span><b><strong style="color: #385cea">des121</strong></b><hr><b>Last updated:</b> 2025-03-11<br><br></span>
 
-<tr><td style="width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -120px -1650px"></span><b><strong style="color: #385cea">des121</strong></b></td><td style="width: 150px">2025-03-11</td></tr>
+<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -400px -3030px"></span><b><strong style="color: #6879be">Dirain ˙︵˙</strong></b><hr><b>Last updated:</b> 2025-02-16<br><br></span>
 
-<tr><td style="width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -400px -3030px"></span><b><strong style="color: #6879be">Dirain ˙︵˙</strong></b></td><td style="width: 150px">2025-02-16</td></tr>
+<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -0px -2790px"></span><b><strong style="color: #c64040">dot Comfey</strong></b><hr><b>Last updated:</b> 2025-02-01<br><br></span>
 
-<tr><td style="width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -0px -2790px"></span><b><strong style="color: #c64040">dot Comfey</strong></b></td><td style="width: 150px">2025-02-01</td></tr>
+<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -280px -1470px"></span><b><strong style="color: #b8488f">dr. atios</strong></b><hr><b>Last updated:</b> 2025-02-03<br><br></span>
 
-<tr><td style="width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -280px -1470px"></span><b><strong style="color: #b8488f">dr. atios</strong></b></td><td style="width: 150px">2025-02-03</td></tr>
+<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -120px -1440px"></span><b><strong style="color: #886d1b">DrReuniclus3</strong></b><hr><b>Last updated:</b> 2025-01-31<br><br></span>
 
-<tr><td style="width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -120px -1440px"></span><b><strong style="color: #886d1b">DrReuniclus3</strong></b></td><td style="width: 150px">2025-01-31</td></tr>
+<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -360px -1410px"></span><b><strong style="color: #1ea865">DrThop</strong></b><hr><b>Last updated:</b> 2025-02-07<br><br></span>
 
-<tr><td style="width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -360px -1410px"></span><b><strong style="color: #1ea865">DrThop</strong></b></td><td style="width: 150px">2025-02-07</td></tr>
+<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -280px -1770px"></span><b><strong style="color: #3ba324">Eco killa⌐▨_▨</strong></b><hr><b>Last updated:</b> 2025-02-03<br><br></span>
 
-<tr><td style="width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -280px -1770px"></span><b><strong style="color: #3ba324">Eco killa⌐▨_▨</strong></b></td><td style="width: 150px">2025-02-03</td></tr>
+<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -320px -1230px"></span><b><strong style="color: #6776c4">Embar</strong></b><hr><b>Last updated:</b> 2025-02-01<br><br></span>
 
-<tr><td style="width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -320px -1230px"></span><b><strong style="color: #6776c4">Embar</strong></b></td><td style="width: 150px">2025-02-01</td></tr>
+<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -320px -1230px"></span><b><strong style="color: #c15f0f">Emboar02</strong></b><hr><b>Last updated:</b> 2025-02-09<br><br></span>
 
-<tr><td style="width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -320px -1230px"></span><b><strong style="color: #c15f0f">Emboar02</strong></b></td><td style="width: 150px">2025-02-09</td></tr>
+<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -0px -30px"></span><b><strong style="color: #c4336d">firepokemon</strong></b><hr><b>Last updated:</b> 2025-01-31<br><br></span>
 
-<tr><td style="width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -0px -30px"></span><b><strong style="color: #c4336d">firepokemon</strong></b></td><td style="width: 150px">2025-01-31</td></tr>
+<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -240px -2250px"></span><b><strong style="color: #b75b15">Flera</strong></b><hr><b>Last updated:</b> 2025-02-05<br><br></span>
 
-<tr><td style="width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -240px -2250px"></span><b><strong style="color: #b75b15">Flera</strong></b></td><td style="width: 150px">2025-02-05</td></tr>
+<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -40px -960px"></span><b><strong style="color: #2d8e94">Flinchhaxisgreat</strong></b><hr><b>Last updated:</b> 2025-02-06<br><br></span>
 
-<tr><td style="width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -40px -960px"></span><b><strong style="color: #2d8e94">Flinchhaxisgreat</strong></b></td><td style="width: 150px">2025-02-06</td></tr>
+<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -160px -1800px"></span><b><strong style="color: #9450cf">Forests Cure ✓</strong></b><hr><b>Last updated:</b> 2025-03-09<br><br></span>
 
-<tr><td style="width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -160px -1800px"></span><b><strong style="color: #9450cf">Forests Cure ✓</strong></b></td><td style="width: 150px">2025-03-09</td></tr>
+<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -120px -3330px"></span><b><strong style="color: #be0e9b">franciscate</strong></b><hr><b>Last updated:</b> 2025-01-31<br><br></span>
 
-<tr><td style="width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -120px -3330px"></span><b><strong style="color: #be0e9b">franciscate</strong></b></td><td style="width: 150px">2025-01-31</td></tr>
+<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -320px -3420px"></span><b><strong style="color: #928111">fuzzyfoam</strong></b><hr><b>Last updated:</b> 2025-02-18<br><br></span>
 
-<tr><td style="width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -320px -3420px"></span><b><strong style="color: #928111">fuzzyfoam</strong></b></td><td style="width: 150px">2025-02-18</td></tr>
+<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -440px -3390px"></span><b><strong style="color: #3eb6b2">GalladePlay1209</strong></b><hr><b>Last updated:</b> 2025-03-02<br><br></span>
 
-<tr><td style="width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -440px -3390px"></span><b><strong style="color: #3eb6b2">GalladePlay1209</strong></b></td><td style="width: 150px">2025-03-02</td></tr>
+<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -200px -360px"></span><b><strong style="color: #b91c2b">GentleDnite</strong></b><hr><b>Last updated:</b> 2025-02-01<br><br></span>
 
-<tr><td style="width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -200px -360px"></span><b><strong style="color: #b91c2b">GentleDnite</strong></b></td><td style="width: 150px">2025-02-01</td></tr>
+<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -240px -960px"></span><b><strong style="color: #09a041">ghostchimpdamage</strong></b><hr><b>Last updated:</b> 2025-02-12<br><br></span>
 
-<tr><td style="width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -240px -960px"></span><b><strong style="color: #09a041">ghostchimpdamage</strong></b></td><td style="width: 150px">2025-02-12</td></tr>
+<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -280px -3420px"></span><b><strong style="color: #9c4ebd">ghostlyplanets</strong></b><hr><b>Last updated:</b> 2025-02-18<br><br></span>
 
-<tr><td style="width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -280px -3420px"></span><b><strong style="color: #9c4ebd">ghostlyplanets</strong></b></td><td style="width: 150px">2025-02-18</td></tr>
+<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -160px -720px"></span><b><strong style="color: #8c7521">googoogadget</strong></b><hr><b>Last updated:</b> 2025-02-07<br><br></span>
 
-<tr><td style="width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -160px -720px"></span><b><strong style="color: #8c7521">googoogadget</strong></b></td><td style="width: 150px">2025-02-07</td></tr>
+<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -200px -2490px"></span><b><strong style="color: #15980b">GrassyStorm</strong></b><hr><b>Last updated:</b> 2025-02-03<br><br></span>
 
-<tr><td style="width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -200px -2490px"></span><b><strong style="color: #15980b">GrassyStorm</strong></b></td><td style="width: 150px">2025-02-03</td></tr>
+<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -80px -3150px"></span><b><strong style="color: #6f7b2d">Gumbearball</strong></b><hr><b>Last updated:</b> 2025-02-26<br><br></span>
 
-<tr><td style="width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -80px -3150px"></span><b><strong style="color: #6f7b2d">Gumbearball</strong></b></td><td style="width: 150px">2025-02-26</td></tr>
+<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -400px -1890px"></span><b><strong style="color: #919f35">Gymlead11b</strong></b><hr><b>Last updated:</b> 2025-01-31<br><br></span>
 
-<tr><td style="width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -400px -1890px"></span><b><strong style="color: #919f35">Gymlead11b</strong></b></td><td style="width: 150px">2025-01-31</td></tr>
+<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -80px -870px"></span><b><strong style="color: #8e17de">Hairoll</strong></b><hr><b>Last updated:</b> 2025-01-31<br><br></span>
 
-<tr><td style="width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -80px -870px"></span><b><strong style="color: #8e17de">Hairoll</strong></b></td><td style="width: 150px">2025-01-31</td></tr>
+<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -80px -2790px"></span><b><strong style="color: #9d6643">Hydrargyrus</strong></b><hr><b>Last updated:</b> 2025-02-03<br><br></span>
 
-<tr><td style="width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -80px -2790px"></span><b><strong style="color: #9d6643">Hydrargyrus</strong></b></td><td style="width: 150px">2025-02-03</td></tr>
+<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -200px -3300px"></span><b><strong style="color: #9732d5">Hydronym (•_•)</strong></b><hr><b>Last updated:</b> 2025-01-31<br><br></span>
 
-<tr><td style="width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -200px -3300px"></span><b><strong style="color: #9732d5">Hydronym (•_•)</strong></b></td><td style="width: 150px">2025-01-31</td></tr>
+<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -200px -2850px"></span><b><strong style="color: #516fd3">joey</strong></b><hr><b>Last updated:</b> 2025-02-04<br><br></span>
 
-<tr><td style="width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -200px -2850px"></span><b><strong style="color: #516fd3">joey</strong></b></td><td style="width: 150px">2025-02-04</td></tr>
+<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -400px -1170px"></span><b><strong style="color: #2480b1">kanyes burner acct</strong></b><hr><b>Last updated:</b> 2025-01-31<br><br></span>
 
-<tr><td style="width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -400px -1170px"></span><b><strong style="color: #2480b1">kanyes burner acct</strong></b></td><td style="width: 150px">2025-01-31</td></tr>
+<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -120px -510px"></span><b><strong style="color: #35883d">lil dinkleberg ☭</strong></b><hr><b>Last updated:</b> 2025-01-31<br><br></span>
 
-<tr><td style="width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -120px -510px"></span><b><strong style="color: #35883d">lil dinkleberg ☭</strong></b></td><td style="width: 150px">2025-01-31</td></tr>
+<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -400px -1050px"></span><b><strong style="color: #15ad9e">loltkyx</strong></b><hr><b>Last updated:</b> 2025-01-31<br><br></span>
 
-<tr><td style="width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -400px -1050px"></span><b><strong style="color: #15ad9e">loltkyx</strong></b></td><td style="width: 150px">2025-01-31</td></tr>
+<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -240px -1800px"></span><b><strong style="color: #849e14">lucas2543</strong></b><hr><b>Last updated:</b> 2025-02-22<br><br></span>
 
-<tr><td style="width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -240px -1800px"></span><b><strong style="color: #849e14">lucas2543</strong></b></td><td style="width: 150px">2025-02-22</td></tr>
+<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -320px -3300px"></span><b><strong style="color: #6e69dc">MagnificentGengar</strong></b><hr><b>Last updated:</b> 2025-03-05<br><br></span>
 
-<tr><td style="width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -320px -3300px"></span><b><strong style="color: #6e69dc">MagnificentGengar</strong></b></td><td style="width: 150px">2025-03-05</td></tr>
+<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -120px -450px"></span><b><strong style="color: #27afbf">marillvibes</strong></b><hr><b>Last updated:</b> 2025-02-03<br><br></span>
 
-<tr><td style="width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -120px -450px"></span><b><strong style="color: #27afbf">marillvibes</strong></b></td><td style="width: 150px">2025-02-03</td></tr>
+<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -400px -1920px"></span><b><strong style="color: #0fa744">Micoy</strong></b><hr><b>Last updated:</b> 2025-02-09<br><br></span>
 
-<tr><td style="width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -400px -1920px"></span><b><strong style="color: #0fa744">Micoy</strong></b></td><td style="width: 150px">2025-02-09</td></tr>
+<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -40px -870px"></span><b><strong style="color: #9f6719">milollies</strong></b><hr><b>Last updated:</b> 2025-02-01<br><br></span>
 
-<tr><td style="width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -40px -870px"></span><b><strong style="color: #9f6719">milollies</strong></b></td><td style="width: 150px">2025-02-01</td></tr>
+<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -120px -900px"></span><b><strong style="color: #aa13dd">Miojo</strong></b><hr><b>Last updated:</b> 2025-02-03<br><br></span>
 
-<tr><td style="width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -120px -900px"></span><b><strong style="color: #aa13dd">Miojo</strong></b></td><td style="width: 150px">2025-02-03</td></tr>
+<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -280px -2430px"></span><b><strong style="color: #b310ea">Monkey ˙͜˙</strong></b><hr><b>Last updated:</b> 2025-02-14<br><br></span>
 
-<tr><td style="width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -280px -2430px"></span><b><strong style="color: #b310ea">Monkey ˙͜˙</strong></b></td><td style="width: 150px">2025-02-14</td></tr>
+<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -80px -3150px"></span><b><strong style="color: #be23cc">Monoples</strong></b><hr><b>Last updated:</b> 2025-02-05<br><br></span>
 
-<tr><td style="width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -80px -3150px"></span><b><strong style="color: #be23cc">Monoples</strong></b></td><td style="width: 150px">2025-02-05</td></tr>
+<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -240px -1830px"></span><b><strong style="color: #20ac94">monopolyfan123</strong></b><hr><b>Last updated:</b> 2025-02-06<br><br></span>
 
-<tr><td style="width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -240px -1830px"></span><b><strong style="color: #20ac94">monopolyfan123</strong></b></td><td style="width: 150px">2025-02-06</td></tr>
+<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -80px -1350px"></span><b><strong style="color: #1868f2">N10do</strong></b><hr><b>Last updated:</b> 2025-02-01<br><br></span>
 
-<tr><td style="width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -80px -1350px"></span><b><strong style="color: #1868f2">N10do</strong></b></td><td style="width: 150px">2025-02-01</td></tr>
+<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -440px -360px"></span><b><strong style="color: #e11994">NewsDan</strong></b><hr><b>Last updated:</b> 2025-02-03<br><br></span>
 
-<tr><td style="width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -440px -360px"></span><b><strong style="color: #e11994">NewsDan</strong></b></td><td style="width: 150px">2025-02-03</td></tr>
+<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -160px -1380px"></span><b><strong style="color: #36a688">Nonexistent_0</strong></b><hr><b>Last updated:</b> 2025-02-03<br><br></span>
 
-<tr><td style="width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -160px -1380px"></span><b><strong style="color: #36a688">Nonexistent_0</strong></b></td><td style="width: 150px">2025-02-03</td></tr>
+<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -40px -0px"></span><b><strong style="color: #10ad96">NostalgiaKen</strong></b><hr><b>Last updated:</b> 2025-03-11<br><br></span>
 
-<tr><td style="width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -40px -0px"></span><b><strong style="color: #10ad96">NostalgiaKen</strong></b></td><td style="width: 150px">2025-03-11</td></tr>
+<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -320px -540px"></span><b><strong style="color: #a81bdc">octillion</strong></b><hr><b>Last updated:</b> 2025-02-01<br><br></span>
 
-<tr><td style="width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -320px -540px"></span><b><strong style="color: #a81bdc">octillion</strong></b></td><td style="width: 150px">2025-02-01</td></tr>
+<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -40px -330px"></span><b><strong style="color: #8481d4">ohxthespark</strong></b><hr><b>Last updated:</b> 2025-02-17<br><br></span>
 
-<tr><td style="width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -40px -330px"></span><b><strong style="color: #8481d4">ohxthespark</strong></b></td><td style="width: 150px">2025-02-17</td></tr>
+<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -40px -2790px"></span><b><strong style="color: #bf2b7a">omegaxl</strong></b><hr><b>Last updated:</b> 2025-02-13<br><br></span>
 
-<tr><td style="width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -40px -2790px"></span><b><strong style="color: #bf2b7a">omegaxl</strong></b></td><td style="width: 150px">2025-02-13</td></tr>
+<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -160px -420px"></span><b><strong style="color: #11a46e">Omfg♥guy ♫~!</strong></b><hr><b>Last updated:</b> 2025-01-31<br><br></span>
 
-<tr><td style="width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -160px -420px"></span><b><strong style="color: #11a46e">Omfg♥guy ♫~!</strong></b></td><td style="width: 150px">2025-01-31</td></tr>
+<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -120px -540px"></span><b><strong style="color: #c33c1d">pechanerd</strong></b><hr><b>Last updated:</b> 2025-02-04<br><br></span>
 
-<tr><td style="width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -120px -540px"></span><b><strong style="color: #c33c1d">pechanerd</strong></b></td><td style="width: 150px">2025-02-04</td></tr>
+<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -80px -2010px"></span><b><strong style="color: #3a46f4">Playering</strong></b><hr><b>Last updated:</b> 2025-01-31<br><br></span>
 
-<tr><td style="width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -80px -2010px"></span><b><strong style="color: #3a46f4">Playering</strong></b></td><td style="width: 150px">2025-01-31</td></tr>
+<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -240px -450px"></span><b><strong style="color: #28a9a9">ptoad</strong></b><hr><b>Last updated:</b> 2025-02-23<br><br></span>
 
-<tr><td style="width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -240px -450px"></span><b><strong style="color: #28a9a9">ptoad</strong></b></td><td style="width: 150px">2025-02-23</td></tr>
+<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -160px -3420px"></span><b><strong style="color: #c5204c">punka sona</strong></b><hr><b>Last updated:</b> 2025-02-17<br><br></span>
 
-<tr><td style="width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -160px -3420px"></span><b><strong style="color: #c5204c">punka sona</strong></b></td><td style="width: 150px">2025-02-17</td></tr>
+<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -360px -2370px"></span><b><strong style="color: #8925ec">Queen of Narnia</strong></b><hr><b>Last updated:</b> 2025-02-05<br><br></span>
 
-<tr><td style="width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -360px -2370px"></span><b><strong style="color: #8925ec">Queen of Narnia</strong></b></td><td style="width: 150px">2025-02-05</td></tr>
+<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -360px -3450px"></span><b><strong style="color: #9b9d3a">rogereast</strong></b><hr><b>Last updated:</b> 2025-02-05<br><br></span>
 
-<tr><td style="width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -360px -3450px"></span><b><strong style="color: #9b9d3a">rogereast</strong></b></td><td style="width: 150px">2025-02-05</td></tr>
+<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -40px -3360px"></span><b><strong style="color: #329a8a">rubysparkle</strong></b><hr><b>Last updated:</b> 2025-03-06<br><br></span>
 
-<tr><td style="width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -40px -3360px"></span><b><strong style="color: #329a8a">rubysparkle</strong></b></td><td style="width: 150px">2025-03-06</td></tr>
+<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -0px -360px"></span><b><strong style="color: #1e67ee">SaltiestCactus43</strong></b><hr><b>Last updated:</b> 2025-02-01<br><br></span>
 
-<tr><td style="width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -0px -360px"></span><b><strong style="color: #1e67ee">SaltiestCactus43</strong></b></td><td style="width: 150px">2025-02-01</td></tr>
+<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -240px -3390px"></span><b><strong style="color: #a916bc">Sandy_27</strong></b><hr><b>Last updated:</b> 2025-02-28<br><br></span>
 
-<tr><td style="width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -240px -3390px"></span><b><strong style="color: #a916bc">Sandy_27</strong></b></td><td style="width: 150px">2025-02-28</td></tr>
+<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -360px -780px"></span><b><strong style="color: #3260eb">sedi! ~ ments!</strong></b><hr><b>Last updated:</b> 2025-02-05<br><br></span>
 
-<tr><td style="width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -360px -780px"></span><b><strong style="color: #3260eb">sedi! ~ ments!</strong></b></td><td style="width: 150px">2025-02-05</td></tr>
+<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -240px -1170px"></span><b><strong style="color: #69881b">Shadow Necromancer</strong></b><hr><b>Last updated:</b> 2025-02-19<br><br></span>
 
-<tr><td style="width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -240px -1170px"></span><b><strong style="color: #69881b">Shadow Necromancer</strong></b></td><td style="width: 150px">2025-02-19</td></tr>
+<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -40px -1740px"></span><b><strong style="color: #c94936">SheepGoMoo!</strong></b><hr><b>Last updated:</b> 2025-03-12<br><br></span>
 
-<tr><td style="width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -40px -1740px"></span><b><strong style="color: #c94936">SheepGoMoo!</strong></b></td><td style="width: 150px">2025-03-12</td></tr>
+<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -360px -1230px"></span><b><strong style="color: #1da76b">Silveste</strong></b><hr><b>Last updated:</b> 2025-02-01<br><br></span>
 
-<tr><td style="width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -360px -1230px"></span><b><strong style="color: #1da76b">Silveste</strong></b></td><td style="width: 150px">2025-02-01</td></tr>
+<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -240px -630px"></span><b><strong style="color: #d81515">SnowGui</strong></b><hr><b>Last updated:</b> 2025-02-11<br><br></span>
 
-<tr><td style="width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -240px -630px"></span><b><strong style="color: #d81515">SnowGui</strong></b></td><td style="width: 150px">2025-02-11</td></tr>
+<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -240px -630px"></span><b><strong style="color: #af4b78">Steve456664</strong></b><hr><b>Last updated:</b> 2025-02-16<br><br></span>
 
-<tr><td style="width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -240px -630px"></span><b><strong style="color: #af4b78">Steve456664</strong></b></td><td style="width: 150px">2025-02-16</td></tr>
+<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -160px -1740px"></span><b><strong style="color: #e50dde">sylvee1</strong></b><hr><b>Last updated:</b> 2025-02-03<br><br></span>
 
-<tr><td style="width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -160px -1740px"></span><b><strong style="color: #e50dde">sylvee1</strong></b></td><td style="width: 150px">2025-02-03</td></tr>
+<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -280px -1500px"></span><b><strong style="color: #3e5bec">TheAura</strong></b><hr><b>Last updated:</b> 2025-01-31<br><br></span>
 
-<tr><td style="width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -280px -1500px"></span><b><strong style="color: #3e5bec">TheAura</strong></b></td><td style="width: 150px">2025-01-31</td></tr>
+<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -280px -990px"></span><b><strong style="color: #2364d5">tidal otter</strong></b><hr><b>Last updated:</b> 2025-02-03<br><br></span>
 
-<tr><td style="width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -280px -990px"></span><b><strong style="color: #2364d5">tidal otter</strong></b></td><td style="width: 150px">2025-02-03</td></tr>
+<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -120px -960px"></span><b><strong style="color: #39a30b">tigromata</strong></b><hr><b>Last updated:</b> 2025-03-10<br><br></span>
 
-<tr><td style="width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -120px -960px"></span><b><strong style="color: #39a30b">tigromata</strong></b></td><td style="width: 150px">2025-03-10</td></tr>
+<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -400px -1590px"></span><b><strong style="color: #107694">tl the legend</strong></b><hr><b>Last updated:</b> 2025-02-01<br><br></span>
 
-<tr><td style="width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -400px -1590px"></span><b><strong style="color: #107694">tl the legend</strong></b></td><td style="width: 150px">2025-02-01</td></tr>
+<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -120px -2760px"></span><b><strong style="color: #9e1ce0">toxtricityindbmaj</strong></b><hr><b>Last updated:</b> 2025-01-31<br><br></span>
 
-<tr><td style="width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -120px -2760px"></span><b><strong style="color: #9e1ce0">toxtricityindbmaj</strong></b></td><td style="width: 150px">2025-01-31</td></tr>
+<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -240px -2700px"></span><b><strong style="color: #8e692d">triage heal</strong></b><hr><b>Last updated:</b> 2025-02-04<br><br></span>
 
-<tr><td style="width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -240px -2700px"></span><b><strong style="color: #8e692d">triage heal</strong></b></td><td style="width: 150px">2025-02-04</td></tr>
+<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -320px -2760px"></span><b><strong style="color: #6854ea">V1C7ORYY</strong></b><hr><b>Last updated:</b> 2025-01-31<br><br></span>
 
-<tr><td style="width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -320px -2760px"></span><b><strong style="color: #6854ea">V1C7ORYY</strong></b></td><td style="width: 150px">2025-01-31</td></tr>
+<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -160px -2700px"></span><b><strong style="color: #c50b2a">wailing_wailord</strong></b><hr><b>Last updated:</b> 2025-02-11<br><br></span>
 
-<tr><td style="width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -160px -2700px"></span><b><strong style="color: #c50b2a">wailing_wailord</strong></b></td><td style="width: 150px">2025-02-11</td></tr>
+<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -360px -870px"></span><b><strong style="color: #8431e9">WarriorGallade</strong></b><hr><b>Last updated:</b> 2025-01-31<br><br></span>
 
-<tr><td style="width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -360px -870px"></span><b><strong style="color: #8431e9">WarriorGallade</strong></b></td><td style="width: 150px">2025-01-31</td></tr>
+<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -80px -1170px"></span><b><strong style="color: #bd3e2e">Wernher_1</strong></b><hr><b>Last updated:</b> 2025-02-10<br><br></span>
 
-<tr><td style="width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -80px -1170px"></span><b><strong style="color: #bd3e2e">Wernher_1</strong></b></td><td style="width: 150px">2025-02-10</td></tr>
+<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -160px -450px"></span><b><strong style="color: #97761c">Winkyno</strong></b><hr><b>Last updated:</b> 2025-01-31<br><br></span>
 
-<tr><td style="width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -160px -450px"></span><b><strong style="color: #97761c">Winkyno</strong></b></td><td style="width: 150px">2025-01-31</td></tr>
+<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -280px -480px"></span><b><strong style="color: #1069df">Zipzapadam</strong></b><hr><b>Last updated:</b> 2025-02-25<br><br></span>
 
-<tr><td style="width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -280px -480px"></span><b><strong style="color: #1069df">Zipzapadam</strong></b></td><td style="width: 150px">2025-02-25</td></tr>
-
-</table>
+</div>
 
 </center>
 </body>

@@ -195,7 +195,7 @@ button {
 
 <span class="infobox"><table><tr><td>
 <b><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -360px -2580px"></span>Any plans to exhibit scripted box, host box, and vote box?</b>
-<br><br>Host boxes are exhibited in <a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-gallery/blob/main/host-box">a hidden page</a> due to difficulties in displaying them as accurately as possible. If you would like to help, you may start by looking up the <a style="text-decoration:none; color: silver" href="https://github.com/smogon/pokemon-showdown-client/tree/master/play.pokemonshowdown.com/style">relevant CSS code used on PS!</a>.
+<br><br>Host boxes are exhibited in a <a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-gallery/blob/main/host-box">hidden page</a> due to difficulties in displaying them as accurately as possible. If you would like to help, you may start by looking up the <a style="text-decoration:none; color: silver" href="https://github.com/smogon/pokemon-showdown-client/tree/master/play.pokemonshowdown.com/style">relevant CSS code used on PS!</a>.
 <br><br>There are no plans to exhibit scripted box and vote box.
 </td></tr></table><br><br></span>
 

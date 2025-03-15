@@ -109,11 +109,11 @@ button {
   min-width: 150px;
   transition: all 0.3s ease-in-out;
   outline: none;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0px 0px rgba(0, 0, 0, 0.2);
 }
 .search-bar:focus {
   border-color: #2884c6;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0px 0px rgba(0, 0, 0, 0.3);
 }
 
         

@@ -179,7 +179,7 @@ button {
     >Light</button>
     <input type="text" id="searchBar" class="search-bar" placeholder="Type to search...">
 </div>
-<br><br><br>
+<br><br>
 
 </center>
 

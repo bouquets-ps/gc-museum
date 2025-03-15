@@ -185,7 +185,7 @@ button {
   <br>
 <b>Players (0)</b>:
   <br><center>
-<button class="button" style="color: #000000 ; background: linear-gradient(#70d4db , #2eaeb8) ; text-shadow: none" name="send" value="/msg ladymonita, /msgroom gamecorner, /botmsg ladymonita, .joingame gamecorner">Join the <b>20 Questions</b> game</button>
+<button class="button" style="color: #000000 ; background: linear-gradient(#70d4db , #2eaeb8) ; text-shadow: none" name="send" value="/msg ladymonita, /msgroom gamecorner, /botmsg ladymonita, .joingame gamecorner">Join game</button>
   <hr>
   <b>Last updated:</b> 2025-03-15
   <br><br></center></span>

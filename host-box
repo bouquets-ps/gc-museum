@@ -186,7 +186,9 @@ button {
 <b>Players (0):</b>
 <br><center>
 <button class="button" style="border: 1px solid #93adec" name="send" value="/msg ladymonita, /msgroom gamecorner, /botmsg ladymonita, .joingame gamecorner">Join game</button>
-</center></span>
+<hr>
+<b>Last updated:</b> 2025-03-15
+<br><br></center></span>
   
 </div>
 

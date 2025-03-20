@@ -50,7 +50,7 @@ document.getElementById("searchBar").addEventListener("input", function() {
     let filter = this.value.toLowerCase();
     let cards = document.querySelectorAll("#container .infobox");
     cards.forEach(card => {
-        card.style.display = card.textContent.toLowerCase().includes(filter) ? "inline-block" : "none";
+        card.style.display = card.querySelector(".searchValue").textContent.toLowerCase().includes(filter) ? "inline-block" : "none";
     });
 });
 
@@ -186,7 +186,7 @@ button {
 <div id = "container">
 
 <span class="infobox"><table><tr><td>
-<b><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -360px -2580px"></span>How often does the gallery get updated?</b>
+<b><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -360px -2580px"></span><strong class="searchValue">How often does the gallery get updated?</strong></b>
 <br><br>The gallery usually gets updated when its owner:
 <li>reviews user submissions.
 <li>spots a new trainer card or signups avatar displayed in the room.
@@ -194,7 +194,7 @@ button {
 </td></tr></table><br><br></span>
 
 <span class="infobox"><table><tr><td>
-<b><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -360px -2580px"></span>Any plans to exhibit scripted box, host box, and vote box?</b>
+<b><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -360px -2580px"></span><strong class="searchValue">Any plans to exhibit scripted box, host box, and vote box?</strong></b>
 <br><br>No.
 </td></tr></table><br><br></span>
 
